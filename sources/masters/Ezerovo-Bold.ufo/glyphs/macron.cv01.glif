@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.cv01" format="2">
+  <advance width="413"/>
+  <outline>
+    <contour>
+      <point x="44" y="719" type="line"/>
+      <point x="44" y="801" type="line"/>
+      <point x="372" y="801" type="line"/>
+      <point x="372" y="719" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w413m44,719l44,801l372,801l372,719</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 719 82</string>
+          <string>vstem 44 328</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

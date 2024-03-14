@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A.c2sc" format="2">
+  <advance width="533"/>
+  <anchor x="371" y="531" name="top"/>
+  <anchor x="374" y="450" name="t.ring"/>
+  <anchor x="450" y="0" name="b.ogonek"/>
+  <outline>
+    <contour>
+      <point x="4" y="0" type="line"/>
+      <point x="10" y="27" type="line"/>
+      <point x="60" y="31"/>
+      <point x="71.7176" y="36.5389"/>
+      <point x="94" y="72" type="curve" smooth="yes"/>
+      <point x="351" y="481" type="line"/>
+      <point x="414" y="481" type="line"/>
+      <point x="477" y="72" type="line" smooth="yes"/>
+      <point x="482.212" y="38.1646"/>
+      <point x="495" y="31"/>
+      <point x="532" y="27" type="curve"/>
+      <point x="526" y="0" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="326" y="27" type="line"/>
+      <point x="361" y="30" type="line" smooth="yes"/>
+      <point x="384.353" y="32.3353"/>
+      <point x="390.347" y="43.0819"/>
+      <point x="390.275" y="57.2193" type="curve" smooth="yes"/>
+      <point x="390.255" y="61.2434"/>
+      <point x="389.743" y="65.5422"/>
+      <point x="389" y="70" type="curve" smooth="yes"/>
+      <point x="370" y="184" type="line"/>
+      <point x="208" y="184" type="line"/>
+      <point x="138" y="63" type="line" smooth="yes"/>
+      <point x="133.343" y="54.9502"/>
+      <point x="130.473" y="48.0926"/>
+      <point x="130.461" y="42.7309" type="curve" smooth="yes"/>
+      <point x="130.445" y="35.62"/>
+      <point x="135.457" y="31.1402"/>
+      <point x="148" y="30" type="curve" smooth="yes"/>
+      <point x="190" y="27" type="line"/>
+      <point x="184" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="230" y="217" type="line"/>
+      <point x="367" y="217" type="line"/>
+      <point x="341" y="398" type="line"/>
+      <point x="338" y="398" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>879c9d1ccfbdfadd60bb202bd31f3941fbdfa42f53890180ac533a77b53381b74d53a2cef9edbc075f2319b8001d426aee4f8c96c97b41f448db2033fa1a0208</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 184 33</string>
+          <string>hstem 461 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

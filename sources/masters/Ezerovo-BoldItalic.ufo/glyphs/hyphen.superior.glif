@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen.superior" format="2">
+  <advance width="265"/>
+  <outline>
+    <contour>
+      <point x="77" y="468" type="line"/>
+      <point x="89" y="541" type="line"/>
+      <point x="254" y="541" type="line"/>
+      <point x="241" y="468" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w265m77,468l89,541l254,541l241,468</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 468 73</string>
+          <string>vstem 77 177</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight.lf" format="2">
+  <advance width="514"/>
+  <outline>
+    <component base="eight"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w514</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 33</string>
+          <string>hstem 322 37</string>
+          <string>hstem 606 33</string>
+          <string>vstem 76 90</string>
+          <string>vstem 167 84</string>
+          <string>vstem 414 90</string>
+          <string>vstem 452 84</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

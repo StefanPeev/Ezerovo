@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dong" format="2">
+  <advance width="562"/>
+  <unicode hex="20AB"/>
+  <outline>
+    <component base="d"/>
+    <contour>
+      <point x="50" y="-86" type="line"/>
+      <point x="50" y="-51" type="line"/>
+      <point x="548" y="-51" type="line"/>
+      <point x="548" y="-86" type="line"/>
+    </contour>
+    <contour>
+      <point x="207.013" y="534" type="line"/>
+      <point x="207.013" y="569" type="line"/>
+      <point x="548" y="569" type="line"/>
+      <point x="548" y="534" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w562m50,-86l50,-51l548,-51l548,-86m207.01,534l207.01,569l548,569l548,534</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -86 35</string>
+          <string>hstem -11 50</string>
+          <string>hstem 0 27</string>
+          <string>hstem 439 33</string>
+          <string>hstem 534 35</string>
+          <string>hstem 650 24</string>
+          <string>hstem 677 20</string>
+          <string>vstem 46 98</string>
+          <string>vstem 389 89</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

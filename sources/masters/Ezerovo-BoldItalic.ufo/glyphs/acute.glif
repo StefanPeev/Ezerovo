@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute" format="2">
+  <advance width="376"/>
+  <unicode hex="00B4"/>
+  <outline>
+    <contour>
+      <point x="208" y="509" type="line"/>
+      <point x="344" y="649" type="line" smooth="yes"/>
+      <point x="379" y="685"/>
+      <point x="395" y="696"/>
+      <point x="414" y="696" type="curve" smooth="yes"/>
+      <point x="437" y="696"/>
+      <point x="463" y="663"/>
+      <point x="463" y="639" type="curve" smooth="yes"/>
+      <point x="463" y="615"/>
+      <point x="434" y="596"/>
+      <point x="400" y="577" type="curve" smooth="yes"/>
+      <point x="227" y="480" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w376m208,509l344,649c379,685 395,696 414,696c437,696 463,663 463,639c463,615 434,596 400,577l227,480</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 480 216</string>
+          <string>vstem 208 255</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

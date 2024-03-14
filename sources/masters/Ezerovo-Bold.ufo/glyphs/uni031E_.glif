@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni031E" format="2">
+  <unicode hex="031E"/>
+  <outline>
+    <component base="uni02D5" xOffset="-374.525" yOffset="-398.659"/>
+  </outline>
+  <guideline angle="0" x="0" y="-46"/>
+  <guideline angle="0" x="0" y="-289"/>
+</glyph>

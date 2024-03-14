@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fiveeighths" format="2">
+  <advance width="883"/>
+  <unicode hex="215D"/>
+  <outline>
+    <component base="uni2075" xOffset="23" yOffset="-100"/>
+    <component base="uni2078" xOffset="443" yOffset="-356"/>
+    <contour>
+      <point x="249" y="10" type="line"/>
+      <point x="721" y="653" type="line"/>
+      <point x="762" y="621" type="line"/>
+      <point x="288" y="-25" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w883m249,10l721,653l762,621l288,-25</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -7 36</string>
+          <string>hstem 181 38</string>
+          <string>hstem 249 36</string>
+          <string>hstem 348 36</string>
+          <string>hstem 455 20</string>
+          <string>hstem 556 77</string>
+          <string>hstem 633 20</string>
+          <string>vstem 112 89</string>
+          <string>vstem 319 119</string>
+          <string>vstem 532 117</string>
+          <string>vstem 582 110</string>
+          <string>vstem 748 117</string>
+          <string>vstem 775 110</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

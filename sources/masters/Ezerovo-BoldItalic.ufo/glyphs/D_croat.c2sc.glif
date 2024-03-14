@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcroat.c2sc" format="2">
+  <advance width="587"/>
+  <outline>
+    <component base="D.c2sc"/>
+    <contour>
+      <point x="83" y="215" type="line"/>
+      <point x="93" y="278" type="line"/>
+      <point x="324" y="278" type="line"/>
+      <point x="315" y="215" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

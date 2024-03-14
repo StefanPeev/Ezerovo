@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04D6.c2sc" format="2">
+  <advance width="499"/>
+  <outline>
+    <component base="E.c2sc"/>
+    <component base="uni0306.cyrcap" xOffset="453" yOffset="-169"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>E.c2sc+uni0306.cyrcap</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

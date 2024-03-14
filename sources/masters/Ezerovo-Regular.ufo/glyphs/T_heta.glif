@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Theta" format="2">
+  <advance width="709"/>
+  <unicode hex="0398"/>
+  <outline>
+    <contour>
+      <point x="42" y="311" type="curve" smooth="yes"/>
+      <point x="42" y="559"/>
+      <point x="178" y="662"/>
+      <point x="349" y="662" type="curve" smooth="yes"/>
+      <point x="526" y="662"/>
+      <point x="670" y="551"/>
+      <point x="670" y="319" type="curve" smooth="yes"/>
+      <point x="670" y="90"/>
+      <point x="530" y="-10"/>
+      <point x="354" y="-10" type="curve" smooth="yes"/>
+      <point x="199" y="-10"/>
+      <point x="42" y="89"/>
+    </contour>
+    <contour>
+      <point x="146" y="317" type="curve" smooth="yes"/>
+      <point x="146" y="137"/>
+      <point x="218" y="22"/>
+      <point x="359" y="22" type="curve" smooth="yes"/>
+      <point x="502" y="22"/>
+      <point x="564" y="140"/>
+      <point x="564" y="304" type="curve" smooth="yes"/>
+      <point x="564" y="458"/>
+      <point x="510" y="630"/>
+      <point x="350" y="630" type="curve" smooth="yes"/>
+      <point x="191" y="630"/>
+      <point x="146" y="459"/>
+    </contour>
+    <contour>
+      <point x="223" y="228" type="line"/>
+      <point x="223" y="409" type="line"/>
+      <point x="251" y="409" type="line"/>
+      <point x="251" y="380"/>
+      <point x="255" y="351"/>
+      <point x="284" y="351" type="curve" smooth="yes"/>
+      <point x="422" y="351" type="line" smooth="yes"/>
+      <point x="461" y="351"/>
+      <point x="463" y="379"/>
+      <point x="463" y="409" type="curve"/>
+      <point x="488" y="409" type="line"/>
+      <point x="488" y="228" type="line"/>
+      <point x="463" y="228" type="line"/>
+      <point x="463" y="258"/>
+      <point x="463" y="284"/>
+      <point x="423" y="284" type="curve" smooth="yes"/>
+      <point x="284" y="284" type="line" smooth="yes"/>
+      <point x="255" y="284"/>
+      <point x="250" y="255"/>
+      <point x="250" y="228" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>95a1c459b5b6a45a29e69838f80c346c45bb8545e61cff905e8e38388e80702a5d747ef350d401fb28290b6cf173b708ad0ece57ccd6a64b96363f0591d1f0a6</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -10 32</string>
+          <string>hstem 284 67</string>
+          <string>hstem 311 1</string>
+          <string>hstem 630 32</string>
+          <string>vstem 42 104</string>
+          <string>vstem 223 27</string>
+          <string>vstem 463 25</string>
+          <string>vstem 564 106</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

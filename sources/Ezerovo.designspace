@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="400" maximum="700" name="weight" tag="wght" default="400">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Ezerovo" stylename="Bold" filename="masters/Ezerovo-Bold.ufo" name="Bold">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source familyname="Ezerovo" stylename="Regular" filename="masters/Ezerovo-Regular.ufo" name="Regular">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Ezerovo" stylename="Regular" filename="instances/Ezerovo-Regular.ufo" name="Regular">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance familyname="Ezerovo" stylename="Medium" filename="instances/Ezerovo-Medium.ufo" name="Medium">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance familyname="Ezerovo" stylename="SemiBold" filename="instances/Ezerovo-SemiBold.ufo" name="SemiBold">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance familyname="Ezerovo" stylename="Bold" filename="instances/Ezerovo-Bold.ufo" name="Bold">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

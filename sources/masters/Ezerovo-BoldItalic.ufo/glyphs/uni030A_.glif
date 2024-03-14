@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni030A" format="2">
+  <unicode hex="030A"/>
+  <anchor x="-77" y="497" name="_t.ring"/>
+  <outline>
+    <component base="ring" xOffset="-376"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 497 38</string>
+          <string>hstem 679 37</string>
+          <string>vstem -187 64</string>
+          <string>vstem -9 64</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

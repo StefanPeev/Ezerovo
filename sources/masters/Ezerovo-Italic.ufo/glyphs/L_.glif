@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="2">
+  <advance width="531"/>
+  <unicode hex="004C"/>
+  <anchor x="359" y="697" name="top"/>
+  <anchor x="530" y="743" name="t.r.caron"/>
+  <anchor x="310" y="-40" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="38" y="0" type="line"/>
+      <point x="43" y="27" type="line"/>
+      <point x="95" y="33" type="line" smooth="yes"/>
+      <point x="118" y="36"/>
+      <point x="126" y="45"/>
+      <point x="134" y="78" type="curve" smooth="yes"/>
+      <point x="247" y="572" type="line" smooth="yes"/>
+      <point x="249" y="581"/>
+      <point x="250" y="588"/>
+      <point x="250" y="594" type="curve" smooth="yes"/>
+      <point x="250" y="610"/>
+      <point x="243" y="618"/>
+      <point x="227" y="619" type="curve" smooth="yes"/>
+      <point x="171" y="623" type="line"/>
+      <point x="178" y="650" type="line"/>
+      <point x="440" y="650" type="line"/>
+      <point x="433" y="623" type="line"/>
+      <point x="377" y="619" type="line" smooth="yes"/>
+      <point x="353" y="617"/>
+      <point x="344" y="603"/>
+      <point x="337" y="572" type="curve" smooth="yes"/>
+      <point x="232" y="115" type="line"/>
+      <point x="227" y="96"/>
+      <point x="225" y="82"/>
+      <point x="225" y="72" type="curve" smooth="yes"/>
+      <point x="225" y="40"/>
+      <point x="252" y="33"/>
+      <point x="342" y="33" type="curve" smooth="yes"/>
+      <point x="448" y="33"/>
+      <point x="491" y="49"/>
+      <point x="539" y="165" type="curve"/>
+      <point x="567" y="165" type="line"/>
+      <point x="519" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>5fbe465295c3e898c6ebb6e821a04402cdc50f88ec5e935e6dac23676a1ad5b04f76f85f1b960038833afc2e97e291a4fd2f1d348398cf3759a0f2c62c6c47b3</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 33</string>
+          <string>hstem 623 27</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

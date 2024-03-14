@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="backslash" format="2">
+  <advance width="432"/>
+  <unicode hex="005C"/>
+  <outline>
+    <contour>
+      <point x="338" y="-14" type="line"/>
+      <point x="140" y="665" type="line"/>
+      <point x="234" y="665" type="line"/>
+      <point x="432" y="-14" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w432m338,-14l140,665l234,665l432,-14</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 7 -21</string>
+          <string>hstem 645 20</string>
+          <string>vstem 140 94</string>
+          <string>vstem 338 94</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

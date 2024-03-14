@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash.c2sc" format="2">
+  <advance width="487"/>
+  <outline>
+    <component base="L.c2sc" xOffset="2"/>
+    <contour>
+      <point x="36" y="180" type="line"/>
+      <point x="329" y="386" type="line"/>
+      <point x="329" y="343" type="line"/>
+      <point x="36" y="137" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=L.c2sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=L.c2sc</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w487m36,180l329,386l329,343l36,137</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 33</string>
+          <string>hstem 137 43</string>
+          <string>hstem 343 43</string>
+          <string>hstem 454 27</string>
+          <string>vstem 113 89</string>
+          <string>vstem 442 29</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

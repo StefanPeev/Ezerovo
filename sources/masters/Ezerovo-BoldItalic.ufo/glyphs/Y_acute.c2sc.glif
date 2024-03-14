@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yacute.c2sc" format="2">
+  <advance width="507"/>
+  <anchor x="274" y="-40" name="bottom"/>
+  <outline>
+    <component base="Y.c2sc"/>
+    <component base="acutecomb" xOffset="475" yOffset="50"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Y.c2sc+acutecomb</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

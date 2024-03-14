@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0331.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-398" y="-197" type="line"/>
+      <point x="-381" y="-125" type="line"/>
+      <point x="-52" y="-125" type="line"/>
+      <point x="-69" y="-197" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-398,-197l-381,-125l-52,-125l-69,-197</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -197 72</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

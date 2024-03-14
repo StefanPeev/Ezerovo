@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0315" format="2">
+  <unicode hex="0315"/>
+  <anchor x="-76" y="796" name="_t.r.caron"/>
+  <outline>
+    <contour>
+      <point x="-76" y="522" type="line"/>
+      <point x="-45" y="556"/>
+      <point x="-22" y="593"/>
+      <point x="-22" y="630" type="curve" smooth="yes"/>
+      <point x="-22" y="675"/>
+      <point x="-57" y="694"/>
+      <point x="-57" y="734" type="curve" smooth="yes"/>
+      <point x="-57" y="767"/>
+      <point x="-35" y="797"/>
+      <point x="6" y="797" type="curve" smooth="yes"/>
+      <point x="51" y="797"/>
+      <point x="86" y="759"/>
+      <point x="86" y="702" type="curve" smooth="yes"/>
+      <point x="86" y="617"/>
+      <point x="9" y="543"/>
+      <point x="-50" y="496" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-76,522c-45,556 -22,593 -22,630c-22,675 -57,694 -57,734c-57,767 -35,797 6,797c51,797 86,759 86,702c86,617 9,543 -50,496</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 496 301</string>
+          <string>vstem -22 108</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A.superior" format="2">
+  <advance width="452"/>
+  <outline>
+    <contour>
+      <point x="-5" y="353" type="line"/>
+      <point x="0" y="375" type="line"/>
+      <point x="22" y="377" type="line" smooth="yes"/>
+      <point x="42" y="379"/>
+      <point x="53.6871" y="384.531"/>
+      <point x="74" y="415" type="curve" smooth="yes"/>
+      <point x="310" y="769" type="line"/>
+      <point x="364" y="769" type="line"/>
+      <point x="415" y="410" type="line" smooth="yes"/>
+      <point x="418" y="386"/>
+      <point x="421" y="379"/>
+      <point x="440" y="377" type="curve" smooth="yes"/>
+      <point x="464" y="375" type="line"/>
+      <point x="460" y="353" type="line"/>
+      <point x="292" y="353" type="line"/>
+      <point x="296" y="375" type="line"/>
+      <point x="331" y="378" type="line" smooth="yes"/>
+      <point x="342.362" y="378.874"/>
+      <point x="348.377" y="382.804"/>
+      <point x="348.377" y="394.462" type="curve" smooth="yes"/>
+      <point x="348.377" y="396.143"/>
+      <point x="348.252" y="397.984"/>
+      <point x="348" y="400" type="curve" smooth="yes"/>
+      <point x="332" y="510" type="line"/>
+      <point x="175" y="510" type="line"/>
+      <point x="111" y="399" type="line" smooth="yes"/>
+      <point x="108.28" y="394.283"/>
+      <point x="106.615" y="390.1"/>
+      <point x="106.599" y="386.728" type="curve" smooth="yes"/>
+      <point x="106.576" y="381.792"/>
+      <point x="110.088" y="378.594"/>
+      <point x="119" y="378" type="curve" smooth="yes"/>
+      <point x="156" y="375" type="line"/>
+      <point x="151" y="353" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="540" type="line"/>
+      <point x="328" y="540" type="line"/>
+      <point x="303" y="714" type="line"/>
+      <point x="307" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>8614d1d97662cc3a6a859d13f4f1cc967dd2e1b9d841c26bb32b0281f4d00f3aa6e3301f21b88eaf806e220cd81d262b750e595a2c97172a505222b16d2be071</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 353 22</string>
+          <string>hstem 510 30</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

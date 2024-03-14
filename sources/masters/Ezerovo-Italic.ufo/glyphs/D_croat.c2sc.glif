@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcroat.c2sc" format="2">
+  <advance width="619"/>
+  <outline>
+    <component base="D.c2sc"/>
+    <contour>
+      <point x="102" y="220" type="line"/>
+      <point x="111" y="273" type="line"/>
+      <point x="322" y="273" type="line"/>
+      <point x="313" y="220" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w619m102,220l111,273l322,273l313,220</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 33</string>
+          <string>hstem 220 53</string>
+          <string>hstem 448 33</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

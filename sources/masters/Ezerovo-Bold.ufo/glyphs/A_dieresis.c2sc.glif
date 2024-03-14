@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis.c2sc" format="2">
+  <advance width="553"/>
+  <anchor x="279" y="442" name="t.ring"/>
+  <outline>
+    <component base="A.c2sc"/>
+    <component base="uni0308" xOffset="475" yOffset="5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>A.c2sc+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

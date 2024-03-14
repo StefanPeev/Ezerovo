@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut" format="2">
+  <advance width="376"/>
+  <unicode hex="02DD"/>
+  <outline>
+    <contour>
+      <point x="181" y="529" type="line"/>
+      <point x="232" y="661" type="line" smooth="yes"/>
+      <point x="241" y="686"/>
+      <point x="252" y="705"/>
+      <point x="273" y="705" type="curve" smooth="yes"/>
+      <point x="294" y="705"/>
+      <point x="330" y="689"/>
+      <point x="330" y="669" type="curve" smooth="yes"/>
+      <point x="330" y="654"/>
+      <point x="320" y="635"/>
+      <point x="298" y="611" type="curve" smooth="yes"/>
+      <point x="208" y="513" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="529" type="line"/>
+      <point x="389" y="661" type="line" smooth="yes"/>
+      <point x="398" y="686"/>
+      <point x="409" y="705"/>
+      <point x="430" y="705" type="curve" smooth="yes"/>
+      <point x="450" y="705"/>
+      <point x="486" y="689"/>
+      <point x="486" y="669" type="curve" smooth="yes"/>
+      <point x="486" y="654"/>
+      <point x="477" y="635"/>
+      <point x="455" y="611" type="curve" smooth="yes"/>
+      <point x="365" y="513" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>4bad98fc9163f192556d29f10a382de37993844958cc1a030a16e154861c6e09ee894059bf1e4c1db88df8b86207bc6ae3ed003703085214cb6c00e8b8fc3885</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 513 192</string>
+          <string>vstem 181 305</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

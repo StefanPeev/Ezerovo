@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni215A" format="2">
+  <advance width="883"/>
+  <unicode hex="215A"/>
+  <outline>
+    <component base="uni2075" xOffset="11" yOffset="-99"/>
+    <component base="uni2076" xOffset="438" yOffset="-355"/>
+    <contour>
+      <point x="245" y="10" type="line"/>
+      <point x="717" y="653" type="line"/>
+      <point x="759" y="621" type="line"/>
+      <point x="284" y="-25" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w883m245,10l717,653l759,621l284,-25</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -7 36</string>
+          <string>hstem 249 36</string>
+          <string>hstem 348 36</string>
+          <string>hstem 455 20</string>
+          <string>hstem 556 77</string>
+          <string>hstem 633 20</string>
+          <string>vstem 100 89</string>
+          <string>vstem 306 120</string>
+          <string>vstem 535 109</string>
+          <string>vstem 748 115</string>
+          <string>vstem 795 81</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="S.c2sc" format="2">
+  <advance width="434"/>
+  <anchor x="339" y="531" name="top"/>
+  <anchor x="226" y="-40" name="bottom"/>
+  <anchor x="244" y="10" name="b.cedilla"/>
+  <outline>
+    <contour>
+      <point x="64" y="31" type="curve"/>
+      <point x="83" y="161" type="line"/>
+      <point x="112" y="161" type="line"/>
+      <point x="105.256" y="70.9001"/>
+      <point x="145" y="21"/>
+      <point x="217" y="21" type="curve" smooth="yes"/>
+      <point x="279.307" y="21"/>
+      <point x="338.696" y="59.2811"/>
+      <point x="338.696" y="126.184" type="curve" smooth="yes"/>
+      <point x="338.696" y="170.271"/>
+      <point x="299.671" y="194.514"/>
+      <point x="244" y="218" type="curve" smooth="yes"/>
+      <point x="197.358" y="238.63"/>
+      <point x="135.431" y="269.719"/>
+      <point x="135.431" y="330.028" type="curve" smooth="yes"/>
+      <point x="135.431" y="441.511"/>
+      <point x="253.743" y="494"/>
+      <point x="349" y="494" type="curve" smooth="yes"/>
+      <point x="396" y="494"/>
+      <point x="446" y="474"/>
+      <point x="470" y="456" type="curve"/>
+      <point x="444" y="341" type="line"/>
+      <point x="416" y="341" type="line"/>
+      <point x="424.726" y="418.711"/>
+      <point x="390" y="461"/>
+      <point x="331" y="461" type="curve" smooth="yes"/>
+      <point x="282.113" y="461"/>
+      <point x="226.453" y="425.984"/>
+      <point x="226.453" y="372.458" type="curve" smooth="yes"/>
+      <point x="226.453" y="327.309"/>
+      <point x="280.976" y="302.905"/>
+      <point x="333" y="281" type="curve" smooth="yes"/>
+      <point x="386.4" y="259.468"/>
+      <point x="433.866" y="223.098"/>
+      <point x="433.866" y="161.67" type="curve" smooth="yes"/>
+      <point x="433.866" y="44.6782"/>
+      <point x="315.186" y="-12"/>
+      <point x="212" y="-12" type="curve" smooth="yes"/>
+      <point x="139.767" y="-12"/>
+      <point x="89.0289" y="2.74162"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>7d85bbb2920366999fd9721ded9eb8764f9611948c3590d9f15e575a580a573d6dfe6cd2930e144161b605efa30ffdc070e0708e095eb33faf0d601f0ded6e38</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -12 33</string>
+          <string>hstem 461 33</string>
+          <string>vstem 83 29</string>
+          <string>vstem 416 28</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

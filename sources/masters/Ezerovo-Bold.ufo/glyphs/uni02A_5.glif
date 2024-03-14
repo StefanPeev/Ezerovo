@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02A5" format="2">
+  <advance width="896"/>
+  <unicode hex="02A5"/>
+  <anchor x="539" y="743" name="t.r.caron"/>
+  <anchor x="318" y="697" name="top"/>
+  <anchor x="289" y="-40" name="bottom"/>
+  <anchor x="303" y="10" name="b.cedilla"/>
+  <outline>
+    <component base="d"/>
+    <component base="uni0291" xOffset="422"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=d</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0291</string>
+  <key>com.fontlab.recipe</key>
+  <string>d_uni0291</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

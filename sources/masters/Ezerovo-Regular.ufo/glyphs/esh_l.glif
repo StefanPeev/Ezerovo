@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="esh_l" format="2">
+  <advance width="591"/>
+  <outline>
+    <contour>
+      <point x="-26" y="-161" type="curve" smooth="yes"/>
+      <point x="-26" y="-130"/>
+      <point x="-1" y="-115"/>
+      <point x="18" y="-115" type="curve" smooth="yes"/>
+      <point x="58.7239" y="-115"/>
+      <point x="49.1399" y="-195"/>
+      <point x="107" y="-195" type="curve" smooth="yes"/>
+      <point x="119.016" y="-195"/>
+      <point x="145.556" y="-186.456"/>
+      <point x="145.556" y="-114.88" type="curve" smooth="yes"/>
+      <point x="145.556" y="-77.2489"/>
+      <point x="140" y="-33.8241"/>
+      <point x="140" y="0" type="curve" smooth="yes"/>
+      <point x="140" y="476" type="line" smooth="yes"/>
+      <point x="140" y="601.337"/>
+      <point x="192.679" y="697"/>
+      <point x="331" y="697" type="curve" smooth="yes"/>
+      <point x="379" y="697"/>
+      <point x="420" y="685"/>
+      <point x="441" y="671" type="curve"/>
+      <point x="500" y="697" type="line"/>
+      <point x="507" y="692" type="line"/>
+      <point x="507" y="82" type="line" smooth="yes"/>
+      <point x="507" y="34"/>
+      <point x="510" y="32"/>
+      <point x="577" y="27" type="curve"/>
+      <point x="577" y="0" type="line"/>
+      <point x="348" y="0" type="line"/>
+      <point x="348" y="27" type="line"/>
+      <point x="416" y="32"/>
+      <point x="418" y="34"/>
+      <point x="418" y="82" type="curve" smooth="yes"/>
+      <point x="418" y="592" type="line"/>
+      <point x="405" y="643"/>
+      <point x="373" y="665"/>
+      <point x="326" y="665" type="curve" smooth="yes"/>
+      <point x="256.473" y="665"/>
+      <point x="228" y="583.884"/>
+      <point x="228" y="461" type="curve" smooth="yes"/>
+      <point x="228" y="-24" type="line" smooth="yes"/>
+      <point x="228" y="-119.418"/>
+      <point x="206.472" y="-227"/>
+      <point x="88" y="-227" type="curve"/>
+      <point x="15" y="-227"/>
+      <point x="-26" y="-191"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>bcc69c1136938c44f07e7286386fa042c2342f4b2a0b829db7051ff4e8476617f1327b1c0dd4b3de7c8f5424257851b75dbbb18b8a6fa7166b1041dd1c45a273</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -227 32</string>
+          <string>hstem 0 27</string>
+          <string>hstem 665 32</string>
+          <string>vstem -26 69</string>
+          <string>vstem 140 88</string>
+          <string>vstem 418 89</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

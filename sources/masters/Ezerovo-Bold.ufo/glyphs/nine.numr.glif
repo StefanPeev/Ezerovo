@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine.numr" format="2">
+  <advance width="387"/>
+  <outline>
+    <contour>
+      <point x="40" y="512" type="line"/>
+      <point x="40" y="593"/>
+      <point x="100" y="640"/>
+      <point x="199" y="640" type="curve" smooth="yes"/>
+      <point x="320" y="640"/>
+      <point x="367" y="576"/>
+      <point x="367" y="454" type="curve" smooth="yes"/>
+      <point x="367" y="313"/>
+      <point x="310" y="249"/>
+      <point x="187" y="249" type="curve" smooth="yes"/>
+      <point x="87" y="249"/>
+      <point x="54" y="292"/>
+      <point x="54" y="311" type="curve" smooth="yes"/>
+      <point x="54" y="343"/>
+      <point x="87" y="366"/>
+      <point x="105" y="366" type="curve" smooth="yes"/>
+      <point x="122" y="366"/>
+      <point x="129" y="362"/>
+      <point x="136" y="347" type="curve" smooth="yes"/>
+      <point x="156" y="302"/>
+      <point x="170" y="285"/>
+      <point x="194" y="285" type="curve" smooth="yes"/>
+      <point x="227" y="285"/>
+      <point x="250" y="302"/>
+      <point x="250" y="420" type="curve"/>
+      <point x="249" y="420" type="line"/>
+      <point x="225" y="405"/>
+      <point x="204" y="396"/>
+      <point x="171" y="396" type="curve" smooth="yes"/>
+      <point x="109" y="396"/>
+      <point x="40" y="427"/>
+      <point x="40" y="512" type="curve"/>
+    </contour>
+    <contour>
+      <point x="157" y="526" type="line"/>
+      <point x="157" y="478"/>
+      <point x="182" y="453"/>
+      <point x="209" y="453" type="curve" smooth="yes"/>
+      <point x="241" y="453"/>
+      <point x="249" y="489"/>
+      <point x="249" y="510" type="curve" smooth="yes"/>
+      <point x="249" y="577"/>
+      <point x="230" y="604"/>
+      <point x="204" y="604" type="curve" smooth="yes"/>
+      <point x="178" y="604"/>
+      <point x="157" y="577"/>
+      <point x="157" y="526" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>57489669449447dc128264a88129cd749a4f6ec988689d218985792c2b4686d4206d94368c579e5d5573fafb9df883556e909cd9b1b8cf915cc6d0e06365dd62</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 249 36</string>
+          <string>hstem 396 57</string>
+          <string>hstem 604 36</string>
+          <string>vstem 40 117</string>
+          <string>vstem 249 118</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

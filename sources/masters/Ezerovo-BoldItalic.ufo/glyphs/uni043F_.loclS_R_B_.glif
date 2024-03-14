@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni043F.loclSRB" format="2">
+  <advance width="595"/>
+  <outline>
+    <component base="u"/>
+    <contour>
+      <point x="209" y="526" type="line"/>
+      <point x="223" y="594" type="line"/>
+      <point x="628" y="594" type="line"/>
+      <point x="614" y="526" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w595m209,526l223,594l628,594l614,526</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 75</string>
+          <string>hstem 416 31</string>
+          <string>hstem 452 20</string>
+          <string>hstem 526 44</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

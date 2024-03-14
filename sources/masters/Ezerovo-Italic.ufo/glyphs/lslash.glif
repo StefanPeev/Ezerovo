@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lslash" format="2">
+  <advance width="298"/>
+  <unicode hex="0142"/>
+  <outline>
+    <component base="l"/>
+    <contour>
+      <point x="75" y="260" type="line"/>
+      <point x="93" y="310" type="line"/>
+      <point x="386" y="480" type="line"/>
+      <point x="372" y="431" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w298m75,260l93,310l386,480l372,431</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 49</string>
+          <string>hstem 460 20</string>
+          <string>hstem 653 22</string>
+          <string>hstem 677 20</string>
+          <string>vstem 75 311</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

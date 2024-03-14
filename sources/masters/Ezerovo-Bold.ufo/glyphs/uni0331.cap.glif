@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0331.cap" format="2">
+  <advance width="10"/>
+  <outline>
+    <contour>
+      <point x="-362" y="-209" type="line"/>
+      <point x="-362" y="-127" type="line"/>
+      <point x="-33" y="-127" type="line"/>
+      <point x="-33" y="-209" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w10m-362,-209l-362,-127l-33,-127l-33,-209</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -209 82</string>
+          <string>vstem -362 329</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

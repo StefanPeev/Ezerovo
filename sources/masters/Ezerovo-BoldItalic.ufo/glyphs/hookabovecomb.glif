@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="-18" y="554" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-138" y="725.984" type="curve" smooth="yes"/>
+      <point x="-138" y="746.984"/>
+      <point x="-97" y="779.984"/>
+      <point x="-11" y="779.984" type="curve" smooth="yes"/>
+      <point x="59" y="779.984"/>
+      <point x="102" y="752.984"/>
+      <point x="102" y="713.984" type="curve" smooth="yes"/>
+      <point x="102" y="666.972"/>
+      <point x="51.5715" y="650.343"/>
+      <point x="7.16024" y="635.698" type="curve" smooth="yes"/>
+      <point x="-43.3912" y="619.029"/>
+      <point x="-59" y="608.479"/>
+      <point x="-59" y="590.984" type="curve" smooth="yes"/>
+      <point x="-59" y="573.984"/>
+      <point x="-39" y="571.984"/>
+      <point x="-31" y="571.984" type="curve"/>
+      <point x="-35" y="553.984" type="line"/>
+      <point x="-77" y="553.984"/>
+      <point x="-112" y="567.984"/>
+      <point x="-112" y="595.984" type="curve" smooth="yes"/>
+      <point x="-112" y="622.312"/>
+      <point x="-95.8847" y="639.23"/>
+      <point x="-47.6547" y="663.533" type="curve" smooth="yes"/>
+      <point x="-15.7702" y="679.599"/>
+      <point x="16" y="695.608"/>
+      <point x="16" y="729.984" type="curve" smooth="yes"/>
+      <point x="16" y="737.984"/>
+      <point x="4" y="749.984"/>
+      <point x="-16" y="749.984" type="curve" smooth="yes"/>
+      <point x="-34" y="749.984"/>
+      <point x="-54.3877" y="737.206"/>
+      <point x="-72" y="705.984" type="curve" smooth="yes"/>
+      <point x="-76.3945" y="698.193"/>
+      <point x="-85" y="694.984"/>
+      <point x="-100" y="694.984" type="curve" smooth="yes"/>
+      <point x="-119" y="694.984"/>
+      <point x="-138" y="703.984"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="554"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>fdca17c4ea653c59ac2aeb34a800a1538cd47504321ddd82693bf5685f55e496d63cf1921d38026aa75176716dd1ef1684e252af4c8d871245f9e4a271997505</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 568 18</string>
+          <string>hstem 764 30</string>
+          <string>vstem -112 53</string>
+          <string>vstem 16 86</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

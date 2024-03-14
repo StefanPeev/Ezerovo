@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni020C" format="2">
+  <advance width="730"/>
+  <unicode hex="020C"/>
+  <anchor x="364" y="-40" name="bottom"/>
+  <outline>
+    <component base="O"/>
+    <component base="uni030F.cap" xOffset="597" yOffset="21"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>O+~uni030F.cap</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

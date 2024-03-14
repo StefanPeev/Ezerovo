@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis.c2sc" format="2">
+  <advance width="485"/>
+  <anchor x="280" y="-40" name="bottom"/>
+  <outline>
+    <component base="Y.c2sc"/>
+    <component base="uni0308" xOffset="408" yOffset="-5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Y.c2sc+uni0308</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

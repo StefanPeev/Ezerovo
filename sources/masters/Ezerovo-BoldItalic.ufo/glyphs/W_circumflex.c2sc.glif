@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wcircumflex.c2sc" format="2">
+  <advance width="774"/>
+  <anchor x="409" y="-40" name="bottom"/>
+  <outline>
+    <component base="W.c2sc"/>
+    <component base="uni0302" xOffset="618" yOffset="41"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>W.c2sc+uni0302</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

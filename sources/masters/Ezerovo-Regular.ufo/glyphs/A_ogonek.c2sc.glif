@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aogonek.c2sc" format="2">
+  <advance width="530"/>
+  <outline>
+    <component base="A.c2sc"/>
+    <contour>
+      <point x="438" y="7" type="curve"/>
+      <point x="477" y="12" type="line"/>
+      <point x="424" y="-30"/>
+      <point x="392" y="-72"/>
+      <point x="392" y="-117" type="curve" smooth="yes"/>
+      <point x="392" y="-159"/>
+      <point x="420" y="-176"/>
+      <point x="452" y="-176" type="curve" smooth="yes"/>
+      <point x="467" y="-176"/>
+      <point x="484" y="-172"/>
+      <point x="500" y="-164" type="curve"/>
+      <point x="507" y="-183" type="line"/>
+      <point x="481" y="-206"/>
+      <point x="457" y="-216"/>
+      <point x="421" y="-216" type="curve" smooth="yes"/>
+      <point x="335" y="-216"/>
+      <point x="327" y="-160"/>
+      <point x="327" y="-137" type="curve" smooth="yes"/>
+      <point x="327" y="-81"/>
+      <point x="374" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=A.c2sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=A.c2sc</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>00842daa0ccf6a8c747e6858432ed96e7f8473c5138ef5831226317428dac78c1deba4fabb91ad6601490eac31107790238b942c0466951e4787405830f63dc2</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 184 33</string>
+          <string>hstem 461 20</string>
+          <string>vstem 327 65</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

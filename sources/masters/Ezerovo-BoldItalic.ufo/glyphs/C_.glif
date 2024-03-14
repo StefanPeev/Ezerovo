@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="C" format="2">
+  <advance width="631"/>
+  <unicode hex="0043"/>
+  <anchor x="408" y="10" name="b.cedilla"/>
+  <anchor x="542" y="697" name="top"/>
+  <outline>
+    <contour>
+      <point x="104" y="258" type="curve" smooth="yes"/>
+      <point x="104" y="507"/>
+      <point x="271" y="665"/>
+      <point x="522" y="665" type="curve" smooth="yes"/>
+      <point x="575" y="665"/>
+      <point x="674" y="654"/>
+      <point x="730" y="619" type="curve"/>
+      <point x="694" y="451" type="line"/>
+      <point x="658" y="451" type="line"/>
+      <point x="663" y="537"/>
+      <point x="634" y="621"/>
+      <point x="524" y="621" type="curve" smooth="yes"/>
+      <point x="333" y="621"/>
+      <point x="263" y="387"/>
+      <point x="263" y="221" type="curve" smooth="yes"/>
+      <point x="263" y="90"/>
+      <point x="323" y="29"/>
+      <point x="408" y="29" type="curve" smooth="yes"/>
+      <point x="513" y="29"/>
+      <point x="565" y="109"/>
+      <point x="625" y="207" type="curve"/>
+      <point x="661" y="207" type="line"/>
+      <point x="609" y="24" type="line"/>
+      <point x="549" y="-7"/>
+      <point x="473" y="-14"/>
+      <point x="408" y="-14" type="curve" smooth="yes"/>
+      <point x="134" y="-14"/>
+      <point x="104" y="172"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>b78b7ec5168793ff46ee06740601935e7740cd3a485fc2285af614dc142877926ef64220be0f7dd816327e47929384bc6c3c5562151c78927fc7dc92aa45fcac</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -14 43</string>
+          <string>hstem 621 44</string>
+          <string>vstem 104 159</string>
+          <string>vstem 625 36</string>
+          <string>vstem 658 36</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

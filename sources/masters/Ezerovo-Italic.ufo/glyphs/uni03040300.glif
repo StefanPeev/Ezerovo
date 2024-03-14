@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni03040300" format="2">
+  <anchor x="-71" y="561" name="_top"/>
+  <outline>
+    <component base="macron" xOffset="-433.5"/>
+    <contour>
+      <point x="-186" y="780" type="curve" smooth="yes"/>
+      <point x="-186" y="799"/>
+      <point x="-163" y="821"/>
+      <point x="-149" y="821" type="curve" smooth="yes"/>
+      <point x="-133" y="821"/>
+      <point x="-117" y="811"/>
+      <point x="-89" y="782" type="curve" smooth="yes"/>
+      <point x="23" y="669" type="line"/>
+      <point x="9" y="650" type="line"/>
+      <point x="-133" y="729" type="line" smooth="yes"/>
+      <point x="-161" y="744"/>
+      <point x="-186" y="760"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-186,780c-186,799 -163,821 -149,821c-133,821 -117,811 -89,782l23,669l9,650l-133,729c-161,744 -186,760 -186,780</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 509 171</string>
+          <string>vstem -206 209</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E9E.ss02" format="2">
+  <advance width="1074"/>
+  <outline>
+    <component base="S"/>
+    <component base="S" xOffset="540"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1074</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -14 43</string>
+          <string>hstem 490 -21</string>
+          <string>hstem 621 44</string>
+          <string>vstem 45 35</string>
+          <string>vstem 53 135</string>
+          <string>vstem 365 141</string>
+          <string>vstem 430 34</string>
+          <string>vstem 582 35</string>
+          <string>vstem 590 136</string>
+          <string>vstem 902 142</string>
+          <string>vstem 967 34</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04B0.c2sc" format="2">
+  <advance width="485"/>
+  <outline>
+    <component base="Y.c2sc"/>
+    <contour>
+      <point x="146" y="120.5" type="line"/>
+      <point x="154" y="164.5" type="line"/>
+      <point x="454" y="164.5" type="line"/>
+      <point x="446" y="120.5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

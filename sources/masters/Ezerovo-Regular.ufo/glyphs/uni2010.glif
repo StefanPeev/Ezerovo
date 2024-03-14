@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2010" format="2">
+  <advance width="368"/>
+  <unicode hex="2010"/>
+  <outline>
+    <contour>
+      <point x="70" y="203" type="line"/>
+      <point x="70" y="269" type="line"/>
+      <point x="300" y="269" type="line"/>
+      <point x="300" y="203" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w368m70,203l70,269l300,269l300,203</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 203 66</string>
+          <string>vstem 70 230</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

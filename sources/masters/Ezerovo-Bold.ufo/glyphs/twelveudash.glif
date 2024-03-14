@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twelveudash" format="2">
+  <advance width="646"/>
+  <outline>
+    <contour>
+      <point x="5" y="196" type="line"/>
+      <point x="5" y="274" type="line"/>
+      <point x="643" y="274" type="line"/>
+      <point x="643" y="196" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w646m5,196l5,274l643,274l643,196</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 196 78</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

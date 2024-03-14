@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash.sc" format="2">
+  <advance width="454"/>
+  <outline>
+    <component base="L.c2sc" xOffset="-25"/>
+    <contour>
+      <point x="65" y="146" type="line"/>
+      <point x="71" y="183" type="line"/>
+      <point x="342" y="331" type="line"/>
+      <point x="336" y="294" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w454m65,146l71,183l342,331l336,294</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 31</string>
+          <string>hstem 455 26</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

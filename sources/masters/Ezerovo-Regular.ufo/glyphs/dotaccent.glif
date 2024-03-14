@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent" format="2">
+  <advance width="376"/>
+  <unicode hex="02D9"/>
+  <outline>
+    <contour>
+      <point x="132" y="589" type="curve" smooth="yes"/>
+      <point x="132" y="616"/>
+      <point x="151" y="642"/>
+      <point x="188" y="642" type="curve" smooth="yes"/>
+      <point x="225" y="642"/>
+      <point x="244" y="616"/>
+      <point x="244" y="589" type="curve" smooth="yes"/>
+      <point x="244" y="562"/>
+      <point x="225" y="536"/>
+      <point x="188" y="536" type="curve" smooth="yes"/>
+      <point x="151" y="536"/>
+      <point x="132" y="562"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w376m132,589c132,616 151,642 188,642c225,642 244,616 244,589c244,562 225,536 188,536c151,536 132,562 132,589</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 536 106</string>
+          <string>vstem 132 112</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

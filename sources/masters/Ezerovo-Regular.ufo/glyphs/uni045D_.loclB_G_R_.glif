@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni045D.loclBGR" format="2">
+  <advance width="594"/>
+  <outline>
+    <component base="u"/>
+    <contour>
+      <point x="146" y="639" type="curve" smooth="yes"/>
+      <point x="146" y="658"/>
+      <point x="168" y="680"/>
+      <point x="186" y="680" type="curve" smooth="yes"/>
+      <point x="198" y="680"/>
+      <point x="215" y="670"/>
+      <point x="243" y="641" type="curve" smooth="yes"/>
+      <point x="354" y="528" type="line"/>
+      <point x="340" y="509" type="line"/>
+      <point x="198" y="588" type="line" smooth="yes"/>
+      <point x="170" y="603"/>
+      <point x="146" y="619"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w594m146,639c146,658 168,680 186,680c198,680 215,670 243,641l354,528l340,509l198,588c170,603 146,619 146,639</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 433 28</string>
+          <string>hstem 660 20</string>
+          <string>vstem 101 88</string>
+          <string>vstem 405 89</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

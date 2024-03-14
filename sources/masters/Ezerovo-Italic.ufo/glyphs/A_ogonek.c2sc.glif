@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aogonek.c2sc" format="2">
+  <advance width="533"/>
+  <anchor x="371" y="531" name="top"/>
+  <anchor x="374" y="450" name="t.ring"/>
+  <outline>
+    <component base="A.c2sc"/>
+    <component base="uni0328" xOffset="546"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>A.c2sc+uni0328</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

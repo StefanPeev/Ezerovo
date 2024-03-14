@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni207B" format="2">
+  <advance width="425"/>
+  <unicode hex="207B"/>
+  <outline>
+    <contour>
+      <point x="101" y="478" type="line"/>
+      <point x="101" y="533" type="line"/>
+      <point x="426" y="533" type="line"/>
+      <point x="426" y="478" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w425m101,478l101,533l426,533l426,478</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 478 55</string>
+          <string>vstem 101 325</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

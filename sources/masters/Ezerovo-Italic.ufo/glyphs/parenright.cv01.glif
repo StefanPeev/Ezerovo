@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright.cv01" format="2">
+  <advance width="237"/>
+  <outline>
+    <contour>
+      <point x="-7" y="-85" type="curve"/>
+      <point x="-4" y="-65" type="line"/>
+      <point x="118.755" y="-45.2009"/>
+      <point x="188.19" y="181.813"/>
+      <point x="188.19" y="295.141" type="curve" smooth="yes"/>
+      <point x="188.19" y="389.526"/>
+      <point x="142.163" y="433.127"/>
+      <point x="115" y="439" type="curve"/>
+      <point x="119" y="461" type="line"/>
+      <point x="186.362" y="456.559"/>
+      <point x="231.805" y="386.911"/>
+      <point x="231.805" y="288.157" type="curve" smooth="yes"/>
+      <point x="231.805" y="155.471"/>
+      <point x="153.222" y="-85"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcroat" format="2">
+  <advance width="577"/>
+  <unicode hex="0111"/>
+  <outline>
+    <component base="d"/>
+    <contour>
+      <point x="282" y="541" type="line"/>
+      <point x="282" y="584" type="line"/>
+      <point x="562" y="584" type="line"/>
+      <point x="562" y="541" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w577m282,541l282,584l562,584l562,541</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 72</string>
+          <string>hstem 0 36</string>
+          <string>hstem 429 43</string>
+          <string>hstem 521 82</string>
+          <string>hstem 638 34</string>
+          <string>vstem 37 149</string>
+          <string>vstem 363 141</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J.superior" format="2">
+  <advance width="279"/>
+  <outline>
+    <contour>
+      <point x="1" y="314" type="line"/>
+      <point x="78.3717" y="326.895"/>
+      <point x="94.9631" y="382.322"/>
+      <point x="111" y="452" type="curve" smooth="yes"/>
+      <point x="169" y="704" type="line" smooth="yes"/>
+      <point x="170.486" y="710.456"/>
+      <point x="171.123" y="715.83"/>
+      <point x="171.079" y="720.217" type="curve" smooth="yes"/>
+      <point x="170.976" y="730.294"/>
+      <point x="167.277" y="735.167"/>
+      <point x="162" y="736" type="curve" smooth="yes"/>
+      <point x="143" y="739" type="line"/>
+      <point x="150" y="767" type="line"/>
+      <point x="348" y="767" type="line"/>
+      <point x="342" y="739" type="line"/>
+      <point x="315" y="737" type="line" smooth="yes"/>
+      <point x="297" y="736"/>
+      <point x="291.903" y="725.023"/>
+      <point x="287" y="704" type="curve" smooth="yes"/>
+      <point x="221" y="421" type="line" smooth="yes"/>
+      <point x="201.162" y="335.938"/>
+      <point x="125.965" y="285.137"/>
+      <point x="43.0955" y="284.952" type="curve" smooth="yes"/>
+      <point x="29.5329" y="284.922"/>
+      <point x="15.7647" y="286.247"/>
+      <point x="2" y="289" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>95344c84f4f061a9cf515d967acdb18b409f4e7d064dae54f62e632efc84aa64deadd0e4363945746d45a7b5931ec373100db1d9036c33bc1c4e6b940cfc3699</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 289 25</string>
+          <string>hstem 739 28</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

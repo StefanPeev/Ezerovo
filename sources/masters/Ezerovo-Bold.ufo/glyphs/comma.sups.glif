@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comma.sups" format="2">
+  <advance width="217"/>
+  <outline>
+    <contour>
+      <point x="39" y="281" type="line"/>
+      <point x="67" y="303"/>
+      <point x="86" y="325"/>
+      <point x="86" y="352" type="curve" smooth="yes"/>
+      <point x="86" y="379"/>
+      <point x="60" y="392"/>
+      <point x="60" y="417" type="curve" smooth="yes"/>
+      <point x="60" y="438"/>
+      <point x="76" y="457"/>
+      <point x="109" y="457" type="curve" smooth="yes"/>
+      <point x="144" y="457"/>
+      <point x="170" y="432"/>
+      <point x="170" y="390" type="curve" smooth="yes"/>
+      <point x="170" y="337"/>
+      <point x="111" y="287"/>
+      <point x="66" y="256" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w217m39,281c67,303 86,325 86,352c86,379 60,392 60,417c60,438 76,457 109,457c144,457 170,432 170,390c170,337 111,287 66,256</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 256 201</string>
+          <string>vstem 86 84</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

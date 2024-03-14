@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine.osf" format="2">
+  <advance width="472"/>
+  <outline>
+    <contour>
+      <point x="57" y="-65" type="curve" smooth="yes"/>
+      <point x="57" y="-36"/>
+      <point x="83" y="-17"/>
+      <point x="101" y="-17" type="curve" smooth="yes"/>
+      <point x="117" y="-17"/>
+      <point x="123.129" y="-23.9577"/>
+      <point x="127" y="-36" type="curve" smooth="yes"/>
+      <point x="141.13" y="-79.9586"/>
+      <point x="165" y="-130"/>
+      <point x="229" y="-130" type="curve" smooth="yes"/>
+      <point x="357" y="-130"/>
+      <point x="361" y="91"/>
+      <point x="361" y="179" type="curve"/>
+      <point x="358" y="179" type="line"/>
+      <point x="326" y="133"/>
+      <point x="277" y="100"/>
+      <point x="219" y="100" type="curve" smooth="yes"/>
+      <point x="122" y="100"/>
+      <point x="38" y="160"/>
+      <point x="38" y="278" type="curve" smooth="yes"/>
+      <point x="38" y="408"/>
+      <point x="125" y="487"/>
+      <point x="245" y="487" type="curve" smooth="yes"/>
+      <point x="418" y="487"/>
+      <point x="452" y="330"/>
+      <point x="452" y="187" type="curve" smooth="yes"/>
+      <point x="452" y="24"/>
+      <point x="421" y="-163"/>
+      <point x="220" y="-163" type="curve" smooth="yes"/>
+      <point x="106" y="-163"/>
+      <point x="57" y="-106"/>
+    </contour>
+    <contour>
+      <point x="132" y="304" type="curve" smooth="yes"/>
+      <point x="132" y="214"/>
+      <point x="174" y="150"/>
+      <point x="247" y="150" type="curve" smooth="yes"/>
+      <point x="320" y="150"/>
+      <point x="356" y="208"/>
+      <point x="356" y="274" type="curve" smooth="yes"/>
+      <point x="356" y="365"/>
+      <point x="319" y="454"/>
+      <point x="244" y="454" type="curve" smooth="yes"/>
+      <point x="171" y="454"/>
+      <point x="132" y="390"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>ee8fc2fad122057c0e3623f6d9ec64b6e911366a1abc028d09b2c4a85af2542aa5aa05de8caa2e2b9e014835d1534f6c82e2f78ea56a1593fa67e5adec6bcf5f</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -150 42</string>
+          <string>hstem 106 50</string>
+          <string>hstem 454 33</string>
+          <string>vstem 39 94</string>
+          <string>vstem 355 96</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

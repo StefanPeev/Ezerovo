@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peso" format="2">
+  <advance width="621"/>
+  <outline>
+    <component base="P"/>
+    <contour>
+      <point x="40" y="137" type="line"/>
+      <point x="40" y="180" type="line"/>
+      <point x="432" y="180" type="line"/>
+      <point x="432" y="137" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=P</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=P</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

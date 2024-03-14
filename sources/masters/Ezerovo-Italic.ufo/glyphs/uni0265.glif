@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0265" format="2">
+  <advance width="548"/>
+  <unicode hex="0265"/>
+  <outline>
+    <contour>
+      <point x="116.611" y="63.2822" type="curve" smooth="yes"/>
+      <point x="116.611" y="81.8141"/>
+      <point x="120.078" y="102.793"/>
+      <point x="126" y="125" type="curve" smooth="yes"/>
+      <point x="191" y="373" type="line" smooth="yes"/>
+      <point x="194.107" y="384.261"/>
+      <point x="196.158" y="393.261"/>
+      <point x="196.158" y="400.174" type="curve" smooth="yes"/>
+      <point x="196.158" y="411.063"/>
+      <point x="191.069" y="416.777"/>
+      <point x="177" y="418" type="curve" smooth="yes"/>
+      <point x="118" y="423" type="line"/>
+      <point x="124" y="446" type="line"/>
+      <point x="295" y="472" type="line"/>
+      <point x="300" y="467" type="line"/>
+      <point x="210" y="120" type="line" smooth="yes"/>
+      <point x="205.405" y="101.949"/>
+      <point x="203.072" y="86.9137"/>
+      <point x="203.072" y="74.8593" type="curve" smooth="yes"/>
+      <point x="203.072" y="50.1854"/>
+      <point x="212.846" y="38"/>
+      <point x="233" y="38" type="curve" smooth="yes"/>
+      <point x="311" y="38"/>
+      <point x="393" y="163"/>
+      <point x="434" y="258" type="curve" smooth="yes"/>
+      <point x="458" y="315"/>
+      <point x="474" y="365"/>
+      <point x="501" y="461" type="curve"/>
+      <point x="585" y="472" type="line"/>
+      <point x="423" y="-209" type="line"/>
+      <point x="336" y="-227" type="line"/>
+      <point x="436" y="197" type="line"/>
+      <point x="433" y="197" type="line"/>
+      <point x="377" y="88"/>
+      <point x="279" y="-11"/>
+      <point x="189" y="-11" type="curve" smooth="yes"/>
+      <point x="136.207" y="-11"/>
+      <point x="116.611" y="19.225"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>40b5397f95237073714f9bec7f7b220e32e1b1baa0530d08ab9768030f2f89480e37ed8684626888ea3611dffee18b1d9a683c3760292552602f935325f6fe15</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -206 -21</string>
+          <string>hstem -11 49</string>
+          <string>hstem 423 23</string>
+          <string>hstem 452 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni042B.c2sc" format="2">
+  <advance width="785"/>
+  <anchor x="511" y="531" name="top"/>
+  <anchor x="411" y="-40" name="bottom"/>
+  <outline>
+    <component base="uni042C.c2sc"/>
+    <component base="I.c2sc" xOffset="474"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni042C.c2sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=I.c2sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni042C.c2sc + I.c2sc@510,0</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

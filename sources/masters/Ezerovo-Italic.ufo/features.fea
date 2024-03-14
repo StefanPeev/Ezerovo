@@ -1,0 +1,626 @@
+#> classes
+#/> otclasses
+@c2sc = [A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Egrave Emacron Eogonek Eth F G H I Iacute Ibreve Icircumflex Idieresis Igrave Imacron Itilde J Jcircumflex K L Lacute Lcaron M N Nacute Ncaron Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scaron Scircumflex T Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Z Zacute Zcaron Zdotaccent gravecomb uni0162 uni0306 uni0400 uni0401 uni0402 uni0403 uni0404 uni0405 uni0406 uni0407 uni0408 uni0409 uni040A uni040B uni040C uni040D uni040E uni040F uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F uni0462 uni0472 uni0474 uni04A4 uni04AA uni04AE uni04B0 uni04C1 uni04D0 uni04D2 uni04D4 uni04D6 uni04DC uni04DE uni04E2 uni04E4 uni04E6 uni04E8 uni04EA uni04EC uni04EE uni04F0 uni04F4 uni04F8 uni1E9E];
+@c2sc2 = [A.c2sc AE.c2sc Aacute.c2sc Abreve.c2sc Acircumflex.c2sc Adieresis.c2sc Agrave.c2sc Amacron.c2sc Aogonek.c2sc Aring.c2sc Atilde.c2sc B.c2sc C.c2sc Cacute.c2sc Ccaron.c2sc Ccedilla.c2sc D.c2sc Dcaron.c2sc Dcroat.c2sc E.c2sc Eacute.c2sc Ebreve.c2sc Ecaron.c2sc Ecircumflex.c2sc Edieresis.c2sc Egrave.c2sc Emacron.c2sc Eogonek.c2sc Eth.c2sc F.c2sc G.c2sc H.c2sc I.c2sc Iacute.c2sc Ibreve.c2sc Icircumflex.c2sc Idieresis.c2sc Igrave.c2sc Imacron.c2sc Itilde.c2sc J.c2sc Jcircumflex.c2sc K.c2sc L.c2sc Lacute.c2sc Lcaron.c2sc M.c2sc N.c2sc Nacute.c2sc Ncaron.c2sc Ntilde.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Oslash.c2sc Otilde.c2sc P.c2sc Q.c2sc R.c2sc Racute.c2sc Rcaron.c2sc S.c2sc Sacute.c2sc Scaron.c2sc Scircumflex.c2sc T.c2sc Tcaron.c2sc Thorn.c2sc U.c2sc Uacute.c2sc Ubreve.c2sc Ucircumflex.c2sc Udieresis.c2sc Ugrave.c2sc Uhungarumlaut.c2sc Umacron.c2sc Uring.c2sc V.c2sc W.c2sc Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc X.c2sc Y.c2sc Yacute.c2sc Ycircumflex.c2sc Ydieresis.c2sc Z.c2sc Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc gravecomb.c2sc uni0162.c2sc uni0306.c2sc uni0400.c2sc uni0401.c2sc uni0402.c2sc uni0403.c2sc uni0404.c2sc uni0405.c2sc uni0406.c2sc uni0407.c2sc uni0408.c2sc uni0409.c2sc uni040A.c2sc uni040B.c2sc uni040C.c2sc uni040D.c2sc uni040E.c2sc uni040F.c2sc uni0410.c2sc uni0411.c2sc uni0412.c2sc uni0413.c2sc uni0414.c2sc uni0415.c2sc uni0416.c2sc uni0417.c2sc uni0418.c2sc uni0419.c2sc uni041A.c2sc uni041B.c2sc uni041C.c2sc uni041D.c2sc uni041E.c2sc uni041F.c2sc uni0420.c2sc uni0421.c2sc uni0422.c2sc uni0423.c2sc uni0424.c2sc uni0425.c2sc uni0426.c2sc uni0427.c2sc uni0428.c2sc uni0429.c2sc uni042A.c2sc uni042B.c2sc uni042C.c2sc uni042D.c2sc uni042E.c2sc uni042F.c2sc uni0462.c2sc uni0472.c2sc uni0474.c2sc uni04A4.c2sc uni04AA.c2sc uni04AE.c2sc uni04B0.c2sc uni04C1.c2sc uni04D0.c2sc uni04D2.c2sc uni04D4.c2sc uni04D6.c2sc uni04DC.c2sc uni04DE.c2sc uni04E2.c2sc uni04E4.c2sc uni04E6.c2sc uni04E8.c2sc uni04EA.c2sc uni04EC.c2sc uni04EE.c2sc uni04F0.c2sc uni04F4.c2sc uni04F8.c2sc uni1E9E.c2sc];
+@dnom = [comma period zero one two three four five six seven eight nine zero.tosf one.tosf one.tosf.alt two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf zero.osf one.osf one.osf.alt two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
+@dnom2 = [comma.dnom period.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.dnom one.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.dnom one.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+#/< otclasses
+#< classes
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn  NLD;
+languagesystem latn  AZE;
+languagesystem latn  CRT;
+languagesystem latn  EWE;
+languagesystem latn  TRK;
+languagesystem latn  VIT;
+languagesystem cyrl dflt;
+languagesystem cyrl  BGR; # Cyrillic Bulgarian
+languagesystem cyrl  MKD; # Cyrillic Macedonian
+languagesystem cyrl  SRB;
+languagesystem grek dflt;
+languagesystem hebr dflt;
+
+
+lookup c2scCapitalstoSmallCapitalslookup1 {
+  lookupflag 0;
+    sub @c2sc by @c2sc2;
+} c2scCapitalstoSmallCapitalslookup1;
+
+lookup dnomDenominatorslookup5 {
+  lookupflag 0;
+    sub @dnom by @dnom2 ;
+} dnomDenominatorslookup5;
+
+lookup caseCaseSensitiveFormslookup16 {
+  lookupflag 0;
+    sub \gravecomb by \uni0300.cap ;
+    sub \acutecomb by \uni0301.cap ;
+    sub \uni0302 by \uni0302.cap ;
+    sub \tildecomb by \uni0303.cap ;
+    sub \uni0304 by \uni0304.cap ;
+    sub \uni0306 by \uni0306.cap ;
+    sub \uni0307 by \uni0307.cap ;
+    sub \uni0308 by \uni0308.cap ;
+    sub \uni030A by \uni030A.cap ;
+    sub \uni030B by \uni030B.cap ;
+    sub \uni030C by \uni030C.cap ;
+    sub \uni030F by \uni030F.cap ;
+    sub \uni0311 by \uni0311.cap ;
+    sub \dotbelowcomb by \uni0323.cap ;
+    sub \uni0324 by \uni0324.cap ;
+    sub \uni0325 by \uni0325.cap ;
+    sub \uni032D by \uni032D.cap ;
+    sub \uni032E by \uni032E.cap ;
+    sub \uni0330 by \uni0330.cap ;
+    sub \uni0331 by \uni0331.cap ;
+} caseCaseSensitiveFormslookup16;
+feature locl {
+# Localized Forms
+
+#> feature
+  script cyrl; # Cyrillic
+  language BGR; # Bulgarian
+  sub uni040D by uni040D.loclBGR;
+  sub uni0414 by uni0414.loclBGR;
+  sub uni0416 by uni0416.loclBGR;
+  sub uni0418 by uni0418.loclBGR;
+  sub uni0419 by uni0419.loclBGR;
+  sub uni041A by uni041A.loclBGR;
+  sub uni041B by uni041B.loclBGR;
+  sub uni0424 by uni0424.loclBGR;
+  sub uni0432 by uni0432.loclBGR;
+  sub uni0434 by uni0434.loclBGR;
+  sub uni0436 by uni0436.loclBGR;
+  sub uni0437 by uni0437.loclBGR;
+  sub uni043A by uni043A.loclBGR;
+  sub uni043B by uni043B.loclBGR;
+  sub uni0444 by uni0444.loclBGR;
+  sub uni044E by uni044E.loclBGR;
+
+  language SRB; # Serbian
+  sub uni0431 by uni0431.loclSRB;
+  sub uni0433 by uni0433.loclSRB;
+  sub uni0434 by uni0434.loclSRB;
+  sub uni043F by uni043F.loclSRB;
+  sub uni0442 by uni0442.loclSRB;
+
+  script latn; # Latin
+  language MOL; # Moldavian
+  sub Scedilla by Scommaaccent;
+  sub scedilla by scommaaccent;
+  sub uni0162 by uni021A;
+  sub uni0163 by uni021B;
+
+  language ROM; # Romanian
+  sub Scedilla by Scommaaccent;
+  sub scedilla by scommaaccent;
+  sub uni0162 by uni021A;
+  sub uni0163 by uni021B;
+#< feature
+} locl;
+feature case {
+
+ script cyrl;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup16;
+     language  MKD exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+     language  SRB exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+
+ script grek;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup16;
+
+ script latn;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup16;
+     language NLD  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+     language  AZE exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+     language  CRT exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+     language  EWE exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+     language  TRK exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+     language  VIT exclude_dflt;
+      lookup caseCaseSensitiveFormslookup16;
+} case;
+feature c2sc {
+
+ script DFLT;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+
+ script cyrl;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language  MKD exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language  SRB exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+
+ script latn;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language NLD  exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language  AZE exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language  CRT exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language  EWE exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language  TRK exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+     language  VIT exclude_dflt;
+      lookup c2scCapitalstoSmallCapitalslookup1;
+} c2sc;
+feature smcp {
+# Small Caps
+
+#> feature
+  sub Euro by Euro.sc;
+  sub ampersand by ampersand.sc;
+  sub cent by cent.sc;
+  sub currency by currency.sc;
+  sub dollar by dollar.sc;
+  sub exclam by exclam.sc;
+  sub exclamdown by exclamdown.sc;
+  sub gbreve by Gbreve.sc;
+  sub germandbls by germandbls.sc;
+  sub hyphen by hyphen.sc;
+  sub lslash by Lslash.sc;
+  sub numbersign by numbersign.sc;
+  sub oe by oe.sc;
+  sub parenleft by parenleft.sc;
+  sub parenright by parenright.sc;
+  sub percent by percent.sc;
+  sub question by question.sc;
+  sub questiondown by questiondown.sc;
+  sub sterling by sterling.sc;
+  sub yen by yen.sc;
+#< feature
+} smcp;
+feature cv01 {
+# Character Variant 01—99
+
+#> feature
+  sub ampersand by ampersand.cv01;
+  sub parenright by parenright.cv01;
+  sub uni0306.cyr by uni0306.cyr.cv01;
+  sub uni0413 by uni0413.cv01;
+#< feature
+} cv01;
+feature ss02 {
+# Stylistic Set 01–20
+
+#> feature
+  sub germandbls by germandbls.ss02;
+  sub germandbls.sc by germandbls.sc.ss02;
+  sub uni1E9E by uni1E9E.ss02;
+#< feature
+} ss02;
+feature liga {
+# Standard Ligatures
+
+#> feature
+  sub longs longs by longs_longs;
+#< feature
+} liga;
+feature dlig {
+# Discretionary Ligatures
+
+#> feature
+  sub T h by T_h.dlig;
+  sub f b by f_b.dlig;
+  sub f h by f_h.dlig;
+  sub f j by f_j.dlig;
+  sub f k by f_k.dlig;
+  sub longs b by longs_b.dlig;
+  sub longs h by longs_h.dlig;
+  sub longs i by longs_i.dlig;
+  sub longs k by longs_k.dlig;
+  sub longs l by longs_l.dlig;
+  sub longs longs i by longs_longs_i.dlig;
+  sub longs longs l by longs_longs_l.dlig;
+#< feature
+} dlig;
+feature hist {
+# Historical Forms
+
+#> feature
+  sub s by longs;
+#< feature
+} hist;
+feature sinf {
+# Scientific Inferiors
+
+#> feature
+  sub eight by uni2088;
+  sub five by uni2085;
+  sub four by uni2084;
+  sub nine by uni2089;
+  sub one by uni2081;
+  sub seven by uni2087;
+  sub six by uni2086;
+  sub three by uni2083;
+  sub two by uni2082;
+  sub zero by uni2080;
+#< feature
+} sinf;
+feature subs {
+# Subscript
+
+#> feature
+  sub eight by uni2088;
+  sub five by uni2085;
+  sub four by uni2084;
+  sub nine by uni2089;
+  sub one by uni2081;
+  sub seven by uni2087;
+  sub six by uni2086;
+  sub three by uni2083;
+  sub two by uni2082;
+  sub zero by uni2080;
+#< feature
+} subs;
+feature sups {
+# Superscript
+
+#> feature
+  sub A by A.superior;
+  sub B by B.superior;
+  sub C by C.superior;
+  sub D by D.superior;
+  sub E by E.superior;
+  sub F by F.superior;
+  sub G by G.superior;
+  sub H by H.superior;
+  sub I by I.superior;
+  sub J by J.superior;
+  sub K by K.superior;
+  sub L by L.superior;
+  sub M by M.superior;
+  sub N by N.superior;
+  sub O by O.superior;
+  sub P by P.superior;
+  sub Q by Q.superior;
+  sub R by R.superior;
+  sub S by S.superior;
+  sub T by T.superior;
+  sub U by U.superior;
+  sub V by V.superior;
+  sub W by W.superior;
+  sub X by X.superior;
+  sub Y by Y.superior;
+  sub Z by Z.superior;
+  sub a by a.superior;
+  sub ampersand by ampersand.superior;
+  sub at by at.superior;
+  sub b by b.superior;
+  sub braceleft by braceleft.superior;
+  sub braceright by braceright.superior;
+  sub bracketleft by bracketleft.superior;
+  sub bracketright by bracketright.superior;
+  sub c by c.superior;
+  sub colon by colon.superior;
+  sub comma by comma.superior;
+  sub d by d.superior;
+  sub e by e.superior;
+  sub eacute by eacute.superior;
+  sub egrave by egrave.superior;
+  sub eight by uni2078;
+  sub equal by equal.superior;
+  sub exclam by exclam.superior;
+  sub exclamdown by exclamdown.superior;
+  sub f by f.superior;
+  sub five by uni2075;
+  sub four by uni2074;
+  sub g by g.superior;
+  sub greater by greater.superior;
+  sub h by h.superior;
+  sub hyphen by hyphen.superior;
+  sub i by i.superior;
+  sub j by j.superior;
+  sub k by k.superior;
+  sub l by l.superior;
+  sub less by less.superior;
+  sub m by m.superior;
+  sub minus by uni207B;
+  sub n by uni207F;
+  sub nine by uni2079;
+  sub ntilde by ntilde.superior;
+  sub o by o.superior;
+  sub one by uni00B9;
+  sub p by p.superior;
+  sub parenleft by parenleft.superior;
+  sub parenright by parenright.superior;
+  sub percent by percent.superior;
+  sub period by period.superior;
+  sub plus by uni207A;
+  sub q by q.superior;
+  sub question by question.superior;
+  sub questiondown by questiondown.superior;
+  sub r by r.superior;
+  sub s by s.superior;
+  sub semicolon by semicolon.superior;
+  sub seven by uni2077;
+  sub six by uni2076;
+  sub slash by slash.superior;
+  sub t by t.superior;
+  sub three by uni00B3;
+  sub two by uni00B2;
+  sub u by u.superior;
+  sub v by v.superior;
+  sub w by w.superior;
+  sub x by x.superior;
+  sub y by y.superior;
+  sub z by z.superior;
+  sub zero by uni2070;
+#< feature
+} sups;
+feature dnom {
+
+ script DFLT;
+     language dflt ;
+      lookup dnomDenominatorslookup5;
+
+ script cyrl;
+     language dflt ;
+      lookup dnomDenominatorslookup5;
+     language  MKD exclude_dflt;
+      lookup dnomDenominatorslookup5;
+     language  SRB exclude_dflt;
+      lookup dnomDenominatorslookup5;
+
+ script grek;
+     language dflt ;
+      lookup dnomDenominatorslookup5;
+
+ script latn;
+     language dflt ;
+      lookup dnomDenominatorslookup5;
+     language NLD  exclude_dflt;
+      lookup dnomDenominatorslookup5;
+     language  AZE exclude_dflt;
+      lookup dnomDenominatorslookup5;
+     language  CRT exclude_dflt;
+      lookup dnomDenominatorslookup5;
+     language  EWE exclude_dflt;
+      lookup dnomDenominatorslookup5;
+     language  TRK exclude_dflt;
+      lookup dnomDenominatorslookup5;
+     language  VIT exclude_dflt;
+      lookup dnomDenominatorslookup5;
+} dnom;
+feature numr {
+# Numerator
+
+#> feature
+  sub comma by comma.numr;
+  sub eight by eight.numr;
+  sub five by five.numr;
+  sub four by four.numr;
+  sub nine by nine.numr;
+  sub one by one.numr;
+  sub period by period.numr;
+  sub seven by seven.numr;
+  sub six by six.numr;
+  sub three by three.numr;
+  sub two by two.numr;
+  sub zero by zero.numr;
+#< feature
+} numr;
+feature lnum {
+# Lining Figures
+
+#> feature
+  sub eight.tosf by eight;
+  sub eight.osf by eight;
+  sub five.tosf by five;
+  sub five.osf by five;
+  sub four.tosf by four;
+  sub four.osf by four;
+  sub nine.tosf by nine;
+  sub nine.osf by nine;
+  sub one.tosf.alt by one;
+  sub one.osf by one;
+  sub one.osf.alt by one.lf;
+  sub seven.tosf by seven;
+  sub seven.osf by seven;
+  sub six.tosf by six;
+  sub six.osf by six;
+  sub three.tosf by three;
+  sub three.osf by three;
+  sub two.tosf by two;
+  sub two.osf by two;
+  sub zero.tosf by zero;
+  sub zero.osf by zero;
+#< feature
+} lnum;
+feature onum {
+# Oldstyle Figures
+
+#> feature
+  sub eight.lf by eight.tosf;
+  sub eight by eight.osf;
+  sub five.lf by five.tosf;
+  sub five by five.osf;
+  sub four.lf by four.tosf;
+  sub four by four.osf;
+  sub nine.lf by nine.tosf;
+  sub nine by nine.osf;
+  sub one.lf by one.tosf;
+  sub one by one.tosf.alt;
+  sub seven.lf by seven.tosf;
+  sub seven by seven.osf;
+  sub six.lf by six.tosf;
+  sub six by six.osf;
+  sub three.lf by three.tosf;
+  sub three by three.osf;
+  sub two.lf by two.tosf;
+  sub two by two.osf;
+  sub zero.lf by zero.tosf;
+  sub zero by zero.osf;
+#< feature
+} onum;
+feature pnum {
+# Proportional Figures
+
+#> feature
+  sub eight.tosf by eight.osf;
+  sub eight.lf by eight.osf;
+  sub five.tosf by five.osf;
+  sub five.lf by five.osf;
+  sub four.tosf by four.osf;
+  sub four.lf by four.osf;
+  sub nine.tosf by nine.osf;
+  sub nine.lf by nine.osf;
+  sub one.tosf.alt by one.osf;
+  sub one.osf.alt by one.osf;
+  sub seven.tosf by seven.osf;
+  sub seven.lf by seven.osf;
+  sub six.tosf by six.osf;
+  sub six.lf by six.osf;
+  sub three.tosf by three.osf;
+  sub three.lf by three.osf;
+  sub two.tosf by two.osf;
+  sub two.lf by two.osf;
+  sub zero.tosf by zero.osf;
+  sub zero.lf by zero.osf;
+#< feature
+} pnum;
+feature tnum {
+# Tabular Figures
+
+#> feature
+  sub eight.osf by eight.tosf;
+  sub five.osf by five.tosf;
+  sub four.osf by four.tosf;
+  sub nine.osf by nine.tosf;
+  sub one.osf by one.tosf;
+  sub one.osf.alt by one.tosf.alt;
+  sub seven.osf by seven.tosf;
+  sub six.osf by six.tosf;
+  sub three.osf by three.tosf;
+  sub two.osf by two.tosf;
+  sub zero.osf by zero.tosf;
+#< feature
+} tnum;
+feature frac {
+# Fractions
+
+#> feature
+
+# Arbitrary fractions (based on opentypecookbook.com)
+
+@frac_figs = [comma eight five four nine one period seven six three two zero];
+@frac_numr = [comma.numr eight.numr five.numr four.numr nine.numr one.numr period.numr seven.numr six.numr three.numr two.numr zero.numr];
+@frac_dnom = [comma.dnom eight.dnom five.dnom four.dnom nine.dnom one.dnom period.dnom seven.dnom six.dnom three.dnom two.dnom zero.dnom];
+
+lookup frac_bar {
+  ignore sub slash @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs @frac_figs slash';
+  ignore sub slash' @frac_figs @frac_figs slash;
+  ignore sub slash @frac_figs slash';
+  ignore sub slash' @frac_figs slash;
+  ignore sub slash slash';
+  ignore sub slash' slash;
+  sub @frac_figs slash' @frac_figs by fraction;
+} frac_bar;
+
+lookup frac_numr1 {
+  sub @frac_figs' fraction by @frac_numr;
+} frac_numr1;
+
+lookup frac_numr2 {
+  sub @frac_figs' @frac_numr fraction by @frac_numr;
+} frac_numr2;
+
+lookup frac_numr3 {
+  sub @frac_figs' @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr3;
+
+lookup frac_numr4 {
+  sub @frac_figs' @frac_numr @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr4;
+
+lookup frac_numr5 {
+  sub @frac_figs' @frac_numr @frac_numr @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr5;
+
+lookup frac_numr6 {
+  sub @frac_figs' @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr6;
+
+lookup frac_numr7 {
+  sub @frac_figs' @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr7;
+
+lookup frac_numr8 {
+  sub @frac_figs' @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr8;
+
+lookup frac_numr9 {
+  sub @frac_figs' @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr9;
+
+lookup frac_numr10 {
+  sub @frac_figs' @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr @frac_numr fraction by @frac_numr;
+} frac_numr10;
+
+lookup frac_dnom {
+  sub [fraction @frac_dnom] @frac_figs' by @frac_dnom;
+} frac_dnom;
+
+lookup frac_space {
+  sub @frac_figs space' @frac_numr by uni2009;
+} frac_space;
+#< feature
+} frac;
+feature ordn {
+# Ordinals
+
+#> feature
+  sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+  sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+  sub N o period by uni2116;
+#< feature
+} ordn;
+feature salt {
+# Stylistic Alternates
+
+#> feature
+  sub Euro from [Euro.alt];
+  sub ampersand from [ampersand.cv01];
+  sub f from [f.alt];
+  sub germandbls from [germandbls.ss02];
+  sub germandbls.sc from [germandbls.sc.ss02];
+  sub one.osf from [one.osf.alt];
+  sub one.tosf from [one.tosf.alt];
+  sub parenright from [parenright.cv01];
+  sub uni0306.cyr from [uni0306.cyr.cv01];
+  sub uni0413 from [uni0413.cv01];
+  sub uni1E9E from [uni1E9E.ss02];
+#< feature
+} salt;

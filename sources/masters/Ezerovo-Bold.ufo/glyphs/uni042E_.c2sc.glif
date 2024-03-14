@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni042E.c2sc" format="2">
+  <advance width="905"/>
+  <outline>
+    <contour>
+      <point x="36" y="0" type="line"/>
+      <point x="36" y="34" type="line"/>
+      <point x="106" y="39"/>
+      <point x="111" y="40"/>
+      <point x="111" y="91" type="curve" smooth="yes"/>
+      <point x="111" y="391" type="line" smooth="yes"/>
+      <point x="111" y="442"/>
+      <point x="106" y="442"/>
+      <point x="36" y="447" type="curve"/>
+      <point x="36" y="481" type="line"/>
+      <point x="327" y="481" type="line"/>
+      <point x="327" y="447" type="line"/>
+      <point x="257" y="442"/>
+      <point x="252" y="442"/>
+      <point x="252" y="391" type="curve" smooth="yes"/>
+      <point x="252" y="91" type="line" smooth="yes"/>
+      <point x="252" y="40"/>
+      <point x="257" y="39"/>
+      <point x="327" y="34" type="curve"/>
+      <point x="327" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="335" y="241" type="curve" smooth="yes"/>
+      <point x="335" y="406"/>
+      <point x="433" y="497"/>
+      <point x="607" y="497" type="curve" smooth="yes"/>
+      <point x="781" y="497"/>
+      <point x="880" y="406"/>
+      <point x="880" y="241" type="curve" smooth="yes"/>
+      <point x="880" y="75"/>
+      <point x="781" y="-16"/>
+      <point x="607" y="-16" type="curve" smooth="yes"/>
+      <point x="433" y="-16"/>
+      <point x="335" y="75"/>
+    </contour>
+    <contour>
+      <point x="491" y="241" type="curve" smooth="yes"/>
+      <point x="491" y="140"/>
+      <point x="513" y="25"/>
+      <point x="607" y="25" type="curve" smooth="yes"/>
+      <point x="701" y="25"/>
+      <point x="724" y="140"/>
+      <point x="724" y="241" type="curve" smooth="yes"/>
+      <point x="724" y="341"/>
+      <point x="701" y="456"/>
+      <point x="607" y="456" type="curve" smooth="yes"/>
+      <point x="513" y="456"/>
+      <point x="491" y="341"/>
+    </contour>
+    <contour>
+      <point x="227" y="226.5" type="line"/>
+      <point x="227" y="272.5" type="line"/>
+      <point x="359.5" y="272.5" type="line"/>
+      <point x="359.5" y="226.5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=I.c2sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=O.c2sc</string>
+  </dict>
+  </lib>
+</glyph>

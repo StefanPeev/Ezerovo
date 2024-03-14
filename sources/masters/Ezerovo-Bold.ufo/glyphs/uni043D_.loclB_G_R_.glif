@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni043D.loclBGR" format="2">
+  <advance width="617"/>
+  <outline>
+    <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="30" y="26" type="line"/>
+      <point x="88" y="28"/>
+      <point x="95" y="31"/>
+      <point x="95" y="65" type="curve" smooth="yes"/>
+      <point x="95" y="355" type="line" smooth="yes"/>
+      <point x="95" y="394"/>
+      <point x="87" y="408"/>
+      <point x="74" y="410" type="curve" smooth="yes"/>
+      <point x="41" y="415" type="line"/>
+      <point x="41" y="451" type="line"/>
+      <point x="230" y="465" type="line"/>
+      <point x="236" y="459" type="line"/>
+      <point x="236" y="262" type="line"/>
+      <point x="396" y="262" type="line"/>
+      <point x="396" y="355" type="line" smooth="yes"/>
+      <point x="396" y="393"/>
+      <point x="389" y="408"/>
+      <point x="375" y="410" type="curve" smooth="yes"/>
+      <point x="342" y="415" type="line"/>
+      <point x="342" y="451" type="line"/>
+      <point x="531" y="465" type="line"/>
+      <point x="537" y="459" type="line"/>
+      <point x="537" y="65" type="line" smooth="yes"/>
+      <point x="537" y="31"/>
+      <point x="545" y="28"/>
+      <point x="605" y="26" type="curve"/>
+      <point x="605" y="0" type="line"/>
+      <point x="333" y="0" type="line"/>
+      <point x="333" y="26" type="line"/>
+      <point x="392" y="28"/>
+      <point x="396" y="31"/>
+      <point x="396" y="65" type="curve" smooth="yes"/>
+      <point x="396" y="230" type="line"/>
+      <point x="236" y="230" type="line"/>
+      <point x="236" y="65" type="line" smooth="yes"/>
+      <point x="236" y="31"/>
+      <point x="243" y="28"/>
+      <point x="301" y="26" type="curve"/>
+      <point x="301" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=dotlessi</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=dotlessi</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>1c8f38a227d6f637cdde51bb9cc2ef27cdc9db25252fe33ea831600f110956e65c09e1379d03bb08e81b2a6f79b1a37462d0a069b252f08945888a251f7f3aa2</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 36</string>
+          <string>hstem 217 43</string>
+          <string>hstem 426 35</string>
+          <string>vstem 100 141</string>
+          <string>vstem 400 141</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

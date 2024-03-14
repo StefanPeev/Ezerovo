@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash" format="2">
+  <advance width="536"/>
+  <unicode hex="0141"/>
+  <outline>
+    <component base="L"/>
+    <contour>
+      <point x="83" y="209" type="line"/>
+      <point x="97" y="258" type="line"/>
+      <point x="435" y="466" type="line"/>
+      <point x="426" y="418" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w536m83,209l97,258l435,466l426,418</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 33</string>
+          <string>hstem 446 20</string>
+          <string>hstem 623 27</string>
+          <string>vstem 544 28</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

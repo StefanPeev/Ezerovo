@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>cent.osf</key>
+  <string>cent.osf.glif</string>
+  <key>h</key>
+  <string>h.glif</string>
+  <key>l</key>
+  <string>l.glif</string>
+  <key>n</key>
+  <string>n.glif</string>
+  <key>r</key>
+  <string>r.glif</string>
+  <key>uni02AE</key>
+  <string>uni02A_E_.glif</string>
+  <key>uni02AF</key>
+  <string>uni02A_F_.glif</string>
+  <key>uni02B0</key>
+  <string>uni02B_0.glif</string>
+  <key>uni26AD</key>
+  <string>uni26A_D_.glif</string>
+</dict>
+</plist>

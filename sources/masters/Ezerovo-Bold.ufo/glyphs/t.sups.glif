@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t.sups" format="2">
+  <advance width="285"/>
+  <outline>
+    <contour>
+      <point x="33" y="617" type="line"/>
+      <point x="33" y="652" type="line"/>
+      <point x="84" y="652" type="line"/>
+      <point x="143" y="727" type="line"/>
+      <point x="181" y="727" type="line"/>
+      <point x="181" y="652" type="line"/>
+      <point x="255" y="652" type="line"/>
+      <point x="255" y="617" type="line"/>
+      <point x="181" y="617" type="line"/>
+      <point x="181" y="450" type="line" smooth="yes"/>
+      <point x="181" y="413"/>
+      <point x="200" y="396"/>
+      <point x="232.018" y="396" type="curve" smooth="yes"/>
+      <point x="243" y="396"/>
+      <point x="257" y="398"/>
+      <point x="267" y="402" type="curve"/>
+      <point x="274" y="382" type="line"/>
+      <point x="235" y="358"/>
+      <point x="193" y="346"/>
+      <point x="165" y="346" type="curve" smooth="yes"/>
+      <point x="126" y="346"/>
+      <point x="80" y="368"/>
+      <point x="80" y="423" type="curve" smooth="yes"/>
+      <point x="80" y="617" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>f4dea6b139001b7c3fef8abd7756fe78b0f6f43f86fc3111cc1c2e6ac9b5262e2ddd5bdfe4c1e392a69a09ef8525980dd8e983082fd65147d544fab997b20694</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 346 50</string>
+          <string>hstem 617 35</string>
+          <string>vstem 80 101</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

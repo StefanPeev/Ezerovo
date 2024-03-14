@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W" format="2">
+  <advance width="889"/>
+  <unicode hex="0057"/>
+  <anchor x="607" y="697" name="top"/>
+  <anchor x="445" y="-40" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="224" y="0" type="line"/>
+      <point x="182" y="579" type="line" smooth="yes"/>
+      <point x="180" y="607"/>
+      <point x="176" y="617"/>
+      <point x="155" y="619" type="curve" smooth="yes"/>
+      <point x="114" y="623" type="line"/>
+      <point x="119" y="650" type="line"/>
+      <point x="357" y="650" type="line"/>
+      <point x="351" y="623" type="line"/>
+      <point x="290" y="618" type="line" smooth="yes"/>
+      <point x="277" y="617"/>
+      <point x="270" y="612"/>
+      <point x="270" y="602" type="curve" smooth="yes"/>
+      <point x="270" y="597"/>
+      <point x="270" y="591"/>
+      <point x="271" y="572" type="curve" smooth="yes"/>
+      <point x="301" y="115" type="line"/>
+      <point x="306" y="115" type="line"/>
+      <point x="560" y="634" type="line"/>
+      <point x="626" y="634" type="line"/>
+      <point x="674" y="115" type="line"/>
+      <point x="678" y="115" type="line"/>
+      <point x="898" y="585" type="line" smooth="yes"/>
+      <point x="902" y="593"/>
+      <point x="903" y="599"/>
+      <point x="903" y="604" type="curve" smooth="yes"/>
+      <point x="903" y="612"/>
+      <point x="898" y="616"/>
+      <point x="889" y="617" type="curve" smooth="yes"/>
+      <point x="828" y="623" type="line"/>
+      <point x="833" y="650" type="line"/>
+      <point x="1043" y="650" type="line"/>
+      <point x="1039" y="623" type="line"/>
+      <point x="981" y="617"/>
+      <point x="971" y="614"/>
+      <point x="948" y="567" type="curve" smooth="yes"/>
+      <point x="666" y="0" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="552" y="518" type="line"/>
+      <point x="547" y="518" type="line"/>
+      <point x="290" y="0" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="273.75" x="270" y="588"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>c056ca1f1c9340eb49289caa4464818b4afe4d4334459f70b0c351a7aa62acddadb60ab4bdb495a2d1d5cc1d2c9165459cbc008bcb751074d2f6687f4ff5e133</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 614 20</string>
+          <string>hstem 623 27</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

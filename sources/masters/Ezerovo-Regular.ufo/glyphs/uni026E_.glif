@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni026E" format="2">
+  <advance width="574"/>
+  <unicode hex="026E"/>
+  <outline>
+    <component base="l"/>
+    <component base="uni0292" xOffset="91"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0292</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w574</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -227 33</string>
+          <string>hstem 0 27</string>
+          <string>hstem 119 45</string>
+          <string>hstem 389 72</string>
+          <string>hstem 650 24</string>
+          <string>hstem 677 20</string>
+          <string>vstem 89 89</string>
+          <string>vstem 143 92</string>
+          <string>vstem 437 98</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

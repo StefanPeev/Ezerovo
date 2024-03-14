@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b.sups" format="2">
+  <advance width="437"/>
+  <outline>
+    <contour>
+      <point x="23" y="761" type="line"/>
+      <point x="23" y="786" type="line"/>
+      <point x="166" y="802" type="line"/>
+      <point x="171" y="798" type="line"/>
+      <point x="171" y="613" type="line"/>
+      <point x="203" y="638"/>
+      <point x="236" y="660"/>
+      <point x="280.28" y="660" type="curve" smooth="yes"/>
+      <point x="345" y="660"/>
+      <point x="405" y="613"/>
+      <point x="405" y="514" type="curve" smooth="yes"/>
+      <point x="405" y="377"/>
+      <point x="324" y="347"/>
+      <point x="235.244" y="347" type="curve" smooth="yes"/>
+      <point x="184" y="347"/>
+      <point x="151" y="357"/>
+      <point x="127" y="370" type="curve"/>
+      <point x="91" y="347" type="line"/>
+      <point x="71" y="359" type="line"/>
+      <point x="71" y="727" type="line" smooth="yes"/>
+      <point x="71" y="751"/>
+      <point x="63.0725" y="756.548"/>
+      <point x="50" y="758" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="171" y="449" type="line" smooth="yes"/>
+      <point x="171" y="408.284"/>
+      <point x="176.359" y="378"/>
+      <point x="222.615" y="378" type="curve" smooth="yes"/>
+      <point x="279" y="378"/>
+      <point x="298" y="423"/>
+      <point x="298" y="494.534" type="curve" smooth="yes"/>
+      <point x="298" y="593"/>
+      <point x="262" y="608"/>
+      <point x="229" y="608" type="curve" smooth="yes"/>
+      <point x="182.309" y="608"/>
+      <point x="171" y="579.732"/>
+      <point x="171" y="541" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>75e133c3943840a08c3b848374b9b9dc6a11539d8079b512fd5822fe0fd008ac5caae922d16479e32fc4c5e15973678d7550c9e67d85ff4003314cb7b5e9113d</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 347 31</string>
+          <string>hstem 608 52</string>
+          <string>hstem 761 25</string>
+          <string>vstem 71 100</string>
+          <string>vstem 298 107</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

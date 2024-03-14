@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02BF" format="2">
+  <advance width="262"/>
+  <unicode hex="02BF"/>
+  <outline>
+    <contour>
+      <point x="202" y="458" type="line"/>
+      <point x="108" y="458"/>
+      <point x="60" y="519"/>
+      <point x="60" y="585" type="curve" smooth="yes"/>
+      <point x="60" y="651"/>
+      <point x="108" y="712"/>
+      <point x="202" y="712" type="curve"/>
+      <point x="202" y="679" type="line"/>
+      <point x="140" y="679"/>
+      <point x="97" y="643"/>
+      <point x="97" y="585" type="curve" smooth="yes"/>
+      <point x="97" y="527"/>
+      <point x="140" y="491"/>
+      <point x="202" y="491" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w262m202,458c108,458 60,519 60,585c60,651 108,712 202,712l202,679c140,679 97,643 97,585c97,527 140,491 202,491</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 458 33</string>
+          <string>hstem 679 33</string>
+          <string>vstem 60 37</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

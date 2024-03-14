@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown.sups" format="2">
+  <advance width="188"/>
+  <outline>
+    <component base="exclam.sups" yScale="-1" xOffset="-10" yOffset="1010"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

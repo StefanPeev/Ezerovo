@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni045F" format="2">
+  <advance width="580"/>
+  <unicode hex="045F"/>
+  <outline>
+    <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="30" y="27" type="line"/>
+      <point x="98" y="32"/>
+      <point x="101" y="34"/>
+      <point x="101" y="82" type="curve" smooth="yes"/>
+      <point x="101" y="379" type="line" smooth="yes"/>
+      <point x="101" y="427"/>
+      <point x="98" y="428"/>
+      <point x="30" y="433" type="curve"/>
+      <point x="30" y="461" type="line"/>
+      <point x="259" y="461" type="line"/>
+      <point x="259" y="433" type="line"/>
+      <point x="191" y="428"/>
+      <point x="189" y="427"/>
+      <point x="189" y="379" type="curve" smooth="yes"/>
+      <point x="189" y="85" type="line" smooth="yes"/>
+      <point x="189" y="37"/>
+      <point x="189" y="36"/>
+      <point x="259" y="33" type="curve"/>
+      <point x="321" y="33" type="line"/>
+      <point x="391" y="36"/>
+      <point x="392" y="37"/>
+      <point x="392" y="85" type="curve" smooth="yes"/>
+      <point x="392" y="379" type="line" smooth="yes"/>
+      <point x="392" y="427"/>
+      <point x="389" y="428"/>
+      <point x="321" y="433" type="curve"/>
+      <point x="321" y="461" type="line"/>
+      <point x="551" y="461" type="line"/>
+      <point x="551" y="433" type="line"/>
+      <point x="483" y="428"/>
+      <point x="480" y="427"/>
+      <point x="480" y="379" type="curve" smooth="yes"/>
+      <point x="480" y="85" type="line" smooth="yes"/>
+      <point x="480" y="37"/>
+      <point x="481" y="36"/>
+      <point x="551" y="33" type="curve"/>
+      <point x="551" y="0" type="line"/>
+      <point x="450" y="0" type="line" smooth="yes"/>
+      <point x="332" y="0"/>
+      <point x="315" y="-9"/>
+      <point x="306" y="-158" type="curve"/>
+      <point x="275" y="-158" type="line"/>
+      <point x="266" y="-9"/>
+      <point x="249" y="0"/>
+      <point x="131" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>3f2b660e1b4cef3300e75aa817917189dfe0f68fe76fed4388b7564779120649202081a8dc09dc3cbd1b5adc908bce00ed62d60822e418de470568f98a227ec4</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 33</string>
+          <string>hstem 433 28</string>
+          <string>vstem 101 88</string>
+          <string>vstem 275 31</string>
+          <string>vstem 392 88</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

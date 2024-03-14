@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0327" format="2">
+  <unicode hex="0327"/>
+  <anchor x="-113" y="10" name="_b.cedilla"/>
+  <outline>
+    <component base="cedilla" xOffset="-375"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -213 24</string>
+          <string>hstem -20 20</string>
+          <string>vstem -140 73</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

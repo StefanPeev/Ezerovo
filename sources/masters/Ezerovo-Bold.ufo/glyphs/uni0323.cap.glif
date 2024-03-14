@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0323.cap" format="2">
+  <advance width="10"/>
+  <outline>
+    <contour>
+      <point x="-270" y="-153" type="line"/>
+      <point x="-270" y="-117"/>
+      <point x="-245" y="-83"/>
+      <point x="-197" y="-83" type="curve" smooth="yes"/>
+      <point x="-149" y="-83"/>
+      <point x="-122" y="-117"/>
+      <point x="-122" y="-153" type="curve" smooth="yes"/>
+      <point x="-122" y="-189"/>
+      <point x="-149" y="-224"/>
+      <point x="-197" y="-224" type="curve" smooth="yes"/>
+      <point x="-245" y="-224"/>
+      <point x="-270" y="-189"/>
+      <point x="-270" y="-153" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>a7b93ba93e8fe1063ff05fe78dcecf1599da03b8dcd849405344908e3e6f280775403e330f43ab4e20c5fcae19f74ae033733e814ef1f03719c735d3e3d997a7</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -224 141</string>
+          <string>vstem -270 148</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

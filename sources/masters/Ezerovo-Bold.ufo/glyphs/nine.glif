@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine" format="2">
+  <advance width="536"/>
+  <unicode hex="0039"/>
+  <outline>
+    <component base="nine.tf" xOffset="-1"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w536</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 45</string>
+          <string>hstem 240 71</string>
+          <string>hstem 596 43</string>
+          <string>vstem 37 145</string>
+          <string>vstem 52 113</string>
+          <string>vstem 353 144</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.numr" format="2">
+  <advance width="377"/>
+  <outline>
+    <component base="two.dnom" xOffset="55" yOffset="255"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w377</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 249 36</string>
+          <string>hstem 430 56</string>
+          <string>hstem 440 33</string>
+          <string>hstem 603 36</string>
+          <string>vstem 88 92</string>
+          <string>vstem 289 120</string>
+          <string>vstem 315 114</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

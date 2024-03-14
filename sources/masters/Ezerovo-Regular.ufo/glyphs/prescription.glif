@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="prescription" format="2">
+  <advance width="605"/>
+  <unicode hex="211E"/>
+  <outline>
+    <component base="R"/>
+    <contour>
+      <point x="338" y="-17" type="line"/>
+      <point x="580" y="225" type="line"/>
+      <point x="615" y="190" type="line"/>
+      <point x="373" y="-52" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w605m338,-17l580,225l615,190l373,-52</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 306 33</string>
+          <string>hstem 618 32</string>
+          <string>vstem 118 93</string>
+          <string>vstem 428 100</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

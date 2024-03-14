@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni03040301" format="2">
+  <anchor x="-23" y="561" name="_top"/>
+  <outline>
+    <component base="acute" xOffset="-335.639" yOffset="141"/>
+    <contour>
+      <point x="-162" y="561" type="line"/>
+      <point x="-145" y="617" type="line"/>
+      <point x="117" y="617" type="line"/>
+      <point x="100" y="561" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-162,561l-145,617l117,617l100,561</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 561 56</string>
+          <string>vstem -162 279</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

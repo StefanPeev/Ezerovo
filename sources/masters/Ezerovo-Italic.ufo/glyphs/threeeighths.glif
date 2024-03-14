@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threeeighths" format="2">
+  <advance width="836"/>
+  <unicode hex="215C"/>
+  <outline>
+    <component base="uni2083" xOffset="84" yOffset="366"/>
+    <component base="uni2078" xOffset="420" yOffset="-355"/>
+    <contour>
+      <point x="210" y="6" type="line"/>
+      <point x="713" y="656" type="line"/>
+      <point x="745" y="631" type="line"/>
+      <point x="241" y="-23" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w836m210,6l713,656l745,631l241,-23</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -7 27</string>
+          <string>hstem 181 31</string>
+          <string>hstem 249 26</string>
+          <string>hstem 357 27</string>
+          <string>hstem 435 43</string>
+          <string>hstem 442 29</string>
+          <string>hstem 613 26</string>
+          <string>hstem 636 20</string>
+          <string>vstem 88 62</string>
+          <string>vstem 295 78</string>
+          <string>vstem 325 74</string>
+          <string>vstem 524 72</string>
+          <string>vstem 573 69</string>
+          <string>vstem 732 73</string>
+          <string>vstem 757 68</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

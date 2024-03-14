@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight" format="2">
+  <advance width="536"/>
+  <unicode hex="0038"/>
+  <outline>
+    <component base="eight.tf"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w536</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 43</string>
+          <string>hstem 312 45</string>
+          <string>hstem 596 43</string>
+          <string>vstem 31 149</string>
+          <string>vstem 54 140</string>
+          <string>vstem 344 139</string>
+          <string>vstem 357 149</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

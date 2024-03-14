@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04B1" format="2">
+  <advance width="475"/>
+  <unicode hex="04B1"/>
+  <outline>
+    <component base="uni04AF"/>
+    <contour>
+      <point x="80" y="-19" type="line"/>
+      <point x="80" y="-56" type="line"/>
+      <point x="396" y="-56" type="line"/>
+      <point x="396" y="-19" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w475m80,-19l80,-56l396,-56l396,-19</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -221 27</string>
+          <string>hstem -56 37</string>
+          <string>hstem 433 28</string>
+          <string>vstem 194 88</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

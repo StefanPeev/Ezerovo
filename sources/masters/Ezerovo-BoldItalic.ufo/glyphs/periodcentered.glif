@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered" format="2">
+  <advance width="263"/>
+  <unicode hex="00B7"/>
+  <outline>
+    <contour>
+      <point x="96" y="226" type="curve" smooth="yes"/>
+      <point x="96" y="283"/>
+      <point x="136" y="319"/>
+      <point x="186" y="319" type="curve" smooth="yes"/>
+      <point x="241" y="319"/>
+      <point x="265" y="284"/>
+      <point x="265" y="245" type="curve" smooth="yes"/>
+      <point x="265" y="188"/>
+      <point x="226" y="151"/>
+      <point x="178" y="151" type="curve" smooth="yes"/>
+      <point x="122" y="151"/>
+      <point x="96" y="186"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w263m96,226c96,283 136,319 186,319c241,319 265,284 265,245c265,188 226,151 178,151c122,151 96,186 96,226</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 151 168</string>
+          <string>vstem 96 169</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

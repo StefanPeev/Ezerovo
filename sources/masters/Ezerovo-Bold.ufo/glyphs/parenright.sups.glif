@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright.sups" format="2">
+  <advance width="308"/>
+  <outline>
+    <contour>
+      <point x="35" y="256" type="line"/>
+      <point x="141" y="280"/>
+      <point x="167" y="444"/>
+      <point x="167" y="533" type="curve" smooth="yes"/>
+      <point x="167" y="622"/>
+      <point x="141" y="786"/>
+      <point x="35" y="810" type="curve"/>
+      <point x="39" y="838" type="line"/>
+      <point x="221" y="838"/>
+      <point x="249" y="648"/>
+      <point x="249" y="532" type="curve" smooth="yes"/>
+      <point x="249" y="416"/>
+      <point x="221" y="227"/>
+      <point x="39" y="227" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w308m35,256c141,280 167,444 167,533c167,622 141,786 35,810l39,838c221,838 249,648 249,532c249,416 221,227 39,227</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 227 29</string>
+          <string>hstem 810 28</string>
+          <string>vstem 167 82</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.numr" format="2">
+  <advance width="315"/>
+  <outline>
+    <contour>
+      <point x="-10" y="542" type="line"/>
+      <point x="13" y="633" type="line"/>
+      <point x="276" y="633" type="line"/>
+      <point x="285" y="624" type="line"/>
+      <point x="258" y="552"/>
+      <point x="223" y="503"/>
+      <point x="184" y="450" type="curve" smooth="yes"/>
+      <point x="154" y="410"/>
+      <point x="144" y="342"/>
+      <point x="144" y="274" type="curve" smooth="yes"/>
+      <point x="144" y="258"/>
+      <point x="126" y="249"/>
+      <point x="108" y="249" type="curve" smooth="yes"/>
+      <point x="88" y="249"/>
+      <point x="69" y="256"/>
+      <point x="69" y="275" type="curve" smooth="yes"/>
+      <point x="69" y="341"/>
+      <point x="103" y="401"/>
+      <point x="157" y="471" type="curve" smooth="yes"/>
+      <point x="206" y="534"/>
+      <point x="215" y="557"/>
+      <point x="222" y="578" type="curve"/>
+      <point x="63" y="578" type="line" smooth="yes"/>
+      <point x="35" y="578"/>
+      <point x="28" y="569"/>
+      <point x="20" y="553" type="curve"/>
+      <point x="13" y="542" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>90748f4dda1f135f496edbdae0760b1fc5946b19aa75cc415c6c25dc552ab0a823d0b55718fca3ed9898c87d494c50245796c8856ff832c23fd85a1565f4c7d0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 578 55</string>
+          <string>vstem 69 75</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

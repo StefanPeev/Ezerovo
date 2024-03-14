@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0244" format="2">
+  <advance width="753"/>
+  <unicode hex="0244"/>
+  <outline>
+    <component base="U" xOffset="13"/>
+    <contour>
+      <point x="102" y="321" type="line"/>
+      <point x="112" y="366" type="line"/>
+      <point x="805" y="366" type="line"/>
+      <point x="794" y="321" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w753m102,321l112,366l805,366l794,321</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -14 43</string>
+          <string>hstem 321 45</string>
+          <string>hstem 615 35</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

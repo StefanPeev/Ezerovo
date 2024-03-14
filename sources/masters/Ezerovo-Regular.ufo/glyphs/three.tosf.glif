@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three.tosf" format="2">
+  <advance width="498"/>
+  <outline>
+    <component base="three.osf" xOffset="14"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w498</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -150 32</string>
+          <string>hstem 171 53</string>
+          <string>hstem 180 34</string>
+          <string>hstem 454 33</string>
+          <string>vstem 40 78</string>
+          <string>vstem 65 69</string>
+          <string>vstem 335 96</string>
+          <string>vstem 360 99</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

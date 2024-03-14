@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF6CE" format="2">
+  <advance width="376"/>
+  <unicode hex="F6CE"/>
+  <outline>
+    <contour>
+      <point x="163" y="790" type="curve" smooth="yes"/>
+      <point x="163" y="809"/>
+      <point x="183" y="850"/>
+      <point x="213" y="850" type="curve" smooth="yes"/>
+      <point x="230" y="850"/>
+      <point x="245" y="844"/>
+      <point x="274" y="822" type="curve" smooth="yes"/>
+      <point x="435" y="706" type="line"/>
+      <point x="422" y="676" type="line"/>
+      <point x="231" y="736" type="line" smooth="yes"/>
+      <point x="181" y="752"/>
+      <point x="163" y="763"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w376m163,790c163,809 183,850 213,850c230,850 245,844 274,822l435,706l422,676l231,736c181,752 163,763 163,790</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 736 114</string>
+          <string>vstem 163 272</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

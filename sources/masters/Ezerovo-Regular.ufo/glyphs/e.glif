@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e" format="2">
+  <advance width="483"/>
+  <unicode hex="0065"/>
+  <anchor x="261" y="509" name="top"/>
+  <anchor x="317" y="0" name="b.ogonek"/>
+  <anchor x="277" y="-40" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="46" y="228" type="curve" smooth="yes"/>
+      <point x="46" y="370"/>
+      <point x="115" y="472"/>
+      <point x="264" y="472" type="curve" smooth="yes"/>
+      <point x="434" y="472"/>
+      <point x="452" y="338"/>
+      <point x="452" y="283" type="curve" smooth="yes"/>
+      <point x="452" y="252"/>
+      <point x="435" y="247"/>
+      <point x="415" y="247" type="curve" smooth="yes"/>
+      <point x="144" y="247" type="line"/>
+      <point x="144" y="149"/>
+      <point x="165" y="37"/>
+      <point x="282" y="37" type="curve" smooth="yes"/>
+      <point x="356" y="37"/>
+      <point x="392" y="81"/>
+      <point x="418" y="136" type="curve"/>
+      <point x="446" y="121" type="line"/>
+      <point x="421" y="47"/>
+      <point x="367" y="-11"/>
+      <point x="257" y="-11" type="curve" smooth="yes"/>
+      <point x="110" y="-11"/>
+      <point x="46" y="91"/>
+    </contour>
+    <contour>
+      <point x="145" y="283" type="curve"/>
+      <point x="322" y="283" type="line" smooth="yes"/>
+      <point x="348" y="283"/>
+      <point x="354" y="295"/>
+      <point x="354" y="319" type="curve" smooth="yes"/>
+      <point x="354" y="350"/>
+      <point x="344" y="439"/>
+      <point x="257" y="439" type="curve" smooth="yes"/>
+      <point x="159" y="439"/>
+      <point x="145" y="322"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>71a125739257c276ad68cf1720ac67de8173b9655bb3c5597da16bbb26f8bc3883204641fcc9819868fb1ba47c457eb604de2cb98f92a5e463f37e4be9a205f7</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 48</string>
+          <string>hstem 247 36</string>
+          <string>hstem 439 33</string>
+          <string>vstem 46 98</string>
+          <string>vstem 354 98</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

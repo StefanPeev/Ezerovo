@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEFED" format="2">
+  <advance width="376"/>
+  <unicode hex="EFED"/>
+  <outline>
+    <contour>
+      <point x="310" y="740" type="curve" smooth="yes"/>
+      <point x="310" y="774"/>
+      <point x="335" y="797"/>
+      <point x="366" y="797" type="curve" smooth="yes"/>
+      <point x="394" y="797"/>
+      <point x="411" y="775"/>
+      <point x="411" y="751" type="curve" smooth="yes"/>
+      <point x="411" y="719"/>
+      <point x="389" y="694"/>
+      <point x="356" y="694" type="curve" smooth="yes"/>
+      <point x="326" y="694"/>
+      <point x="310" y="713"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w376m310,740c310,774 335,797 366,797c394,797 411,775 411,751c411,719 389,694 356,694c326,694 310,713 310,740</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 694 103</string>
+          <string>vstem 310 101</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eogonek.c2sc" format="2">
+  <advance width="499"/>
+  <outline>
+    <component base="E.c2sc"/>
+    <contour>
+      <point x="383" y="6" type="line"/>
+      <point x="320" y="-17"/>
+      <point x="264" y="-55"/>
+      <point x="264" y="-101" type="curve" smooth="yes"/>
+      <point x="264" y="-123"/>
+      <point x="276" y="-161"/>
+      <point x="353" y="-161" type="curve" smooth="yes"/>
+      <point x="388" y="-161"/>
+      <point x="417" y="-153"/>
+      <point x="448" y="-126" type="curve"/>
+      <point x="435" y="-106" type="line"/>
+      <point x="425" y="-112"/>
+      <point x="409" y="-114"/>
+      <point x="397" y="-114" type="curve" smooth="yes"/>
+      <point x="371" y="-114"/>
+      <point x="353" y="-102"/>
+      <point x="353" y="-78" type="curve" smooth="yes"/>
+      <point x="353" y="-50"/>
+      <point x="379" y="-19"/>
+      <point x="435" y="10" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>a79e74deb607693ea2e4a7db317b56d41ae065c3756ec5798957baafacfe35d143228517eb29348713fa55d6591d48c405ec53eaff5fd61620868a8ebf86dbf9</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -161 47</string>
+          <string>hstem -1 40</string>
+          <string>hstem 218 46</string>
+          <string>hstem 421 40</string>
+          <string>hstem 428 33</string>
+          <string>vstem 79 141</string>
+          <string>vstem 264 89</string>
+          <string>vstem 365 34</string>
+          <string>vstem 424 35</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

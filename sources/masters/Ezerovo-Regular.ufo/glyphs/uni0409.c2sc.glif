@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0409.c2sc" format="2">
+  <advance width="848"/>
+  <outline>
+    <contour>
+      <point x="15" y="78" type="curve" smooth="yes"/>
+      <point x="15" y="115"/>
+      <point x="35" y="142"/>
+      <point x="62" y="142" type="curve" smooth="yes"/>
+      <point x="84" y="142"/>
+      <point x="104" y="130"/>
+      <point x="104" y="106" type="curve" smooth="yes"/>
+      <point x="104" y="75"/>
+      <point x="88" y="69"/>
+      <point x="88" y="45" type="curve" smooth="yes"/>
+      <point x="88" y="28"/>
+      <point x="107" y="22"/>
+      <point x="123" y="22" type="curve" smooth="yes"/>
+      <point x="187" y="22"/>
+      <point x="213" y="156"/>
+      <point x="213" y="399" type="curve" smooth="yes"/>
+      <point x="213" y="449"/>
+      <point x="208" y="449"/>
+      <point x="138" y="454" type="curve"/>
+      <point x="138" y="481" type="line"/>
+      <point x="608" y="481" type="line"/>
+      <point x="608" y="454" type="line"/>
+      <point x="528" y="449"/>
+      <point x="519" y="445"/>
+      <point x="519" y="398" type="curve" smooth="yes"/>
+      <point x="519" y="0" type="line"/>
+      <point x="354" y="0" type="line"/>
+      <point x="354" y="27" type="line"/>
+      <point x="424" y="32"/>
+      <point x="430" y="33"/>
+      <point x="430" y="84" type="curve" smooth="yes"/>
+      <point x="430" y="395" type="line" smooth="yes"/>
+      <point x="430" y="442.875"/>
+      <point x="424" y="448"/>
+      <point x="354" y="448" type="curve" smooth="yes"/>
+      <point x="328" y="448" type="line" smooth="yes"/>
+      <point x="258" y="448"/>
+      <point x="252" y="446"/>
+      <point x="252" y="397" type="curve" smooth="yes"/>
+      <point x="252" y="160"/>
+      <point x="233" y="-11"/>
+      <point x="122" y="-11" type="curve" smooth="yes"/>
+      <point x="59" y="-11"/>
+      <point x="15" y="23"/>
+    </contour>
+    <contour>
+      <point x="486.894" y="0" type="line"/>
+      <point x="486.894" y="111.322" type="line"/>
+      <point x="519.415" y="110.708" type="line"/>
+      <point x="519.415" y="53"/>
+      <point x="539.345" y="33"/>
+      <point x="579.265" y="33" type="curve" smooth="yes"/>
+      <point x="643.573" y="33"/>
+      <point x="710.573" y="53"/>
+      <point x="710.573" y="131.388" type="curve" smooth="yes"/>
+      <point x="710.573" y="208"/>
+      <point x="646.573" y="243"/>
+      <point x="577.728" y="243" type="curve" smooth="yes"/>
+      <point x="552.56" y="243"/>
+      <point x="527.634" y="238.322"/>
+      <point x="504.594" y="227.019" type="curve"/>
+      <point x="502.784" y="262.024" type="line"/>
+      <point x="539.345" y="271.878"/>
+      <point x="570.52" y="276"/>
+      <point x="604.918" y="276" type="curve" smooth="yes"/>
+      <point x="718.573" y="276"/>
+      <point x="808.573" y="231"/>
+      <point x="808.573" y="132.085" type="curve" smooth="yes"/>
+      <point x="808.573" y="40"/>
+      <point x="730.573" y="0"/>
+      <point x="608.573" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni043B</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni044C</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>79b44853f4d389d315f0ea20a6142e074756c830131287c23fccd652174cfe7e5579beaf0b7d95378d02c148b2b700b15a14e934d1f89fc6e7d3107c8a4ea171</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 33</string>
+          <string>hstem 0 33</string>
+          <string>hstem 243 33</string>
+          <string>hstem 448 33</string>
+          <string>vstem 15 73</string>
+          <string>vstem 213 39</string>
+          <string>vstem 430 89</string>
+          <string>vstem 711 97</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

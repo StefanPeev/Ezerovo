@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="2">
+  <advance width="104"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="-140" y="4" type="line"/>
+      <point x="196" y="653" type="line"/>
+      <point x="246" y="627" type="line"/>
+      <point x="-91" y="-26" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w104m-140,4l196,653l246,627l-91,-26</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 633 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

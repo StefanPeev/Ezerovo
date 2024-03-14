@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0311.cap" format="2">
+  <anchor x="-197" y="701" name="_top"/>
+  <outline>
+    <component base="uni0311" xOffset="6" yOffset="178"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 722 -21</string>
+          <string>hstem 766 75</string>
+          <string>vstem -352 38</string>
+          <string>vstem -81 40</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

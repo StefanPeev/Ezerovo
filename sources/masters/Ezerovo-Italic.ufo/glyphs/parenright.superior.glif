@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright.superior" format="2">
+  <advance width="302"/>
+  <outline>
+    <contour>
+      <point x="-9" y="254" type="line"/>
+      <point x="138.855" y="275.979"/>
+      <point x="214" y="509.079"/>
+      <point x="214" y="643" type="curve" smooth="yes"/>
+      <point x="214" y="750"/>
+      <point x="167" y="799"/>
+      <point x="134" y="806" type="curve"/>
+      <point x="139" y="829" type="line"/>
+      <point x="226" y="824"/>
+      <point x="275" y="745"/>
+      <point x="275" y="633" type="curve" smooth="yes"/>
+      <point x="275" y="472.982"/>
+      <point x="175.176" y="233"/>
+      <point x="-12" y="233" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>7f4de9f0d57868e9985306b4ba3f97b4a5a90577fd9b4f4011888d99acd9a20f6554d16023d4dcea1ae205c38987b280361888d3995e0868ba4e2232de9c94b7</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 233 21</string>
+          <string>hstem 806 23</string>
+          <string>vstem 214 61</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

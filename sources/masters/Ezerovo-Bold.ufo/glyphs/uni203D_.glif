@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni203D" format="2">
+  <advance width="588"/>
+  <unicode hex="203D"/>
+  <outline>
+    <component base="question" xOffset="150"/>
+    <contour>
+      <point x="7" y="417" type="line" smooth="yes"/>
+      <point x="-1.10306" y="430.802"/>
+      <point x="-4.41449" y="443.233"/>
+      <point x="-4.29079" y="453.099" type="curve" smooth="yes"/>
+      <point x="-3.82769" y="490.035"/>
+      <point x="46.4187" y="515.127"/>
+      <point x="95.1991" y="515.127" type="curve" smooth="yes"/>
+      <point x="117.415" y="515.127"/>
+      <point x="126.686" y="500.291"/>
+      <point x="134.479" y="473.75" type="curve" smooth="yes"/>
+      <point x="236" y="128" type="line"/>
+      <point x="187.734" y="109.152" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsRight</key>
+  <string>=question</string>
+  </dict>
+  </lib>
+</glyph>

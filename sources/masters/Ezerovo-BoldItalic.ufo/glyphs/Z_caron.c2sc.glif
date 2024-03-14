@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zcaron.c2sc" format="2">
+  <advance width="554"/>
+  <anchor x="285" y="-40" name="bottom"/>
+  <outline>
+    <component base="Z.c2sc"/>
+    <component base="uni030C" xOffset="509" yOffset="42"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Z.c2sc+uni030C</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

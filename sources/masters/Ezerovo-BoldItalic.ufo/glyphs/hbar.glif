@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbar" format="2">
+  <advance width="591"/>
+  <unicode hex="0127"/>
+  <outline>
+    <component base="h"/>
+    <contour>
+      <point x="130" y="526" type="line"/>
+      <point x="140" y="569" type="line"/>
+      <point x="527" y="569" type="line"/>
+      <point x="517" y="526" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w591m130,526l140,569l527,569l517,526</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 75</string>
+          <string>hstem 397 75</string>
+          <string>hstem 526 43</string>
+          <string>hstem 642 30</string>
+          <string>hstem 677 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

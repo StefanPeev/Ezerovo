@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="2">
+  <advance width="641"/>
+  <unicode hex="010F"/>
+  <outline>
+    <component base="d"/>
+    <component base="uni0315" xOffset="573" yOffset="-94"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=d</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=d+79</string>
+  <key>com.fontlab.recipe</key>
+  <string>d+uni0315</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

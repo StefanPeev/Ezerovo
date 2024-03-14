@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="prescription" format="2">
+  <advance width="673"/>
+  <unicode hex="211E"/>
+  <outline>
+    <component base="R"/>
+    <contour>
+      <point x="373" y="-12" type="line"/>
+      <point x="615" y="230" type="line"/>
+      <point x="660" y="185" type="line"/>
+      <point x="418" y="-57" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="315" x="620" y="225"/>
+  <guideline angle="135" x="413" y="-52"/>
+  <guideline angle="225" x="665" y="190"/>
+  <guideline angle="45" x="368" y="-17"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

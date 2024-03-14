@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni215A" format="2">
+  <advance width="836"/>
+  <unicode hex="215A"/>
+  <outline>
+    <component base="uni2075" xOffset="2" yOffset="-100"/>
+    <component base="uni2076" xOffset="420" yOffset="-356"/>
+    <contour>
+      <point x="208" y="6" type="line"/>
+      <point x="712" y="656" type="line"/>
+      <point x="744" y="631" type="line"/>
+      <point x="239" y="-23" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w836m208,6l712,656l744,631l239,-23</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -7 27</string>
+          <string>hstem 203 38</string>
+          <string>hstem 249 26</string>
+          <string>hstem 357 27</string>
+          <string>hstem 463 36</string>
+          <string>hstem 577 56</string>
+          <string>hstem 636 20</string>
+          <string>vstem 91 60</string>
+          <string>vstem 305 78</string>
+          <string>vstem 527 68</string>
+          <string>vstem 735 72</string>
+          <string>vstem 777 52</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

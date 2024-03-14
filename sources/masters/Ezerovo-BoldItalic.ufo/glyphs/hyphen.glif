@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="2">
+  <advance width="368"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="100" y="191" type="line"/>
+      <point x="118" y="280" type="line"/>
+      <point x="366" y="280" type="line"/>
+      <point x="347" y="191" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w368m100,191l118,280l366,280l347,191</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 191 89</string>
+          <string>vstem 100 266</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

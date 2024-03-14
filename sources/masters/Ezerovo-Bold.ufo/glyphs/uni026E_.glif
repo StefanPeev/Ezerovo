@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni026E" format="2">
+  <advance width="648"/>
+  <unicode hex="026E"/>
+  <outline>
+    <component base="l"/>
+    <component base="uni0292" xOffset="143"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0292</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

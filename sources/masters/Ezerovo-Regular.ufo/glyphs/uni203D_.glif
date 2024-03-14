@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni203D" format="2">
+  <advance width="505"/>
+  <unicode hex="203D"/>
+  <outline>
+    <component base="question" xOffset="140"/>
+    <contour>
+      <point x="34" y="432" type="line" smooth="yes"/>
+      <point x="26.7556" y="445.959"/>
+      <point x="22.6255" y="457.657"/>
+      <point x="22.7092" y="467.308" type="curve" smooth="yes"/>
+      <point x="22.9163" y="491.18"/>
+      <point x="62.5149" y="506.377"/>
+      <point x="83.4762" y="506.377" type="curve" smooth="yes"/>
+      <point x="103.002" y="506.377"/>
+      <point x="109.968" y="491.287"/>
+      <point x="118" y="465" type="curve" smooth="yes"/>
+      <point x="219" y="125" type="line"/>
+      <point x="198" y="116" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsRight</key>
+  <string>=question</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>14ebeafe5ccc606f4eebbbd4135b45f103c166cc22ad348c29ce7076c5462d255f552aff80bf1e18501b528839e5834dce89d2407eff78a12ffad1d34fe48bd6</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 117</string>
+          <string>hstem 187 41</string>
+          <string>hstem 632 33</string>
+          <string>vstem 34 84</string>
+          <string>vstem 165 80</string>
+          <string>vstem 223 91</string>
+          <string>vstem 228 117</string>
+          <string>vstem 382 93</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

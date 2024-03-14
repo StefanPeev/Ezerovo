@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.tf.tosf" format="2">
+  <advance width="498"/>
+  <outline>
+    <contour>
+      <point x="87" y="0" type="line"/>
+      <point x="87" y="35" type="line"/>
+      <point x="145" y="41" type="line" smooth="yes"/>
+      <point x="168.072" y="43.3867"/>
+      <point x="178" y="53"/>
+      <point x="178" y="79" type="curve" smooth="yes"/>
+      <point x="178" y="397" type="line" smooth="yes"/>
+      <point x="178" y="423"/>
+      <point x="168" y="431"/>
+      <point x="145" y="434" type="curve" smooth="yes"/>
+      <point x="87" y="441" type="line"/>
+      <point x="87" y="476" type="line"/>
+      <point x="411" y="476" type="line"/>
+      <point x="411" y="441" type="line"/>
+      <point x="353" y="434" type="line" smooth="yes"/>
+      <point x="330" y="431"/>
+      <point x="320" y="423"/>
+      <point x="320" y="397" type="curve" smooth="yes"/>
+      <point x="320" y="79" type="line" smooth="yes"/>
+      <point x="320" y="53"/>
+      <point x="329.928" y="43.3867"/>
+      <point x="353" y="41" type="curve" smooth="yes"/>
+      <point x="411" y="35" type="line"/>
+      <point x="411" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

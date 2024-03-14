@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.tf" format="2">
+  <advance width="498"/>
+  <outline>
+    <contour>
+      <point x="18" y="188" type="line"/>
+      <point x="104" y="335"/>
+      <point x="210" y="498"/>
+      <point x="298" y="628" type="curve"/>
+      <point x="367" y="628" type="line"/>
+      <point x="367" y="212" type="line"/>
+      <point x="463" y="212" type="line"/>
+      <point x="463" y="168" type="line"/>
+      <point x="367" y="168" type="line"/>
+      <point x="367" y="72" type="line" smooth="yes"/>
+      <point x="367" y="40"/>
+      <point x="373" y="35"/>
+      <point x="395" y="32" type="curve" smooth="yes"/>
+      <point x="437" y="27" type="line"/>
+      <point x="437" y="0" type="line"/>
+      <point x="189" y="0" type="line"/>
+      <point x="189" y="27" type="line"/>
+      <point x="249" y="33" type="line" smooth="yes"/>
+      <point x="272" y="35"/>
+      <point x="282" y="40"/>
+      <point x="282" y="72" type="curve" smooth="yes"/>
+      <point x="282" y="168" type="line"/>
+      <point x="26" y="168" type="line"/>
+    </contour>
+    <contour>
+      <point x="282" y="212" type="line"/>
+      <point x="282" y="537" type="line"/>
+      <point x="279" y="537" type="line"/>
+      <point x="207" y="423"/>
+      <point x="142" y="315"/>
+      <point x="85.4907" y="213.861" type="curve"/>
+      <point x="86.5093" y="212.139" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>7959a8535748d441bf05e3ffb455be35151c5d63923f9218bff602511f4975f5a605b20510853dfba32d424205e5086845360a635cae9d58a901cb4e6c57e3b6</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 168 44</string>
+          <string>vstem 282 85</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

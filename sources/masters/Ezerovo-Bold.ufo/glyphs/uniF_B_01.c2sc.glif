@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFB01.c2sc" format="2">
+  <advance width="852"/>
+  <anchor x="670" y="531" name="top"/>
+  <outline>
+    <component base="F.c2sc"/>
+    <component base="I.c2sc" xOffset="489"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>F.c2sc_I.c2sc</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

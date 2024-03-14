@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcroat" format="2">
+  <advance width="551"/>
+  <unicode hex="0111"/>
+  <outline>
+    <component base="d"/>
+    <contour>
+      <point x="380" y="547" type="line"/>
+      <point x="393" y="603" type="line"/>
+      <point x="654" y="603" type="line"/>
+      <point x="641" y="547" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w551m380,547l393,603l654,603l641,547</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 49</string>
+          <string>hstem 439 33</string>
+          <string>hstem 547 56</string>
+          <string>hstem 653 22</string>
+          <string>hstem 677 20</string>
+          <string>vstem 68 93</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

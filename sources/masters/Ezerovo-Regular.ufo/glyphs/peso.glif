@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peso" format="2">
+  <advance width="564"/>
+  <outline>
+    <component base="P"/>
+    <contour>
+      <point x="40" y="137" type="line"/>
+      <point x="40" y="172" type="line"/>
+      <point x="432" y="172" type="line"/>
+      <point x="432" y="137" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=P</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=P</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w564m40,137l40,172l432,172l432,137</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 137 35</string>
+          <string>hstem 267 33</string>
+          <string>hstem 618 32</string>
+          <string>vstem 118 93</string>
+          <string>vstem 438 102</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

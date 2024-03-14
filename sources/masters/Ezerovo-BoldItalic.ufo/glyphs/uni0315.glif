@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0315" format="2">
+  <unicode hex="0315"/>
+  <anchor x="48" y="837" name="_t.r.caron"/>
+  <outline>
+    <contour>
+      <point x="38" y="562" type="line"/>
+      <point x="71" y="595"/>
+      <point x="105" y="637"/>
+      <point x="105" y="682" type="curve" smooth="yes"/>
+      <point x="105" y="700"/>
+      <point x="100" y="713"/>
+      <point x="94" y="726" type="curve" smooth="yes"/>
+      <point x="88" y="739"/>
+      <point x="84" y="751"/>
+      <point x="84" y="767" type="curve" smooth="yes"/>
+      <point x="84" y="807"/>
+      <point x="116" y="837"/>
+      <point x="155" y="837" type="curve" smooth="yes"/>
+      <point x="202" y="837"/>
+      <point x="225" y="801"/>
+      <point x="225" y="760" type="curve" smooth="yes"/>
+      <point x="225" y="664"/>
+      <point x="129" y="586"/>
+      <point x="59" y="536" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="837"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>f384ed6b42cbe8454504ddbba0c1312a251c3951021e12fd9cfe55cc5764304d50845faa36107d001e370dbc23ff55a221f079e92fc6ee0bac1671276697bde6</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 496 301</string>
+          <string>vstem 105 120</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

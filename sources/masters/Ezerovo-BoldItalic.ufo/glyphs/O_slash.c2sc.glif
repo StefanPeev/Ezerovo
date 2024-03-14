@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash.c2sc" format="2">
+  <advance width="595"/>
+  <outline>
+    <component base="O.c2sc"/>
+    <contour>
+      <point x="93.5596" y="-18.9644" type="line"/>
+      <point x="575.651" y="528.279" type="line"/>
+      <point x="611.866" y="499.307" type="line"/>
+      <point x="131.877" y="-47.2264" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="321.34" x="581" y="524"/>
+  <guideline angle="322.765" x="100" y="-23"/>
+  <guideline angle="48.6735" x="90" y="-23"/>
+  <guideline angle="228.621" x="616" y="504"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

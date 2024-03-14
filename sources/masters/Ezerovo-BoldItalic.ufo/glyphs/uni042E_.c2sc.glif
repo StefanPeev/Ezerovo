@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni042E.c2sc" format="2">
+  <advance width="904"/>
+  <outline>
+    <contour>
+      <point x="46" y="0" type="line"/>
+      <point x="54" y="35" type="line"/>
+      <point x="102" y="37"/>
+      <point x="126" y="39"/>
+      <point x="134" y="74" type="curve" smooth="yes"/>
+      <point x="211" y="406" type="line" smooth="yes"/>
+      <point x="211.895" y="409.859"/>
+      <point x="212.564" y="414.619"/>
+      <point x="212.564" y="418.175" type="curve" smooth="yes"/>
+      <point x="212.564" y="441.769"/>
+      <point x="189.844" y="444.262"/>
+      <point x="149" y="446" type="curve"/>
+      <point x="157" y="481" type="line"/>
+      <point x="442" y="481" type="line"/>
+      <point x="434" y="446" type="line"/>
+      <point x="387" y="444"/>
+      <point x="362" y="441"/>
+      <point x="354" y="406" type="curve" smooth="yes"/>
+      <point x="277" y="74" type="line" smooth="yes"/>
+      <point x="275.98" y="69.536"/>
+      <point x="275.48" y="65.6089"/>
+      <point x="275.48" y="62.1501" type="curve" smooth="yes"/>
+      <point x="275.48" y="38.4898"/>
+      <point x="298.867" y="36.7449"/>
+      <point x="339" y="35" type="curve"/>
+      <point x="331" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="227.5" type="line"/>
+      <point x="277" y="271.5" type="line"/>
+      <point x="475" y="271.5" type="line"/>
+      <point x="468" y="227.5" type="line"/>
+    </contour>
+    <contour>
+      <point x="364.56" y="159.525" type="curve" smooth="yes"/>
+      <point x="364.56" y="357.551"/>
+      <point x="498.162" y="496"/>
+      <point x="701" y="496" type="curve" smooth="yes"/>
+      <point x="848.722" y="496"/>
+      <point x="918.99" y="432.69"/>
+      <point x="918.99" y="320.994" type="curve" smooth="yes"/>
+      <point x="918.99" y="124.008"/>
+      <point x="783.476" y="-16"/>
+      <point x="582" y="-16" type="curve" smooth="yes"/>
+      <point x="434.855" y="-16"/>
+      <point x="364.56" y="48.1534"/>
+    </contour>
+    <contour>
+      <point x="516.976" y="130.016" type="curve" smooth="yes"/>
+      <point x="516.976" y="73.9486"/>
+      <point x="533.758" y="26"/>
+      <point x="592" y="26" type="curve" smooth="yes"/>
+      <point x="712.837" y="26"/>
+      <point x="767.615" y="247.845"/>
+      <point x="767.615" y="349.382" type="curve" smooth="yes"/>
+      <point x="767.615" y="405.691"/>
+      <point x="750.512" y="454"/>
+      <point x="691" y="454" type="curve" smooth="yes"/>
+      <point x="569.84" y="454"/>
+      <point x="516.976" y="231.395"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=I.c2sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=O.c2sc</string>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

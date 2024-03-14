@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six" format="2">
+  <advance width="488"/>
+  <unicode hex="0036"/>
+  <outline>
+    <component base="six.tf" xOffset="11"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w488</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 33</string>
+          <string>hstem 349 48</string>
+          <string>hstem 517 -21</string>
+          <string>hstem 606 33</string>
+          <string>vstem 46 95</string>
+          <string>vstem 372 74</string>
+          <string>vstem 380 94</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

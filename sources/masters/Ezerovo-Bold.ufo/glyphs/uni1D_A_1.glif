@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1DA1" format="2">
+  <advance width="188"/>
+  <unicode hex="1DA1"/>
+  <outline>
+    <contour>
+      <point x="-9.21526" y="188.616" type="line"/>
+      <point x="51.9649" y="208.052"/>
+      <point x="52.7436" y="264.273"/>
+      <point x="52.7436" y="321.038" type="curve" smooth="yes"/>
+      <point x="52.7436" y="521.493" type="line" smooth="yes"/>
+      <point x="52.7436" y="544.575"/>
+      <point x="49.0759" y="548.665"/>
+      <point x="39.9874" y="550.042" type="curve" smooth="yes"/>
+      <point x="19.9419" y="553.079" type="line"/>
+      <point x="19.9419" y="573.732" type="line"/>
+      <point x="134.748" y="590.133" type="line"/>
+      <point x="139" y="586.489" type="line"/>
+      <point x="139" y="318" type="line" smooth="yes"/>
+      <point x="139" y="207.921"/>
+      <point x="96.8552" y="171"/>
+      <point x="-8" y="171" type="curve"/>
+    </contour>
+    <contour>
+      <point x="12" y="436" type="line"/>
+      <point x="12" y="464" type="line"/>
+      <point x="178" y="464" type="line"/>
+      <point x="178" y="436" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="590"/>
+  <guideline angle="0" x="0" y="171"/>
+</glyph>

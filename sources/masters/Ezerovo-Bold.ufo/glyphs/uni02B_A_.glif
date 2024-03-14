@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02BA" format="2">
+  <advance width="493"/>
+  <unicode hex="02BA"/>
+  <outline>
+    <component base="uni02B9"/>
+    <component base="uni02B9" xOffset="198"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w493</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 426 279</string>
+          <string>vstem 114 110</string>
+          <string>vstem 312 110</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

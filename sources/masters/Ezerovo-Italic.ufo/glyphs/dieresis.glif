@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="2">
+  <advance width="376"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="390" y="584" type="curve" smooth="yes"/>
+      <point x="390" y="618"/>
+      <point x="415" y="641"/>
+      <point x="446" y="641" type="curve" smooth="yes"/>
+      <point x="474" y="641"/>
+      <point x="491" y="619"/>
+      <point x="491" y="595" type="curve" smooth="yes"/>
+      <point x="491" y="563"/>
+      <point x="469" y="538"/>
+      <point x="436" y="538" type="curve" smooth="yes"/>
+      <point x="406" y="538"/>
+      <point x="390" y="557"/>
+    </contour>
+    <contour>
+      <point x="195" y="584" type="curve" smooth="yes"/>
+      <point x="195" y="618"/>
+      <point x="219" y="641"/>
+      <point x="250" y="641" type="curve" smooth="yes"/>
+      <point x="278" y="641"/>
+      <point x="295" y="619"/>
+      <point x="295" y="595" type="curve" smooth="yes"/>
+      <point x="295" y="563"/>
+      <point x="274" y="538"/>
+      <point x="241" y="538" type="curve" smooth="yes"/>
+      <point x="211" y="538"/>
+      <point x="195" y="557"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>0009b93d1d7bd7baa04488417da0b42dfcffde5ed802b46490c6c63493215b661e654b5b4c96e3e7763fbade0cc1be9cbc6b95eb6aca0f1d375693bdb84c341a</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 538 103</string>
+          <string>vstem 195 100</string>
+          <string>vstem 390 101</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

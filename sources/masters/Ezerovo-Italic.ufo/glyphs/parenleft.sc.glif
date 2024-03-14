@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft.sc" format="2">
+  <advance width="252"/>
+  <outline>
+    <contour>
+      <point x="98.4743" y="66.314" type="curve" smooth="yes"/>
+      <point x="98.4743" y="212.357"/>
+      <point x="176.491" y="477.552"/>
+      <point x="348" y="484" type="curve"/>
+      <point x="342" y="460" type="line"/>
+      <point x="225.057" y="436.08"/>
+      <point x="161.339" y="170.303"/>
+      <point x="161.339" y="56.9599" type="curve" smooth="yes"/>
+      <point x="161.339" y="-31.8609"/>
+      <point x="193.701" y="-63.3137"/>
+      <point x="220" y="-69" type="curve"/>
+      <point x="215" y="-93" type="line"/>
+      <point x="126.858" y="-89.6358"/>
+      <point x="98.4743" y="-19.2704"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>ea09707202fbee756ecc9fe3eaba45799dcb070984363ed3f55ea9b754f6c48052547a2be5cf19cd0ed148cb9c80bf1d05340a91339aaa94c34430983c355e95</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -93 24</string>
+          <string>hstem 460 24</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

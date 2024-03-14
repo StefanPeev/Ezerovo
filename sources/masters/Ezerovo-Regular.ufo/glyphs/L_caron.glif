@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="2">
+  <advance width="548"/>
+  <unicode hex="013D"/>
+  <anchor x="266" y="697" name="top"/>
+  <outline>
+    <component base="L"/>
+    <component base="uni0315" xOffset="452" yOffset="-94"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=L</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=L+15</string>
+  <key>com.fontlab.recipe</key>
+  <string>L+uni0315</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0332" format="2">
+  <unicode hex="0332"/>
+  <anchor x="-236" y="-64" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="-470" y="-64" type="line"/>
+      <point x="0" y="-64" type="line"/>
+      <point x="0" y="-120" type="line"/>
+      <point x="-470" y="-120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-470,-64l0,-64l0,-120l-470,-120</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -118 48</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

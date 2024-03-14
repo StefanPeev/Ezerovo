@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="2">
+  <advance width="768"/>
+  <unicode hex="0126"/>
+  <outline>
+    <component base="H"/>
+    <contour>
+      <point x="45" y="563" type="line"/>
+      <point x="45" y="520" type="line"/>
+      <point x="724" y="520" type="line"/>
+      <point x="724" y="563" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w768m45,563l45,520l724,520l724,563</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 36</string>
+          <string>hstem 321 45</string>
+          <string>hstem 520 43</string>
+          <string>hstem 615 35</string>
+          <string>vstem 111 151</string>
+          <string>vstem 509 150</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash" format="2">
+  <advance width="528"/>
+  <unicode hex="00F8"/>
+  <anchor x="367" y="490" name="top"/>
+  <outline>
+    <component base="o"/>
+    <contour>
+      <point x="116" y="-39" type="line"/>
+      <point x="479" y="516" type="line"/>
+      <point x="511" y="494" type="line"/>
+      <point x="146" y="-65" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w528m116,-39l479,516l511,494l146,-65</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 43</string>
+          <string>hstem 429 43</string>
+          <string>vstem 72 127</string>
+          <string>vstem 429 127</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

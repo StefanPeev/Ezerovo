@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2088" format="2">
+  <advance width="377"/>
+  <unicode hex="2088"/>
+  <outline>
+    <component base="uni2078" xOffset="-84" yOffset="-466"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w377</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -118 36</string>
+          <string>hstem 70 38</string>
+          <string>hstem 237 36</string>
+          <string>vstem 5 116</string>
+          <string>vstem 55 109</string>
+          <string>vstem 221 116</string>
+          <string>vstem 247 110</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

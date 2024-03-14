@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2422" format="2">
+  <advance width="562"/>
+  <unicode hex="2422"/>
+  <outline>
+    <component base="b"/>
+    <contour>
+      <point x="160.007" y="520.504" type="line"/>
+      <point x="160.043" y="561.442" type="line"/>
+      <point x="329" y="660" type="line"/>
+      <point x="329" y="618" type="line"/>
+    </contour>
+    <contour>
+      <point x="32" y="447" type="line"/>
+      <point x="32" y="489" type="line"/>
+      <point x="98.1589" y="525.2" type="line"/>
+      <point x="97.9478" y="485.573" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w562m160.01,520.5l160.04,561.44l329,660l329,618m32,447l32,489l98.16,525.2l97.95,485.57</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 33</string>
+          <string>hstem 421 51</string>
+          <string>hstem 640 20</string>
+          <string>hstem 650 24</string>
+          <string>hstem 677 20</string>
+          <string>vstem 85 88</string>
+          <string>vstem 418 98</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04AA" format="2">
+  <advance width="642"/>
+  <unicode hex="04AA"/>
+  <anchor x="370" y="697" name="top"/>
+  <outline>
+    <component base="C"/>
+    <contour>
+      <point x="296" y="-201" type="line"/>
+      <point x="342" y="-201"/>
+      <point x="379" y="-177"/>
+      <point x="379" y="-117" type="curve" smooth="yes"/>
+      <point x="379" y="-86"/>
+      <point x="369" y="-58"/>
+      <point x="345" y="-32" type="curve" smooth="yes"/>
+      <point x="306" y="10" type="line"/>
+      <point x="347" y="10" type="line"/>
+      <point x="387" y="-22" type="line" smooth="yes"/>
+      <point x="426" y="-54"/>
+      <point x="452" y="-96"/>
+      <point x="452" y="-135" type="curve" smooth="yes"/>
+      <point x="452" y="-187"/>
+      <point x="404" y="-230"/>
+      <point x="331" y="-230" type="curve" smooth="yes"/>
+      <point x="320" y="-230"/>
+      <point x="309" y="-229"/>
+      <point x="296" y="-225" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Ccedilla</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="400" maximum="700" name="weight" tag="wght" default="400">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Ezerovo" stylename="Bold Italic" filename="masters/Ezerovo-BoldItalic.ufo" name="Bold Italic">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source familyname="Ezerovo" stylename="Italic" filename="masters/Ezerovo-Italic.ufo" name="Italic">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Ezerovo" stylename="Italic" filename="instances/Ezerovo-Italic.ufo" name="Italic">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance familyname="Ezerovo" stylename="Medium Italic" filename="instances/Ezerovo-MediumItalic.ufo" name="MediumItalic">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance familyname="Ezerovo" stylename="SemiBold Italic" filename="instances/Ezerovo-SemiBoldItalic.ufo" name="SemiBoldItalic">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance familyname="Ezerovo" stylename="Bold Italic" filename="instances/Ezerovo-BoldItalic.ufo" name="BoldItalic">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0434" format="2">
+  <advance width="550"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="72" y="164" type="curve" smooth="yes"/>
+      <point x="72" y="329.032"/>
+      <point x="186.012" y="472"/>
+      <point x="358" y="472" type="curve" smooth="yes"/>
+      <point x="438" y="472"/>
+      <point x="463" y="431"/>
+      <point x="476" y="394" type="curve"/>
+      <point x="481" y="395" type="line"/>
+      <point x="490" y="434"/>
+      <point x="492" y="465"/>
+      <point x="492" y="505" type="curve" smooth="yes"/>
+      <point x="492" y="589"/>
+      <point x="435" y="654"/>
+      <point x="367" y="654" type="curve" smooth="yes"/>
+      <point x="330" y="654"/>
+      <point x="265" y="650"/>
+      <point x="216" y="568" type="curve"/>
+      <point x="191" y="589" type="line"/>
+      <point x="246" y="682"/>
+      <point x="319" y="697"/>
+      <point x="374" y="697" type="curve" smooth="yes"/>
+      <point x="489" y="697"/>
+      <point x="577" y="613"/>
+      <point x="577" y="491" type="curve" smooth="yes"/>
+      <point x="577" y="286.912"/>
+      <point x="525.012" y="-11"/>
+      <point x="267" y="-11" type="curve" smooth="yes"/>
+      <point x="131" y="-11"/>
+      <point x="72" y="62"/>
+    </contour>
+    <contour>
+      <point x="209" y="101" type="curve" smooth="yes"/>
+      <point x="209" y="54"/>
+      <point x="230" y="32"/>
+      <point x="265" y="32" type="curve" smooth="yes"/>
+      <point x="364" y="32"/>
+      <point x="419" y="282"/>
+      <point x="419" y="352" type="curve" smooth="yes"/>
+      <point x="419" y="391"/>
+      <point x="410" y="429"/>
+      <point x="366" y="429" type="curve" smooth="yes"/>
+      <point x="261.181" y="429"/>
+      <point x="209" y="179.081"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>68182fa3b39fc12323cb1fff27bb7a60f5060d2b32369ae99baa16634cada57564c51f922dc6fa62a9e367b31414cff926eb5b0f2871d3b28169ace8c58df074</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 43</string>
+          <string>hstem 429 43</string>
+          <string>hstem 654 43</string>
+          <string>vstem 72 137</string>
+          <string>vstem 492 85</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

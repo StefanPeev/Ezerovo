@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t" format="2">
+  <advance width="323"/>
+  <unicode hex="0074"/>
+  <anchor x="201" y="-40" name="bottom"/>
+  <anchor x="206" y="10" name="b.cedilla"/>
+  <anchor x="251" y="743" name="t.r.caron"/>
+  <anchor x="168" y="650" name="top"/>
+  <outline>
+    <contour>
+      <point x="29" y="423" type="line"/>
+      <point x="29" y="461" type="line"/>
+      <point x="101" y="461" type="line"/>
+      <point x="158" y="579" type="line"/>
+      <point x="185" y="579" type="line"/>
+      <point x="185" y="461" type="line"/>
+      <point x="306" y="461" type="line"/>
+      <point x="306" y="423" type="line"/>
+      <point x="185" y="423" type="line"/>
+      <point x="185" y="132" type="line" smooth="yes"/>
+      <point x="185" y="61"/>
+      <point x="215" y="38"/>
+      <point x="247" y="38" type="curve" smooth="yes"/>
+      <point x="271" y="38"/>
+      <point x="291" y="41"/>
+      <point x="314" y="50" type="curve"/>
+      <point x="321" y="30" type="line"/>
+      <point x="294" y="13"/>
+      <point x="249" y="-11"/>
+      <point x="201" y="-11" type="curve" smooth="yes"/>
+      <point x="168" y="-11"/>
+      <point x="97" y="0"/>
+      <point x="97" y="96" type="curve" smooth="yes"/>
+      <point x="97" y="423" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>b735f2c9462d5e40d1f430bad03144ab94445ecd2d69614fa4b01eb54d463bbb4354f4c851f80622ba6b18404f60bc646a65ffa54b939f6c363885e33ea262fc</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 49</string>
+          <string>hstem 423 38</string>
+          <string>vstem 97 88</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

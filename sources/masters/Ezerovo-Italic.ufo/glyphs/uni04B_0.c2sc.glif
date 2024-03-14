@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04B0.c2sc" format="2">
+  <advance width="485"/>
+  <outline>
+    <component base="Y.c2sc"/>
+    <contour>
+      <point x="126" y="126" type="line"/>
+      <point x="134" y="159" type="line"/>
+      <point x="434" y="159" type="line"/>
+      <point x="426" y="126" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w485m126,126l134,159l434,159l426,126</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 126 33</string>
+          <string>hstem 454 27</string>
+          <string>vstem 239 89</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

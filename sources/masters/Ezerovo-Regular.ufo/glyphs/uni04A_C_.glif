@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04AC" format="2">
+  <advance width="583"/>
+  <unicode hex="04AC"/>
+  <outline>
+    <component base="T"/>
+    <contour>
+      <point x="249" y="27" type="line"/>
+      <point x="460" y="27" type="line"/>
+      <point x="472" y="-179" type="line"/>
+      <point x="446" y="-179" type="line"/>
+      <point x="427" y="-34"/>
+      <point x="389" y="0"/>
+      <point x="249" y="0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w583m249,27l460,27l472,-179l446,-179c427,-34 389,0 249,0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 515 -21</string>
+          <string>hstem 618 32</string>
+          <string>vstem 21 28</string>
+          <string>vstem 245 93</string>
+          <string>vstem 446 26</string>
+          <string>vstem 535 28</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

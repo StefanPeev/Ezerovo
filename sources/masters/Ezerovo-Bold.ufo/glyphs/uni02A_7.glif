@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02A7" format="2">
+  <advance width="553"/>
+  <unicode hex="02A7"/>
+  <anchor x="235" y="10" name="b.cedilla"/>
+  <anchor x="269" y="743" name="t.r.caron"/>
+  <anchor x="187" y="650" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="uni0283" xOffset="177"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=t</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0283</string>
+  <key>com.fontlab.recipe</key>
+  <string>t_uni0283</string>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

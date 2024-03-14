@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF7B4" format="2">
+  <advance width="376"/>
+  <unicode hex="F7B4"/>
+  <outline>
+    <contour>
+      <point x="240" y="550" type="line"/>
+      <point x="390" y="654" type="line" smooth="yes"/>
+      <point x="423" y="677"/>
+      <point x="439" y="687"/>
+      <point x="454" y="687" type="curve" smooth="yes"/>
+      <point x="472.046" y="687"/>
+      <point x="481.345" y="668.833"/>
+      <point x="481.345" y="649.609" type="curve" smooth="yes"/>
+      <point x="481.345" y="620.622"/>
+      <point x="444.548" y="606.75"/>
+      <point x="417" y="596" type="curve" smooth="yes"/>
+      <point x="248" y="529" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w376m240,550l390,654c423,677 439,687 454,687c472.05,687 481.35,668.83 481.35,649.61c481.35,620.62 444.55,606.75 417,596l248,529</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 596 91</string>
+          <string>vstem 240 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

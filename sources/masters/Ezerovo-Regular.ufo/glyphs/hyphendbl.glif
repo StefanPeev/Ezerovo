@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphendbl" format="2">
+  <advance width="370"/>
+  <outline>
+    <contour>
+      <point x="70" y="123" type="line"/>
+      <point x="70" y="189" type="line"/>
+      <point x="300" y="189" type="line"/>
+      <point x="300" y="123" type="line"/>
+    </contour>
+    <contour>
+      <point x="70" y="283" type="line"/>
+      <point x="70" y="349" type="line"/>
+      <point x="300" y="349" type="line"/>
+      <point x="300" y="283" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w370m70,123l70,189l300,189l300,123m70,283l70,349l300,349l300,283</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 123 66</string>
+          <string>hstem 283 66</string>
+          <string>vstem 70 230</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

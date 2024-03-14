@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0436.loclBGR" format="2">
+  <advance width="811"/>
+  <outline>
+    <contour>
+      <point x="330" y="246" type="line"/>
+      <point x="307" y="278"/>
+      <point x="238" y="393"/>
+      <point x="202" y="438" type="curve" smooth="yes"/>
+      <point x="187" y="457"/>
+      <point x="180" y="461"/>
+      <point x="161" y="461" type="curve" smooth="yes"/>
+      <point x="17" y="461" type="line"/>
+      <point x="17" y="430" type="line"/>
+      <point x="128" y="408"/>
+      <point x="162" y="394"/>
+      <point x="184" y="369" type="curve"/>
+      <point x="193" y="358"/>
+      <point x="213" y="335"/>
+      <point x="217" y="330" type="curve" smooth="yes"/>
+      <point x="222" y="324"/>
+      <point x="223" y="321"/>
+      <point x="222" y="318" type="curve"/>
+      <point x="187" y="254"/>
+      <point x="69" y="57"/>
+      <point x="0" y="30" type="curve"/>
+      <point x="0" y="0" type="line"/>
+      <point x="89" y="0" type="line" smooth="yes"/>
+      <point x="162" y="0"/>
+      <point x="197" y="14"/>
+      <point x="230" y="59" type="curve" smooth="yes"/>
+      <point x="273" y="117"/>
+      <point x="300" y="177"/>
+      <point x="330" y="238" type="curve"/>
+    </contour>
+    <contour>
+      <point x="335" y="81" type="line" smooth="yes"/>
+      <point x="335" y="43"/>
+      <point x="327" y="39"/>
+      <point x="275" y="36" type="curve"/>
+      <point x="275" y="0" type="line"/>
+      <point x="535" y="0" type="line"/>
+      <point x="535" y="36" type="line"/>
+      <point x="484" y="39"/>
+      <point x="476" y="43"/>
+      <point x="476" y="81" type="curve" smooth="yes"/>
+      <point x="476" y="690" type="line"/>
+      <point x="470" y="695" type="line"/>
+      <point x="281" y="670" type="line"/>
+      <point x="281" y="635" type="line"/>
+      <point x="314" y="629" type="line"/>
+      <point x="327" y="626"/>
+      <point x="335" y="618"/>
+      <point x="335" y="579" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="481" y="246" type="curve"/>
+      <point x="481" y="238" type="line"/>
+      <point x="511" y="177"/>
+      <point x="538" y="117"/>
+      <point x="581" y="59" type="curve" smooth="yes"/>
+      <point x="614" y="14"/>
+      <point x="649" y="0"/>
+      <point x="722" y="0" type="curve" smooth="yes"/>
+      <point x="811" y="0" type="line"/>
+      <point x="811" y="30" type="line"/>
+      <point x="742" y="57"/>
+      <point x="624" y="254"/>
+      <point x="589" y="318" type="curve"/>
+      <point x="588" y="321"/>
+      <point x="589" y="324"/>
+      <point x="594" y="330" type="curve" smooth="yes"/>
+      <point x="598" y="335"/>
+      <point x="618" y="358"/>
+      <point x="627" y="369" type="curve"/>
+      <point x="649" y="394"/>
+      <point x="683" y="408"/>
+      <point x="794" y="430" type="curve"/>
+      <point x="794" y="461" type="line"/>
+      <point x="650" y="461" type="line" smooth="yes"/>
+      <point x="631" y="461"/>
+      <point x="624" y="457"/>
+      <point x="609" y="438" type="curve" smooth="yes"/>
+      <point x="573" y="393"/>
+      <point x="504" y="278"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=|k</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=k</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>86ceb9be743504a921ff944e2de485ed11549687aa596de99d729146e4ee9d5a25d80664ebd4dba8e51992164d79c5a8b9b5cbaa7dfe0975cc881a63366684df</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 43</string>
+          <string>hstem 0 36</string>
+          <string>hstem 217 43</string>
+          <string>hstem 426 35</string>
+          <string>hstem 429 43</string>
+          <string>vstem 29 100</string>
+          <string>vstem 327 142</string>
+          <string>vstem 662 105</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

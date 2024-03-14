@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="2">
+  <advance width="314"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="41" y="-207" type="curve"/>
+      <point x="41" y="-178" type="line"/>
+      <point x="102" y="-178"/>
+      <point x="125" y="-167"/>
+      <point x="125" y="-138" type="curve" smooth="yes"/>
+      <point x="125" y="-113"/>
+      <point x="106" y="-91"/>
+      <point x="73" y="-89" type="curve"/>
+      <point x="71" y="-81" type="line"/>
+      <point x="127" y="0" type="line"/>
+      <point x="169" y="0" type="line"/>
+      <point x="128" y="-56" type="line"/>
+      <point x="167" y="-61"/>
+      <point x="197" y="-94"/>
+      <point x="197" y="-133" type="curve" smooth="yes"/>
+      <point x="197" y="-181"/>
+      <point x="156" y="-216"/>
+      <point x="100" y="-216" type="curve" smooth="yes"/>
+      <point x="78" y="-216"/>
+      <point x="55" y="-213"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>b521b3b177df50f1080d1a5b66da8d34ca8833eb58b8d7dd25167ecb5598fec56f9ae46844597dbbf619b25a1d658991b8861a10391b4e1ed4a7d156b39dee9c</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -207 23</string>
+          <string>hstem -195 -21</string>
+          <string>hstem -20 20</string>
+          <string>vstem 127 42</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T" format="2">
+  <advance width="595"/>
+  <unicode hex="0054"/>
+  <anchor x="305" y="697" name="top"/>
+  <anchor x="328" y="10" name="b.cedilla"/>
+  <outline>
+    <contour>
+      <point x="19" y="474" type="line"/>
+      <point x="19" y="650" type="line"/>
+      <point x="578" y="650" type="line"/>
+      <point x="578" y="474" type="line"/>
+      <point x="543" y="474" type="line"/>
+      <point x="511" y="568"/>
+      <point x="498" y="607"/>
+      <point x="412" y="607" type="curve" smooth="yes"/>
+      <point x="373" y="607" type="line"/>
+      <point x="373" y="89" type="line" smooth="yes"/>
+      <point x="373" y="55"/>
+      <point x="381" y="41"/>
+      <point x="411" y="39" type="curve" smooth="yes"/>
+      <point x="464" y="36" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="133" y="0" type="line"/>
+      <point x="133" y="36" type="line"/>
+      <point x="186" y="39" type="line" smooth="yes"/>
+      <point x="216" y="41"/>
+      <point x="223" y="55"/>
+      <point x="223" y="89" type="curve" smooth="yes"/>
+      <point x="223" y="607" type="line"/>
+      <point x="185" y="607" type="line" smooth="yes"/>
+      <point x="103" y="607"/>
+      <point x="87" y="568"/>
+      <point x="55" y="474" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>e236d3f16bdc0514f76bc307d3662b9ba37d856740523f5c82edba236ffd53540a28d9a10397f4968ba65e96ed51f8a785b796ff354fb28840cc2d3bfb11e0b4</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 36</string>
+          <string>hstem 607 43</string>
+          <string>vstem 19 36</string>
+          <string>vstem 223 150</string>
+          <string>vstem 543 35</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

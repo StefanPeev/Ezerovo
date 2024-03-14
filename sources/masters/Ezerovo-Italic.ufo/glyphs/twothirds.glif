@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twothirds" format="2">
+  <advance width="836"/>
+  <unicode hex="2154"/>
+  <outline>
+    <component base="uni2082" xOffset="92" yOffset="366"/>
+    <component base="uni2083" xOffset="512" yOffset="111"/>
+    <contour>
+      <point x="215" y="6" type="line"/>
+      <point x="719" y="656" type="line"/>
+      <point x="751" y="631" type="line"/>
+      <point x="246" y="-23" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w836m215,6l719,656l751,631l246,-23</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -7 27</string>
+          <string>hstem 180 43</string>
+          <string>hstem 186 29</string>
+          <string>hstem 256 55</string>
+          <string>hstem 357 27</string>
+          <string>hstem 613 26</string>
+          <string>hstem 636 20</string>
+          <string>vstem 151 62</string>
+          <string>vstem 337 78</string>
+          <string>vstem 516 62</string>
+          <string>vstem 723 78</string>
+          <string>vstem 753 73</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

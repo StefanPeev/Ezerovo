@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesingle" format="2">
+  <advance width="203"/>
+  <unicode hex="0027"/>
+  <outline>
+    <contour>
+      <point x="184" y="441" type="line"/>
+      <point x="196" y="649" type="line" smooth="yes"/>
+      <point x="198" y="682"/>
+      <point x="211" y="697"/>
+      <point x="247" y="697" type="curve" smooth="yes"/>
+      <point x="276" y="697"/>
+      <point x="290" y="688"/>
+      <point x="290" y="670" type="curve" smooth="yes"/>
+      <point x="290" y="664"/>
+      <point x="289" y="657"/>
+      <point x="286" y="649" type="curve" smooth="yes"/>
+      <point x="211" y="441" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w203m184,441l196,649c198,682 211,697 247,697c276,697 290,688 290,670c290,664 289,657 286,649l211,441</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 441 256</string>
+          <string>vstem 196 90</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

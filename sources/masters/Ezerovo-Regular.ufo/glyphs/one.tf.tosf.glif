@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.tf.tosf" format="2">
+  <advance width="498"/>
+  <outline>
+    <contour>
+      <point x="102" y="0" type="line"/>
+      <point x="102" y="27" type="line"/>
+      <point x="149.564" y="30.5634" type="line" smooth="yes"/>
+      <point x="199.409" y="34.2977"/>
+      <point x="205" y="43.9766"/>
+      <point x="205" y="79" type="curve" smooth="yes"/>
+      <point x="205" y="397" type="line" smooth="yes"/>
+      <point x="205" y="432.023"/>
+      <point x="199.392" y="440.924"/>
+      <point x="149.564" y="444.545" type="curve" smooth="yes"/>
+      <point x="102" y="448" type="line"/>
+      <point x="102" y="476" type="line"/>
+      <point x="397" y="476" type="line"/>
+      <point x="397" y="448" type="line"/>
+      <point x="340.168" y="443.58" type="line" smooth="yes"/>
+      <point x="298.382" y="440.33"/>
+      <point x="293" y="429.759"/>
+      <point x="293" y="397" type="curve" smooth="yes"/>
+      <point x="293" y="79" type="line" smooth="yes"/>
+      <point x="293" y="46.2413"/>
+      <point x="298.358" y="34.9539"/>
+      <point x="340.168" y="31.5825" type="curve" smooth="yes"/>
+      <point x="397" y="27" type="line"/>
+      <point x="397" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>e8216f328f37694b230d7ada107e07a31f603c6063d5d5dd775fce95fefb49a23fbcb5eb02de707e9ee90049de27829561a75a240eac280118a29f5f51a5a3f9</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 448 28</string>
+          <string>vstem 269 88</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

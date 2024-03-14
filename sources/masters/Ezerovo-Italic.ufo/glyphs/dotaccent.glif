@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent" format="2">
+  <advance width="356"/>
+  <unicode hex="02D9"/>
+  <outline>
+    <contour>
+      <point x="249" y="582" type="curve" smooth="yes"/>
+      <point x="249" y="616"/>
+      <point x="273" y="639"/>
+      <point x="304" y="639" type="curve" smooth="yes"/>
+      <point x="332" y="639"/>
+      <point x="349" y="617"/>
+      <point x="349" y="593" type="curve" smooth="yes"/>
+      <point x="349" y="561"/>
+      <point x="328" y="536"/>
+      <point x="295" y="536" type="curve" smooth="yes"/>
+      <point x="265" y="536"/>
+      <point x="249" y="555"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w356m249,582c249,616 273,639 304,639c332,639 349,617 349,593c349,561 328,536 295,536c265,536 249,555 249,582</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 536 103</string>
+          <string>vstem 249 100</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

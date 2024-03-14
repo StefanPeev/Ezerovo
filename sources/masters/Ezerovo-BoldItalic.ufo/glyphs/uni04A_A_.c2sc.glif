@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04AA.c2sc" format="2">
+  <advance width="525"/>
+  <anchor x="381" y="531" name="top"/>
+  <outline>
+    <component base="Ccedilla.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>Ccedilla.c2sc</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

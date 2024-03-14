@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni043D.loclBGR" format="2">
+  <advance width="574"/>
+  <outline>
+    <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="30" y="31" type="line"/>
+      <point x="97" y="36"/>
+      <point x="100" y="38"/>
+      <point x="100" y="86" type="curve" smooth="yes"/>
+      <point x="100" y="377" type="line" smooth="yes"/>
+      <point x="100" y="411"/>
+      <point x="95" y="417"/>
+      <point x="71" y="420" type="curve" smooth="yes"/>
+      <point x="35" y="424" type="line"/>
+      <point x="35" y="452" type="line"/>
+      <point x="182" y="469" type="line"/>
+      <point x="188" y="463" type="line"/>
+      <point x="188" y="280" type="line"/>
+      <point x="403" y="280" type="line"/>
+      <point x="403" y="377" type="line" smooth="yes"/>
+      <point x="403" y="411"/>
+      <point x="398" y="417"/>
+      <point x="374" y="420" type="curve" smooth="yes"/>
+      <point x="339" y="425" type="line"/>
+      <point x="339" y="452" type="line"/>
+      <point x="486" y="469" type="line"/>
+      <point x="491" y="463" type="line"/>
+      <point x="491" y="85" type="line" smooth="yes"/>
+      <point x="491" y="37"/>
+      <point x="495" y="36"/>
+      <point x="560" y="31" type="curve"/>
+      <point x="560" y="0" type="line"/>
+      <point x="334" y="0" type="line"/>
+      <point x="334" y="31" type="line"/>
+      <point x="400" y="36"/>
+      <point x="403" y="37"/>
+      <point x="403" y="85" type="curve" smooth="yes"/>
+      <point x="403" y="239" type="line"/>
+      <point x="188" y="239" type="line"/>
+      <point x="188" y="85" type="line" smooth="yes"/>
+      <point x="188" y="37"/>
+      <point x="193" y="36"/>
+      <point x="257" y="31" type="curve"/>
+      <point x="257" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=dotlessi</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=dotlessi</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>13b99bb605a4b8fd3b210094cbc2b3b376d801287a5b6a46193de47ecce39b80600b22516f3c19e0fb3ead96681bff0f26bdc813555e9db3ba9957f6f3c8d49b</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 27</string>
+          <string>hstem 221 33</string>
+          <string>hstem 433 28</string>
+          <string>vstem 114 88</string>
+          <string>vstem 411 88</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

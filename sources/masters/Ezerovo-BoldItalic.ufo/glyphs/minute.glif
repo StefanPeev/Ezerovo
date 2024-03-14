@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minute" format="2">
+  <advance width="285"/>
+  <unicode hex="2032"/>
+  <outline>
+    <contour>
+      <point x="155" y="441" type="line"/>
+      <point x="198" y="618" type="line" smooth="yes"/>
+      <point x="206.316" y="651.265"/>
+      <point x="221" y="705"/>
+      <point x="259" y="705" type="curve" smooth="yes"/>
+      <point x="287.563" y="705"/>
+      <point x="328" y="681.19"/>
+      <point x="328" y="650" type="curve" smooth="yes"/>
+      <point x="328" y="630.349"/>
+      <point x="305.195" y="592.76"/>
+      <point x="293" y="575" type="curve" smooth="yes"/>
+      <point x="190" y="425" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w285m155,441l198,618c206.32,651.27 221,705 259,705c287.56,705 328,681.19 328,650c328,630.35 305.19,592.76 293,575l190,425</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 425 280</string>
+          <string>vstem 217 111</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

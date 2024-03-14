@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni045D.loclBGR" format="2">
+  <advance width="629"/>
+  <outline>
+    <component base="u"/>
+    <contour>
+      <point x="143" y="639" type="curve" smooth="yes"/>
+      <point x="143" y="663"/>
+      <point x="170" y="696"/>
+      <point x="197" y="696" type="curve" smooth="yes"/>
+      <point x="212" y="696"/>
+      <point x="228" y="685"/>
+      <point x="263" y="649" type="curve" smooth="yes"/>
+      <point x="398" y="509" type="line"/>
+      <point x="379" y="480" type="line"/>
+      <point x="206" y="577" type="line" smooth="yes"/>
+      <point x="172" y="596"/>
+      <point x="143" y="615"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w629m143,639c143,663 170,696 197,696c212,696 228,685 263,649l398,509l379,480l206,577c172,596 143,615 143,639</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 36</string>
+          <string>hstem 426 35</string>
+          <string>vstem 94 141</string>
+          <string>vstem 396 141</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="franc" format="2">
+  <advance width="529"/>
+  <unicode hex="20A3"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="33" y="26" type="line"/>
+      <point x="113" y="32"/>
+      <point x="115" y="33"/>
+      <point x="115" y="84" type="curve" smooth="yes"/>
+      <point x="115" y="544" type="line" smooth="yes"/>
+      <point x="115" y="595"/>
+      <point x="113" y="596"/>
+      <point x="33" y="602" type="curve"/>
+      <point x="33" y="628" type="line"/>
+      <point x="494" y="628" type="line"/>
+      <point x="494" y="483" type="line"/>
+      <point x="467" y="483" type="line"/>
+      <point x="454" y="576"/>
+      <point x="433" y="597"/>
+      <point x="328" y="597" type="curve" smooth="yes"/>
+      <point x="238" y="597" type="line" smooth="yes"/>
+      <point x="208" y="597"/>
+      <point x="205" y="594"/>
+      <point x="205" y="564" type="curve" smooth="yes"/>
+      <point x="205" y="331" type="line"/>
+      <point x="331" y="331" type="line" smooth="yes"/>
+      <point x="408" y="331"/>
+      <point x="412" y="354"/>
+      <point x="420" y="412" type="curve"/>
+      <point x="447" y="412" type="line"/>
+      <point x="447" y="217" type="line"/>
+      <point x="420" y="217" type="line"/>
+      <point x="412" y="275"/>
+      <point x="408" y="297"/>
+      <point x="331" y="297" type="curve" smooth="yes"/>
+      <point x="205" y="297" type="line"/>
+      <point x="205" y="84" type="line" smooth="yes"/>
+      <point x="205" y="33"/>
+      <point x="207" y="32"/>
+      <point x="301" y="26" type="curve"/>
+      <point x="301" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="41" y="135" type="line"/>
+      <point x="41" y="169" type="line"/>
+      <point x="372" y="169" type="line"/>
+      <point x="372" y="135" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=F</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=F</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>2d004303f26ae560e9970e4b832b1a110a6e02d39b08164bc09260d1543f80c4c632b5a420d81aaa236b5e6dd7ac15d6fbeb3c0c7679e8067f6b39b572ada7f2</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 26</string>
+          <string>hstem 135 34</string>
+          <string>hstem 297 34</string>
+          <string>hstem 504 -21</string>
+          <string>hstem 597 31</string>
+          <string>vstem 115 90</string>
+          <string>vstem 420 27</string>
+          <string>vstem 467 27</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

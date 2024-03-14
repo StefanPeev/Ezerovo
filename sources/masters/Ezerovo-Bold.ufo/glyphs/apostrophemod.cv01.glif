@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="apostrophemod.cv01" format="2">
+  <advance width="227"/>
+  <outline>
+    <contour>
+      <point x="80" y="522" type="line"/>
+      <point x="94" y="552"/>
+      <point x="95" y="585"/>
+      <point x="95" y="609" type="curve" smooth="yes"/>
+      <point x="95" y="628.377"/>
+      <point x="83.1514" y="642.076"/>
+      <point x="71.2279" y="655.862" type="curve" smooth="yes"/>
+      <point x="59.1524" y="669.823"/>
+      <point x="47" y="683.873"/>
+      <point x="47" y="708.229" type="curve" smooth="yes"/>
+      <point x="47" y="741"/>
+      <point x="69" y="762"/>
+      <point x="105.2" y="762" type="curve" smooth="yes"/>
+      <point x="157" y="762"/>
+      <point x="182" y="719"/>
+      <point x="182" y="666" type="curve" smooth="yes"/>
+      <point x="182" y="606"/>
+      <point x="149" y="541"/>
+      <point x="110" y="500" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>6f14a630b1a37e1a7ef5fbe7577519267d37ea999ce8204cd74ae4399deaa06678408ba495193b5c629a06e40fbf3d22a97591ab2715a02fcb0614e723057b77</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 500 262</string>
+          <string>vstem 95 87</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

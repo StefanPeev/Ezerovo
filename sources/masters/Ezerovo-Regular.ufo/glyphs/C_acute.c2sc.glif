@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Cacute.c2sc" format="2">
+  <advance width="534"/>
+  <outline>
+    <component base="C.c2sc"/>
+    <component base="acutecomb" xOffset="468" yOffset="22"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=C.c2sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=C.c2sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>C.c2sc+acutecomb</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

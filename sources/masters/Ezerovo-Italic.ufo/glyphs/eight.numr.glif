@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight.numr" format="2">
+  <advance width="345"/>
+  <outline>
+    <component base="eight.dnom" xOffset="58" yOffset="256"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w345</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 249 27</string>
+          <string>hstem 437 32</string>
+          <string>hstem 613 27</string>
+          <string>vstem 120 73</string>
+          <string>vstem 170 68</string>
+          <string>vstem 328 73</string>
+          <string>vstem 353 69</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

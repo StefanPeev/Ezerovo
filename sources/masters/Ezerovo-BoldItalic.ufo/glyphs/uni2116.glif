@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2116" format="2">
+  <advance width="1084"/>
+  <unicode hex="2116"/>
+  <outline>
+    <contour>
+      <point x="42" y="94" type="curve" smooth="yes"/>
+      <point x="42" y="130"/>
+      <point x="54" y="172"/>
+      <point x="103" y="172" type="curve" smooth="yes"/>
+      <point x="138" y="172"/>
+      <point x="170" y="155"/>
+      <point x="170" y="125" type="curve" smooth="yes"/>
+      <point x="170" y="91"/>
+      <point x="149" y="67"/>
+      <point x="149" y="50" type="curve" smooth="yes"/>
+      <point x="149" y="40"/>
+      <point x="152" y="29"/>
+      <point x="171" y="29" type="curve" smooth="yes"/>
+      <point x="232" y="29"/>
+      <point x="253" y="125"/>
+      <point x="275" y="225" type="curve" smooth="yes"/>
+      <point x="349" y="558" type="line" smooth="yes"/>
+      <point x="351.854" y="570.131"/>
+      <point x="353.681" y="579.874"/>
+      <point x="353.673" y="587.514" type="curve" smooth="yes"/>
+      <point x="353.658" y="601.287"/>
+      <point x="347.679" y="608.226"/>
+      <point x="331" y="610" type="curve" smooth="yes"/>
+      <point x="284" y="615" type="line"/>
+      <point x="293" y="650" type="line"/>
+      <point x="483" y="650" type="line"/>
+      <point x="659" y="188" type="line"/>
+      <point x="662" y="188" type="line"/>
+      <point x="714" y="426" type="line" smooth="yes"/>
+      <point x="751" y="590"/>
+      <point x="773" y="665"/>
+      <point x="870" y="665" type="curve" smooth="yes"/>
+      <point x="981" y="665"/>
+      <point x="1004" y="599"/>
+      <point x="1004" y="556" type="curve" smooth="yes"/>
+      <point x="1004" y="520"/>
+      <point x="992" y="478"/>
+      <point x="943" y="478" type="curve" smooth="yes"/>
+      <point x="908" y="478"/>
+      <point x="876" y="495"/>
+      <point x="876" y="525" type="curve" smooth="yes"/>
+      <point x="876" y="559"/>
+      <point x="897" y="584"/>
+      <point x="897" y="601" type="curve" smooth="yes"/>
+      <point x="897" y="611"/>
+      <point x="894" y="621"/>
+      <point x="875" y="621" type="curve" smooth="yes"/>
+      <point x="814" y="621"/>
+      <point x="793" y="526"/>
+      <point x="771" y="426" type="curve" smooth="yes"/>
+      <point x="677" y="0" type="line"/>
+      <point x="593" y="0" type="line"/>
+      <point x="400" y="509" type="line"/>
+      <point x="396" y="509" type="line"/>
+      <point x="332" y="225" type="line" smooth="yes"/>
+      <point x="295" y="61"/>
+      <point x="274" y="-14"/>
+      <point x="177" y="-14" type="curve" smooth="yes"/>
+      <point x="66" y="-14"/>
+      <point x="42" y="51"/>
+    </contour>
+    <contour>
+      <point x="807" y="198" type="curve" smooth="yes"/>
+      <point x="807" y="295"/>
+      <point x="867" y="369"/>
+      <point x="969" y="369" type="curve" smooth="yes"/>
+      <point x="1032" y="369"/>
+      <point x="1079" y="333"/>
+      <point x="1079" y="271" type="curve" smooth="yes"/>
+      <point x="1079" y="174"/>
+      <point x="1018" y="101"/>
+      <point x="916" y="101" type="curve" smooth="yes"/>
+      <point x="853" y="101"/>
+      <point x="807" y="136"/>
+    </contour>
+    <contour>
+      <point x="886" y="171" type="curve" smooth="yes"/>
+      <point x="886" y="162"/>
+      <point x="891" y="135"/>
+      <point x="921" y="135" type="curve" smooth="yes"/>
+      <point x="987" y="135"/>
+      <point x="999" y="258"/>
+      <point x="999" y="299" type="curve" smooth="yes"/>
+      <point x="999" y="308"/>
+      <point x="994" y="335"/>
+      <point x="964" y="335" type="curve" smooth="yes"/>
+      <point x="898" y="335"/>
+      <point x="886" y="212"/>
+    </contour>
+    <contour>
+      <point x="766" y="0" type="line"/>
+      <point x="776" y="43" type="line"/>
+      <point x="1021" y="43" type="line"/>
+      <point x="1010" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>7944df4292578b0f027394b55632b86506554832cb2209afdb1e7dd8a3e4a442905b1f75fb100a22d8a1da9aaed7d70c1a8e9acbb2ca8d38bb0d31f8d3d64ab5</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -14 43</string>
+          <string>hstem 0 43</string>
+          <string>hstem 101 34</string>
+          <string>hstem 335 34</string>
+          <string>hstem 615 35</string>
+          <string>hstem 621 44</string>
+          <string>vstem 42 107</string>
+          <string>vstem 807 79</string>
+          <string>vstem 897 107</string>
+          <string>vstem 999 80</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowup" format="2">
+  <advance width="689"/>
+  <unicode hex="2191"/>
+  <outline>
+    <contour>
+      <point x="318" y="-70" type="line"/>
+      <point x="318" y="389" type="line"/>
+      <point x="236" y="243" type="line"/>
+      <point x="171" y="243" type="line"/>
+      <point x="338" y="540" type="line"/>
+      <point x="351" y="540" type="line"/>
+      <point x="519" y="243" type="line"/>
+      <point x="454" y="243" type="line"/>
+      <point x="372" y="389" type="line"/>
+      <point x="372" y="-70" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w689m318,-70l318,389l236,243l171,243l338,540l351,540l519,243l454,243l372,389l372,-70</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 318 54</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

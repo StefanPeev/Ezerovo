@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni043A.loclBGR" format="2">
+  <advance width="535"/>
+  <anchor x="473" y="697" name="top"/>
+  <anchor x="306" y="-40" name="bottom"/>
+  <outline>
+    <component base="k"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>k</string>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three" format="2">
+  <advance width="536"/>
+  <unicode hex="0033"/>
+  <outline>
+    <component base="three.tf" xOffset="-6"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w536</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 43</string>
+          <string>hstem 298 76</string>
+          <string>hstem 311 51</string>
+          <string>hstem 596 43</string>
+          <string>vstem 31 120</string>
+          <string>vstem 51 113</string>
+          <string>vstem 321 146</string>
+          <string>vstem 341 153</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

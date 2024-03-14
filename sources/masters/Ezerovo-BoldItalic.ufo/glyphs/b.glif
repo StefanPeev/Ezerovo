@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b" format="2">
+  <advance width="550"/>
+  <unicode hex="0062"/>
+  <anchor x="430" y="697" name="top"/>
+  <anchor x="289" y="-40" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="64" y="0" type="line"/>
+      <point x="197" y="588" type="line"/>
+      <point x="200" y="599"/>
+      <point x="201" y="607"/>
+      <point x="201" y="614" type="curve" smooth="yes"/>
+      <point x="201" y="628"/>
+      <point x="195" y="633"/>
+      <point x="183" y="635" type="curve" smooth="yes"/>
+      <point x="136" y="642" type="line"/>
+      <point x="141" y="672" type="line"/>
+      <point x="351" y="697" type="line"/>
+      <point x="356" y="692" type="line"/>
+      <point x="251" y="286" type="line"/>
+      <point x="256" y="286" type="line"/>
+      <point x="321" y="404"/>
+      <point x="399" y="472"/>
+      <point x="484" y="472" type="curve" smooth="yes"/>
+      <point x="557" y="472"/>
+      <point x="589" y="422"/>
+      <point x="589" y="352" type="curve" smooth="yes"/>
+      <point x="589" y="180"/>
+      <point x="464" y="-11"/>
+      <point x="279" y="-11" type="curve" smooth="yes"/>
+      <point x="215" y="-11"/>
+      <point x="170" y="11"/>
+      <point x="145" y="41" type="curve"/>
+      <point x="110" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="228" y="102" type="curve" smooth="yes"/>
+      <point x="228" y="61"/>
+      <point x="244" y="32"/>
+      <point x="284" y="32" type="curve" smooth="yes"/>
+      <point x="388" y="32"/>
+      <point x="445" y="267"/>
+      <point x="445" y="341" type="curve" smooth="yes"/>
+      <point x="445" y="380"/>
+      <point x="435" y="397"/>
+      <point x="411" y="397" type="curve" smooth="yes"/>
+      <point x="322" y="397"/>
+      <point x="228" y="181"/>
+    </contour>
+  </outline>
+  <guideline angle="77.2425" x="65" y="5"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>3a6861a77068d8c7f3aaafaff93788e225514d82b6a2b2ad327820174b304bb641abfb519e2e8d9badb5afaf3263927c05fcb883467d14df9397e2f2e78667ad</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -11 43</string>
+          <string>hstem 21 -21</string>
+          <string>hstem 397 75</string>
+          <string>hstem 642 30</string>
+          <string>hstem 677 20</string>
+          <string>vstem 445 144</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

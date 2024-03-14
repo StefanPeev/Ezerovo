@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF6CE" format="2">
+  <advance width="376"/>
+  <unicode hex="F6CE"/>
+  <outline>
+    <contour>
+      <point x="199" y="791" type="curve" smooth="yes"/>
+      <point x="199" y="805"/>
+      <point x="212" y="838"/>
+      <point x="236" y="838" type="curve" smooth="yes"/>
+      <point x="249" y="838"/>
+      <point x="262" y="830"/>
+      <point x="290" y="811" type="curve" smooth="yes"/>
+      <point x="427" y="718" type="line"/>
+      <point x="416" y="697" type="line"/>
+      <point x="257" y="750" type="line" smooth="yes"/>
+      <point x="220.38" y="762.207"/>
+      <point x="199" y="770.53"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w376m199,791c199,805 212,838 236,838c249,838 262,830 290,811l427,718l416,697l257,750c220.38,762.21 199,770.53 199,791</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 697 21</string>
+          <string>hstem 750 88</string>
+          <string>vstem 199 228</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

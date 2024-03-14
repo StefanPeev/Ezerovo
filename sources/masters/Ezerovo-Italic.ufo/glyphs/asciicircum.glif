@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciicircum" format="2">
+  <advance width="535"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="111" y="214" type="line"/>
+      <point x="295" y="628" type="line"/>
+      <point x="368" y="628" type="line"/>
+      <point x="547" y="214" type="line"/>
+      <point x="476" y="214" type="line"/>
+      <point x="331" y="559" type="line"/>
+      <point x="182" y="214" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w535m111,214l295,628l368,628l547,214l476,214l331,559l182,214</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 608 20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccedilla.c2sc" format="2">
+  <advance width="512"/>
+  <outline>
+    <contour>
+      <point x="32" y="237" type="curve" smooth="yes"/>
+      <point x="32" y="414"/>
+      <point x="148" y="497"/>
+      <point x="315" y="497" type="curve" smooth="yes"/>
+      <point x="368" y="497"/>
+      <point x="432" y="486"/>
+      <point x="475" y="457" type="curve"/>
+      <point x="475" y="340" type="line"/>
+      <point x="441" y="340" type="line"/>
+      <point x="420" y="402"/>
+      <point x="396" y="455"/>
+      <point x="324" y="455" type="curve" smooth="yes"/>
+      <point x="198" y="455"/>
+      <point x="188" y="294"/>
+      <point x="188" y="241" type="curve" smooth="yes"/>
+      <point x="188" y="173"/>
+      <point x="204" y="25"/>
+      <point x="324" y="25" type="curve" smooth="yes"/>
+      <point x="400" y="25"/>
+      <point x="429" y="82"/>
+      <point x="455" y="153" type="curve"/>
+      <point x="486" y="153" type="line"/>
+      <point x="478" y="26" type="line"/>
+      <point x="434" y="-6"/>
+      <point x="356" y="-16"/>
+      <point x="299" y="-16" type="curve" smooth="yes"/>
+      <point x="113" y="-16"/>
+      <point x="32" y="90"/>
+    </contour>
+    <contour>
+      <point x="201.336" y="-198" type="line"/>
+      <point x="254.336" y="-198"/>
+      <point x="289.336" y="-184"/>
+      <point x="289.336" y="-146" type="curve" smooth="yes"/>
+      <point x="289.336" y="-105"/>
+      <point x="249.336" y="-96"/>
+      <point x="228.336" y="-94" type="curve"/>
+      <point x="223.336" y="-86" type="line"/>
+      <point x="284.336" y="10" type="line"/>
+      <point x="338.336" y="10" type="line"/>
+      <point x="296.336" y="-55" type="line"/>
+      <point x="325.336" y="-59"/>
+      <point x="388.336" y="-74"/>
+      <point x="388.336" y="-139" type="curve" smooth="yes"/>
+      <point x="388.336" y="-220"/>
+      <point x="291.336" y="-231"/>
+      <point x="243.336" y="-231" type="curve" smooth="yes"/>
+      <point x="229.336" y="-231"/>
+      <point x="217.336" y="-230"/>
+      <point x="201.336" y="-228" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=C.c2sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=C.c2sc</string>
+  </dict>
+  </lib>
+</glyph>

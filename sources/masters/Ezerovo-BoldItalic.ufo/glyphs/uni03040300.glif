@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni03040300" format="2">
+  <anchor x="-50" y="556" name="_top"/>
+  <outline>
+    <component base="macron" xOffset="-391"/>
+    <contour>
+      <point x="-211" y="809" type="curve" smooth="yes"/>
+      <point x="-211" y="833"/>
+      <point x="-184" y="866"/>
+      <point x="-161" y="866" type="curve" smooth="yes"/>
+      <point x="-142" y="866"/>
+      <point x="-126" y="855"/>
+      <point x="-91" y="819" type="curve" smooth="yes"/>
+      <point x="45" y="679" type="line"/>
+      <point x="25" y="650" type="line"/>
+      <point x="-147" y="747" type="line" smooth="yes"/>
+      <point x="-181" y="766"/>
+      <point x="-211" y="785"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w0m-211,809c-211,833 -184,866 -161,866c-142,866 -126,855 -91,819l45,679l25,650l-147,747c-181,766 -211,785 -211,809</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 480 216</string>
+          <string>vstem -241 256</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

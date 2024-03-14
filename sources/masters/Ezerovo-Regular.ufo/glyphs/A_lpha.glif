@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alpha" format="2">
+  <advance width="596"/>
+  <unicode hex="0391"/>
+  <anchor x="292" y="697" name="top"/>
+  <anchor x="292" y="620" name="t.ring"/>
+  <anchor x="525" y="0" name="b.ogonek"/>
+  <anchor x="291" y="-40" name="bottom"/>
+  <outline>
+    <component base="A"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>A%</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

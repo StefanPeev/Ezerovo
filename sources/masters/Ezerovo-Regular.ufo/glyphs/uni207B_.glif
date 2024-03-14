@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni207B" format="2">
+  <advance width="365"/>
+  <unicode hex="207B"/>
+  <outline>
+    <contour>
+      <point x="27" y="482" type="line"/>
+      <point x="27" y="526" type="line"/>
+      <point x="339" y="526" type="line"/>
+      <point x="339" y="482" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w365m27,482l27,526l339,526l339,482</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 482 44</string>
+          <string>vstem 27 312</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

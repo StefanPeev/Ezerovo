@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="questiondown.sups" format="2">
+  <advance width="321"/>
+  <outline>
+    <component base="question.sups" xScale="-1" yScale="-1" xOffset="301" yOffset="992"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w321</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 227 26</string>
+          <string>hstem 487 34</string>
+          <string>hstem 560 94</string>
+          <string>vstem 29 74</string>
+          <string>vstem 118 93</string>
+          <string>vstem 167 73</string>
+          <string>vstem 230 64</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

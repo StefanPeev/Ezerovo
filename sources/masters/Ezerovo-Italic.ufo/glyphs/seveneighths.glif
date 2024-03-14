@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seveneighths" format="2">
+  <advance width="836"/>
+  <unicode hex="215E"/>
+  <outline>
+    <component base="uni2077" xOffset="13" yOffset="-100"/>
+    <component base="uni2078" xOffset="402" yOffset="-356"/>
+    <contour>
+      <point x="168" y="6" type="line"/>
+      <point x="672" y="656" type="line"/>
+      <point x="704" y="631" type="line"/>
+      <point x="199" y="-23" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w836m168,6l672,656l704,631l199,-23</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -7 27</string>
+          <string>hstem 181 31</string>
+          <string>hstem 357 27</string>
+          <string>hstem 577 56</string>
+          <string>hstem 636 20</string>
+          <string>vstem 171 74</string>
+          <string>vstem 505 72</string>
+          <string>vstem 555 68</string>
+          <string>vstem 713 73</string>
+          <string>vstem 738 69</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

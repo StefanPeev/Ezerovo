@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesinglbase" format="2">
+  <advance width="245"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="44" y="-118" type="line"/>
+      <point x="75" y="-84"/>
+      <point x="96" y="-47"/>
+      <point x="96" y="-11" type="curve" smooth="yes"/>
+      <point x="96" y="35"/>
+      <point x="61" y="54"/>
+      <point x="61" y="94" type="curve" smooth="yes"/>
+      <point x="61" y="127"/>
+      <point x="83" y="157"/>
+      <point x="124" y="157" type="curve" smooth="yes"/>
+      <point x="169" y="157"/>
+      <point x="204" y="119"/>
+      <point x="204" y="62" type="curve" smooth="yes"/>
+      <point x="204" y="-23"/>
+      <point x="128" y="-97"/>
+      <point x="69" y="-144" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w245m44,-118c75,-84 96,-47 96,-11c96,35 61,54 61,94c61,127 83,157 124,157c169,157 204,119 204,62c204,-23 128,-97 69,-144</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -144 301</string>
+          <string>vstem 96 108</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

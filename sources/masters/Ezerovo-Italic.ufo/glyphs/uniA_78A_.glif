@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniA78A" format="2">
+  <advance width="362"/>
+  <unicode hex="A78A"/>
+  <outline>
+    <contour>
+      <point x="97" y="149" type="line"/>
+      <point x="110" y="203" type="line"/>
+      <point x="334" y="203" type="line"/>
+      <point x="321" y="149" type="line"/>
+    </contour>
+    <contour>
+      <point x="125" y="269" type="line"/>
+      <point x="137" y="323" type="line"/>
+      <point x="361" y="323" type="line"/>
+      <point x="349" y="269" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.798,1,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w362m97,149l110,203l334,203l321,149m125,269l137,323l361,323l349,269</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 149 54</string>
+          <string>hstem 269 54</string>
+          <string>vstem 97 264</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
