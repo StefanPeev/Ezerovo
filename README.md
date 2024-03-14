@@ -3,26 +3,14 @@
 Ezerovo
 ============
 
-Font family Ezerovo is based on the project Erewhon. Ezerovo extends the multilanguage coverage of Erewhon and changes the geometry of some glyphs. It include also new styles (Medium, SemiBold) as well as a variable font format.  
+Font family Ezerovo is based on the project [Erewhon](https://ctan.org/pkg/erewhon?lang=en). Ezerovo extends the multilanguage coverage of Erewhon and changes the geometry of some glyphs. It includes also new styles (Medium, SemiBold) as well as a variable font format.  
 The project is in its beginning. Any contributions are well-come and highly appreciated.  
 
 History 
 -------
 
-The [Libertinus font project](https://github.com/alerque/libertinus)
-began as a fork of the [Linux Libertine](https://en.wikipedia.org/wiki/Linux_Libertine) and Linux Biolinum fonts.
-Libertinus was forked from the [5.3.0 (2012-07-02) release](https://sourceforge.net/projects/linuxlibertine/files/linuxlibertine/) of the Linux Libertine fonts.
-The original impetus was to add an OpenType math companion to the Libertine font families.
-Over time it grew into to a full-fledged fork addressing many of the bugs in the Libertine fonts.
-
-Hat-tip to Frédéric Wang for coming up with the name "Libertinus".
-
-Thanks to Khaled Hosny who was the primary contributor and maintainer from 2012–2020.
-If you like this font, please thank and even consider sponsoring him!
-
-In 2020, Khaled passed the role of maintainer on to Caleb Maclennan.
-
-In 2022 Stefan Peev started a new project, Common Serif, which further develops Libertinus Serif.
+The Erewhon font project (Copyright (c) 2012-2014 Michael Sharpe) is based on the Heuristica package (Copyright (c) 2008-2012 Andrey V. Panov), which is based in turn on Utopia (Copyright (c) 1989, 1991 Adobe Systems Incorporated). Erewhon adds a number of new features — small caps in all styles rather than just regular, added figure styles (proportional, inferior, numerator, denominator) and superior letters. The size is 6% smaller than Heuristica, matching that of UtopiaStd.
+Ezerovo font (Copyright (c) 2024 Stefan Peev) is actually a totally new project. 
 
 Acknowledgements
 ----------------
@@ -47,16 +35,11 @@ Examples
 
 See [images](/images/) and [Gallery](/images/Gallery.md).
 
-Unicode Support
----------------
+Projects using Ezerovo
+----------------------
 
-For Unicode Support in Common Serif see [Unicode Support page](https://github.com/StefanPeev/Common-Serif/blob/main/documentation/Unicode%20Support.md).
-  
-Projects using Common Serif
----------------------------
-
-Have you made something nice with Common Serif?  
-[Please share it in Discussions panel "Show and tell"! →](https://github.com/StefanPeev/Common-Serif/discussions/categories/show-and-tell).  
+Have you made something nice with Ezerovo?  
+[Please share it in Discussions panel "Show and tell"! →](https://github.com/StefanPeev/Ezerovo/discussions/categories/show-and-tell).  
   
 Local Fonts project
 -------------------
