@@ -3,7 +3,7 @@
 Ezerovo
 ============
 
-The font family Ezerovo started as an attempt to update [Erewhon](https://ctan.org/pkg/erewhon?lang=en) - a project of CTAN (The Comprehensive TEX Archive Network), based on Heuristica and Utopia. Because the changes went far beyond the original plans to add local forms of Cyrillic (Bulgarian form, Serbian form, Macedonian form) and practically covered all aspects of the font, as well as in accordance with the requirements of the SIL Open Font License for the new name of the project when implementing changes, I decided that it would be most reasonable for the project to take a new path with its new name Ezerovo and its new place of development - GitHub.  
+The font family Ezerovo started as an attempt to update [Erewhon](https://ctan.org/pkg/erewhon?lang=en) - a project of CTAN (The Comprehensive TEX Archive Network), based on [Heuristica GitHub](https://github.com/moyogo/evristika), [Heuristica CTAN](https://ctan.org/pkg/heuristica) and [Utopia](https://ctan.org/pkg/utopia). Because the changes went far beyond the original plans to add local forms of Cyrillic (Bulgarian form, Serbian form, Macedonian form) and practically covered all aspects of the font, as well as in accordance with the requirements of the SIL Open Font License for the new name of the project when implementing changes, I decided that it would be most reasonable for the project to take a new path with its new name Ezerovo and its new place of development - GitHub.  
 The project is in its beginning. Any contributions are well-come and highly appreciated.  
   
 History 
