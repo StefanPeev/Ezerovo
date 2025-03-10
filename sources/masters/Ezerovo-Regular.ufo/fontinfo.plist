@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>0</integer>
   <key>copyright</key>
-  <string>Copyright (c) 1989, 1991 Adobe Systems Incorporated.  All Rights Reserved. Utopia is either a registered trademark or trademark of Adobe Systems Incorporated in the United States and/or other countries. Used under license. The Utopia fonts are freely available; see http://tug.org/fonts/utopia.
+  <string>Copyright 1989, 1991 Adobe Systems Incorporated.  All Rights Reserved. Utopia is either a registered trademark or trademark of Adobe Systems Incorporated in the United States and/or other countries. Used under license. The Utopia fonts are freely available; see http://tug.org/fonts/utopia.
 
-Cyrillic: Copyright (c) 2008-2012 Andrey V. Panov (panov@canopus.iacp.dvo.ru). 
+Cyrillic: Copyright 2008-2012 Andrey V. Panov (panov@canopus.iacp.dvo.ru). 
 
-Greek: Copyright (C) 2003-2004 GUTenberg
+Greek: Copyright 2003-2004 GUTenberg
 
-All modifications and additions are Copyright (c) 2014--2020, Michael Sharpe</string>
+All modifications and additions are Copyright 2014-2020, Michael Sharpe</string>
   <key>descender</key>
   <integer>-250</integer>
   <key>familyName</key>
@@ -66,7 +66,7 @@ Utopia is either a registered trademark or trademark of Adobe Systems
 Incorporated in the United States and/or other countries. Used under
 license.
 
-Copyright (c) 2008-2012 Andrey V. Panov (panov@canopus.iacp.dvo.ru), 
+Copyright 2008-2012 Andrey V. Panov (panov@canopus.iacp.dvo.ru), 
 with Reserved Font Name Heuristica.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -80,7 +80,7 @@ http://scripts.sil.org/OFL</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.005</string>
+  <string>Version 1.006</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -234,7 +234,7 @@ http://scripts.sil.org/OFL</string>
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>5</integer>
+  <integer>6</integer>
   <key>xHeight</key>
   <integer>461</integer>
 </dict>

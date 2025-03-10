@@ -4,8 +4,14 @@
 @c2sc2 = [A.c2sc AE.c2sc Aacute.c2sc Abreve.c2sc Acircumflex.c2sc Adieresis.c2sc Agrave.c2sc Amacron.c2sc Aogonek.c2sc Aring.c2sc Atilde.c2sc B.c2sc C.c2sc Cacute.c2sc Ccaron.c2sc Ccedilla.c2sc D.c2sc Dcaron.c2sc Dcroat.c2sc E.c2sc Eacute.c2sc Ebreve.c2sc Ecaron.c2sc Ecircumflex.c2sc Edieresis.c2sc Egrave.c2sc Emacron.c2sc Eogonek.c2sc Eth.c2sc F.c2sc G.c2sc H.c2sc I.c2sc Iacute.c2sc Ibreve.c2sc Icircumflex.c2sc Idieresis.c2sc Igrave.c2sc Imacron.c2sc Itilde.c2sc J.c2sc Jcircumflex.c2sc K.c2sc L.c2sc Lacute.c2sc Lcaron.c2sc M.c2sc N.c2sc Nacute.c2sc Ncaron.c2sc Ntilde.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Oslash.c2sc Otilde.c2sc P.c2sc Q.c2sc R.c2sc Racute.c2sc Rcaron.c2sc S.c2sc Sacute.c2sc Scaron.c2sc Scircumflex.c2sc T.c2sc Tcaron.c2sc Thorn.c2sc U.c2sc Uacute.c2sc Ubreve.c2sc Ucircumflex.c2sc Udieresis.c2sc Ugrave.c2sc Uhungarumlaut.c2sc Umacron.c2sc Uring.c2sc V.c2sc W.c2sc Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc X.c2sc Y.c2sc Yacute.c2sc Ycircumflex.c2sc Ydieresis.c2sc Z.c2sc Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc gravecomb.c2sc uni0162.c2sc uni0306.c2sc uni0400.c2sc uni0401.c2sc uni0402.c2sc uni0403.c2sc uni0404.c2sc uni0405.c2sc uni0406.c2sc uni0407.c2sc uni0408.c2sc uni0409.c2sc uni040A.c2sc uni040B.c2sc uni040C.c2sc uni040D.c2sc uni040E.c2sc uni040F.c2sc uni0410.c2sc uni0411.c2sc uni0412.c2sc uni0413.c2sc uni0414.c2sc uni0415.c2sc uni0416.c2sc uni0417.c2sc uni0418.c2sc uni0419.c2sc uni041A.c2sc uni041B.c2sc uni041C.c2sc uni041D.c2sc uni041E.c2sc uni041F.c2sc uni0420.c2sc uni0421.c2sc uni0422.c2sc uni0423.c2sc uni0424.c2sc uni0425.c2sc uni0426.c2sc uni0427.c2sc uni0428.c2sc uni0429.c2sc uni042A.c2sc uni042B.c2sc uni042C.c2sc uni042D.c2sc uni042E.c2sc uni042F.c2sc uni0462.c2sc uni0472.c2sc uni0474.c2sc uni04A4.c2sc uni04AA.c2sc uni04AE.c2sc uni04B0.c2sc uni04C1.c2sc uni04D0.c2sc uni04D2.c2sc uni04D4.c2sc uni04D6.c2sc uni04DC.c2sc uni04DE.c2sc uni04E2.c2sc uni04E4.c2sc uni04E6.c2sc uni04E8.c2sc uni04EA.c2sc uni04EC.c2sc uni04EE.c2sc uni04F0.c2sc uni04F4.c2sc uni04F8.c2sc uni1E9E.c2sc];
 @dnom = [comma period zero one two three four five six seven eight nine zero.tosf one.tosf one.tosf.alt two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf zero.osf one.osf one.osf.alt two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf];
 @dnom2 = [comma.dnom period.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.dnom one.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.dnom one.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+@loclBGR = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni043A.loclBGR uni043B.loclBGR uni0444.loclBGR uni044E.loclBGR];
+@loclCYR = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0434 uni0436 uni0437 uni043A uni043B uni0444 uni044E];
 #/< otclasses
 #< classes
+
+#
+# Languagesystem definitions
+#
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -17,8 +23,8 @@ languagesystem latn  TRK;
 languagesystem latn  VIT;
 languagesystem cyrl dflt;
 languagesystem cyrl  BGR; # Cyrillic Bulgarian
-languagesystem cyrl  MKD; # Cyrillic Macedonian
-languagesystem cyrl  SRB;
+languagesystem cyrl  MKD; # Cyrillic North Macedonian
+languagesystem cyrl  SRB; # Cyrillic Serbian
 languagesystem grek dflt;
 languagesystem hebr dflt;
 
@@ -56,28 +62,17 @@ lookup caseCaseSensitiveFormslookup16 {
     sub \uni0330 by \uni0330.cap ;
     sub \uni0331 by \uni0331.cap ;
 } caseCaseSensitiveFormslookup16;
+
+lookup loclCYR_loclBGR {
+	sub @loclCYR by @loclBGR;
+} loclCYR_loclBGR;
 feature locl {
 # Localized Forms
 
 #> feature
   script cyrl; # Cyrillic
   language BGR; # Bulgarian
-  sub uni040D by uni040D.loclBGR;
-  sub uni0414 by uni0414.loclBGR;
-  sub uni0416 by uni0416.loclBGR;
-  sub uni0418 by uni0418.loclBGR;
-  sub uni0419 by uni0419.loclBGR;
-  sub uni041A by uni041A.loclBGR;
-  sub uni041B by uni041B.loclBGR;
-  sub uni0424 by uni0424.loclBGR;
-  sub uni0432 by uni0432.loclBGR;
-  sub uni0434 by uni0434.loclBGR;
-  sub uni0436 by uni0436.loclBGR;
-  sub uni0437 by uni0437.loclBGR;
-  sub uni043A by uni043A.loclBGR;
-  sub uni043B by uni043B.loclBGR;
-  sub uni0444 by uni0444.loclBGR;
-  sub uni044E by uni044E.loclBGR;
+  lookup loclCYR_loclBGR;
 
   language SRB; # Serbian
   sub uni0431 by uni0431.loclSRB;
@@ -186,6 +181,30 @@ feature smcp {
   sub yen by yen.sc;
 #< feature
 } smcp;
+feature ss01 {
+# Stylistic Set 01–20
+
+  featureNames {
+    name "Bulgarian Cyrillic";
+  };
+
+#> feature
+  lookup loclCYR_loclBGR;
+#< feature
+} ss01;
+feature ss02 {
+# Stylistic Set 01–20
+
+  featureNames {
+    name "Latin Small Letter Sharp S";
+  };
+
+#> feature
+  sub germandbls by germandbls.ss02;
+  sub germandbls.sc by germandbls.sc.ss02;
+  sub uni1E9E by uni1E9E.ss02;
+#< feature
+} ss02;
 feature cv01 {
 # Character Variant 01—99
 
@@ -196,15 +215,6 @@ feature cv01 {
   sub uni0413 by uni0413.cv01;
 #< feature
 } cv01;
-feature ss02 {
-# Stylistic Set 01–20
-
-#> feature
-  sub germandbls by germandbls.ss02;
-  sub germandbls.sc by germandbls.sc.ss02;
-  sub uni1E9E by uni1E9E.ss02;
-#< feature
-} ss02;
 feature liga {
 # Standard Ligatures
 

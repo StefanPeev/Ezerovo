@@ -446,5 +446,43 @@
     <string>eight.dnom</string>
     <string>nine.dnom</string>
   </array>
+  <key>loclBGR</key>
+  <array>
+    <string>uni040D.loclBGR</string>
+    <string>uni0414.loclBGR</string>
+    <string>uni0416.loclBGR</string>
+    <string>uni0418.loclBGR</string>
+    <string>uni0419.loclBGR</string>
+    <string>uni041A.loclBGR</string>
+    <string>uni041B.loclBGR</string>
+    <string>uni0424.loclBGR</string>
+    <string>uni0432.loclBGR</string>
+    <string>uni0434.loclBGR</string>
+    <string>uni0436.loclBGR</string>
+    <string>uni0437.loclBGR</string>
+    <string>uni043A.loclBGR</string>
+    <string>uni043B.loclBGR</string>
+    <string>uni0444.loclBGR</string>
+    <string>uni044E.loclBGR</string>
+  </array>
+  <key>loclCYR</key>
+  <array>
+    <string>uni040D</string>
+    <string>uni0414</string>
+    <string>uni0416</string>
+    <string>uni0418</string>
+    <string>uni0419</string>
+    <string>uni041A</string>
+    <string>uni041B</string>
+    <string>uni0424</string>
+    <string>uni0432</string>
+    <string>uni0434</string>
+    <string>uni0436</string>
+    <string>uni0437</string>
+    <string>uni043A</string>
+    <string>uni043B</string>
+    <string>uni0444</string>
+    <string>uni044E</string>
+  </array>
 </dict>
 </plist>

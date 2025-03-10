@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0418.loclBGR" format="2">
-  <advance width="755"/>
+  <advance width="800"/>
   <outline>
     <contour>
-      <point x="115" y="73" type="line"/>
-      <point x="113" y="38"/>
-      <point x="102" y="36"/>
-      <point x="31" y="31" type="curve"/>
-      <point x="31" y="0" type="line"/>
-      <point x="214" y="0" type="line"/>
-      <point x="339" y="222"/>
-      <point x="458" y="376"/>
-      <point x="580" y="548" type="curve"/>
-      <point x="580" y="168" type="line"/>
-      <point x="577" y="49"/>
-      <point x="577" y="39"/>
-      <point x="479" y="31" type="curve"/>
-      <point x="479" y="0" type="line"/>
-      <point x="763" y="0" type="line"/>
-      <point x="763" y="31" type="line"/>
-      <point x="682" y="37"/>
-      <point x="679" y="39"/>
-      <point x="679" y="91" type="curve" smooth="yes"/>
-      <point x="679" y="562" type="line" smooth="yes"/>
-      <point x="679" y="615"/>
-      <point x="682" y="617"/>
-      <point x="763" y="622" type="curve"/>
-      <point x="763" y="653" type="line"/>
-      <point x="581" y="653" type="line"/>
-      <point x="214" y="113" type="line"/>
-      <point x="214" y="562" type="line" smooth="yes"/>
-      <point x="214" y="615"/>
-      <point x="217" y="617"/>
-      <point x="298" y="622" type="curve"/>
-      <point x="298" y="653" type="line"/>
-      <point x="29" y="653" type="line"/>
-      <point x="29" y="622" type="line"/>
-      <point x="78" y="618"/>
-      <point x="103" y="615"/>
-      <point x="109" y="574" type="curve" smooth="yes"/>
-      <point x="113" y="543"/>
-      <point x="115" y="507"/>
-      <point x="115" y="456" type="curve" smooth="yes"/>
+      <point x="35" y="0" type="line"/>
+      <point x="218" y="0" type="line"/>
+      <point x="584" y="573" type="line"/>
+      <point x="584" y="91" type="line" smooth="yes"/>
+      <point x="584" y="48.9622"/>
+      <point x="581" y="39"/>
+      <point x="483" y="31" type="curve"/>
+      <point x="483" y="0" type="line"/>
+      <point x="767" y="0" type="line"/>
+      <point x="767" y="31" type="line"/>
+      <point x="686" y="37"/>
+      <point x="683" y="48.9622"/>
+      <point x="683" y="91" type="curve" smooth="yes"/>
+      <point x="683" y="562" type="line" smooth="yes"/>
+      <point x="683" y="604"/>
+      <point x="686" y="617"/>
+      <point x="767" y="622" type="curve"/>
+      <point x="767" y="653" type="line"/>
+      <point x="585" y="653" type="line"/>
+      <point x="218" y="80" type="line"/>
+      <point x="218" y="562" type="line" smooth="yes"/>
+      <point x="218" y="604"/>
+      <point x="221" y="617"/>
+      <point x="302" y="622" type="curve"/>
+      <point x="302" y="653" type="line"/>
+      <point x="33" y="653" type="line"/>
+      <point x="33" y="622" type="line"/>
+      <point x="106.196" y="616.025"/>
+      <point x="119" y="603.693"/>
+      <point x="119" y="561.636" type="curve" smooth="yes"/>
+      <point x="119" y="73" type="line" smooth="yes"/>
+      <point x="119" y="45.0292"/>
+      <point x="106" y="36"/>
+      <point x="35" y="31" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=H</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=H</string>
   <key>public.postscript.hints</key>
   <dict>
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>819b329781fd4d7d71cc2d029c7bfa5d34549950307f99020ded6d92196ce3069ad026323dac5288d2ff55d68483fe134e98e91b924bf09630db20d740cf83e1</string>
+    <string>2aa216704df9153a4106b90f40b4b685d9d2ed0c7a7790c975dcad1ae98c0c85059e2b46cedfdcc352a7671da7ad174046af33d6609c94067be2eefc2d8c8e7b</string>
     <key>hintSetList</key>
     <array>
       <dict>
@@ -59,8 +58,8 @@
         <array>
           <string>hstem 0 27</string>
           <string>hstem 623 27</string>
-          <string>vstem 118 93</string>
-          <string>vstem 545 93</string>
+          <string>vstem 122 93</string>
+          <string>vstem 549 93</string>
         </array>
       </dict>
     </array>

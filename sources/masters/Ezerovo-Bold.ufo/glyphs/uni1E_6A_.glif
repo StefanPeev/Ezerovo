@@ -3,9 +3,10 @@
   <advance width="595"/>
   <unicode hex="1E6A"/>
   <anchor x="328" y="10" name="b.cedilla"/>
+  <anchor x="298" y="-40" name="bottom"/>
   <outline>
     <component base="T"/>
-    <component base="uni0307" xOffset="501" yOffset="171"/>
+    <component base="uni0307" xOffset="494" yOffset="171"/>
   </outline>
   <lib>
   <dict>

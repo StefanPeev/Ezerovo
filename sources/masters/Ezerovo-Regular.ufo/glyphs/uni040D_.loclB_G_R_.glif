@@ -2,7 +2,7 @@
 <glyph name="uni040D.loclBGR" format="2">
   <advance width="755"/>
   <outline>
-    <component base="uni0418.loclBGR"/>
+    <component base="uni0418.loclBGR" xOffset="-4"/>
     <contour>
       <point x="220" y="788" type="line"/>
       <point x="218" y="807"/>

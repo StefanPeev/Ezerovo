@@ -2,9 +2,9 @@
 <glyph name="uni1E6F" format="2">
   <advance width="357"/>
   <unicode hex="1E6F"/>
+  <anchor x="187" y="650" name="top"/>
   <anchor x="235" y="10" name="b.cedilla"/>
   <anchor x="269" y="743" name="t.r.caron"/>
-  <anchor x="187" y="650" name="top"/>
   <outline>
     <component base="t"/>
     <component base="uni0331" xOffset="384" yOffset="87"/>

@@ -2,8 +2,9 @@
 <glyph name="uni0422" format="2">
   <advance width="595"/>
   <unicode hex="0422"/>
-  <anchor x="305" y="697" name="top"/>
+  <anchor x="298" y="697" name="top"/>
   <anchor x="328" y="10" name="b.cedilla"/>
+  <anchor x="298" y="-40" name="bottom"/>
   <outline>
     <component base="T"/>
   </outline>

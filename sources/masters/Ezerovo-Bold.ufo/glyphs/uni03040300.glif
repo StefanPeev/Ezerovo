@@ -2,13 +2,8 @@
 <glyph name="uni03040300" format="2">
   <anchor x="-196" y="552" name="_top"/>
   <outline>
-    <component base="gravecomb" xOffset="-9" yOffset="170"/>
-    <contour>
-      <point x="-342" y="552" type="line"/>
-      <point x="-342" y="634" type="line"/>
-      <point x="-50" y="634" type="line"/>
-      <point x="-50" y="552" type="line"/>
-    </contour>
+    <component base="gravecomb" xOffset="-6" yOffset="170"/>
+    <component base="uni0304"/>
   </outline>
   <lib>
   <dict>
@@ -17,7 +12,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w0m-342,552l-342,634l-50,634l-50,552</string>
+    <string>w0</string>
     <key>hintSetList</key>
     <array>
       <dict>

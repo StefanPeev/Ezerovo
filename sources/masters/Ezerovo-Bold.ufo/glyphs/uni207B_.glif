@@ -6,9 +6,7 @@
     <contour>
       <point x="51" y="478" type="line"/>
       <point x="51" y="533" type="line"/>
-      <point x="51" y="533"/>
-      <point x="375" y="533"/>
-      <point x="376" y="533" type="curve"/>
+      <point x="376" y="533" type="line"/>
       <point x="376" y="478" type="line"/>
     </contour>
   </outline>
@@ -19,7 +17,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w425m51,478l51,533c51,533 375,533 376,533l376,478</string>
+    <string>w425m51,478l51,533l376,533l376,478</string>
     <key>hintSetList</key>
     <array>
       <dict>

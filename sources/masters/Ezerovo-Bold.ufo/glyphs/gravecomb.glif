@@ -3,20 +3,7 @@
   <unicode hex="0300"/>
   <anchor x="-226" y="480" name="_top"/>
   <outline>
-    <contour>
-      <point x="-308" y="696" type="curve" smooth="yes"/>
-      <point x="-293" y="696"/>
-      <point x="-276" y="685"/>
-      <point x="-241" y="649" type="curve" smooth="yes"/>
-      <point x="-105" y="509" type="line"/>
-      <point x="-126" y="480" type="line"/>
-      <point x="-298" y="577" type="line" smooth="yes"/>
-      <point x="-332" y="596"/>
-      <point x="-362" y="615"/>
-      <point x="-362" y="639" type="curve" smooth="yes"/>
-      <point x="-362" y="663"/>
-      <point x="-335" y="696"/>
-    </contour>
+    <component base="grave" xOffset="-406"/>
   </outline>
   <lib>
   <dict>
@@ -25,7 +12,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w0m-308,696c-293,696 -276,685 -241,649l-105,509l-126,480l-298,577c-332,596 -362,615 -362,639c-362,663 -335,696 -308,696</string>
+    <string>w0</string>
     <key>hintSetList</key>
     <array>
       <dict>

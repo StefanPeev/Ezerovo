@@ -1,61 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni028C" format="2">
-  <advance width="470"/>
+  <advance width="525"/>
   <unicode hex="028C"/>
   <outline>
-    <contour>
-      <point x="-21" y="0" type="line"/>
-      <point x="-21" y="27" type="line"/>
-      <point x="20" y="30"/>
-      <point x="30" y="36"/>
-      <point x="45" y="68" type="curve" smooth="yes"/>
-      <point x="61" y="102"/>
-      <point x="85" y="160"/>
-      <point x="111" y="233" type="curve" smooth="yes"/>
-      <point x="194" y="461" type="line"/>
-      <point x="261" y="461" type="line"/>
-      <point x="402" y="70" type="line" smooth="yes"/>
-      <point x="415" y="35"/>
-      <point x="425" y="31"/>
-      <point x="469" y="27" type="curve"/>
-      <point x="469" y="0" type="line"/>
-      <point x="258" y="0" type="line"/>
-      <point x="258" y="27" type="line"/>
-      <point x="301" y="32" type="line" smooth="yes"/>
-      <point x="319" y="34"/>
-      <point x="323" y="41"/>
-      <point x="316" y="59" type="curve"/>
-      <point x="205" y="376" type="line"/>
-      <point x="203" y="376" type="line"/>
-      <point x="141" y="202" type="line" smooth="yes"/>
-      <point x="119" y="140"/>
-      <point x="103" y="87"/>
-      <point x="95" y="57" type="curve"/>
-      <point x="91" y="44"/>
-      <point x="94" y="34"/>
-      <point x="112" y="32" type="curve" smooth="yes"/>
-      <point x="158" y="27" type="line"/>
-      <point x="158" y="0" type="line"/>
-    </contour>
+    <component base="uni043B.loclBGR"/>
   </outline>
   <lib>
   <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>3de93e5b238671967da58d41dfec876a0fa377a12e72863f69be6eb26ac1056059202c027b00294b6fc459e0653025a814d5628df63ce66dc0fb889a2fef4d40</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 0 27</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>uni043B.loclBGR</string>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

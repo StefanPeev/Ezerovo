@@ -1,611 +1,56 @@
 #> classes
 #/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@loclBGR = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
+@loclCYR = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
 #/< otclasses
 
 #/> kernclasses
+@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
 @A.sc = [A.c2sc Aacute.c2sc Abreve.c2sc Acircumflex.c2sc Adieresis.c2sc Agrave.c2sc Amacron.c2sc Aring.c2sc Atilde.c2sc];
+@A.sc2 = [A.c2sc Aacute.c2sc Abreve.c2sc Acircumflex.c2sc Adieresis.c2sc Agrave.c2sc Amacron.c2sc Aring.c2sc Atilde.c2sc];
+@C.sc = [Ccaron.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc];
+@D = [D Dcaron Dcroat Eth];
 @E.sc = [Eacute.c2sc Ebreve.c2sc Ecaron.c2sc Ecircumflex.c2sc Edieresis.c2sc Egrave.c2sc Emacron.c2sc];
+@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
+@I.sc = [Iacute.c2sc Ibreve.c2sc Icircumflex.c2sc Idieresis.c2sc Igrave.c2sc Imacron.c2sc Itilde.c2sc];
+@J = [J Jcircumflex];
 @J.sc = [Jcircumflex.c2sc];
 @L.sc = [Lacute.c2sc Lcaron.c2sc];
+@N = [N Nacute Ncaron Ncommaaccent Ntilde];
+@N.sc = [Nacute.c2sc Ncaron.c2sc Ntilde.c2sc];
+@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
 @O.sc = [Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc];
+@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50];
 @R.sc = [Racute.c2sc Rcaron.c2sc];
 @S.sc = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T.sc = [Tcaron.c2sc];
-@U.sc = [Uacute.c2sc Ubreve.c2sc Ugrave.c2sc Umacron.c2sc Uring.c2sc];
-@W.sc = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y.sc = [Yacute.c2sc Ycircumflex.c2sc Ydieresis.c2sc];
-@Z.sc = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
 @T = [T Tcaron uni0162 uni021A];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@N.sc = [Nacute.c2sc Ncaron.c2sc Ntilde.c2sc];
-@I.sc = [Iacute.c2sc Ibreve.c2sc Icircumflex.c2sc Idieresis.c2sc Igrave.c2sc Imacron.c2sc Itilde.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@J = [J Jcircumflex];
+@T.sc = [Tcaron.c2sc];
 @T.sc2 = [Tcaron.c2sc];
-@Y.sc2 = [Yacute.c2sc Ycircumflex.c2sc Ydieresis.c2sc];
-@Z.sc2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
+@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
+@U.sc = [Uacute.c2sc Ubreve.c2sc Ugrave.c2sc Umacron.c2sc Uring.c2sc];
 @U.sc2 = [Uacute.c2sc Ubreve.c2sc Ucircumflex.c2sc Udieresis.c2sc Ugrave.c2sc Umacron.c2sc Uring.c2sc];
+@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
+@W.sc = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
 @W.sc2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@C.sc = [Ccaron.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc];
-@A.sc2 = [A.c2sc Aacute.c2sc Abreve.c2sc Acircumflex.c2sc Adieresis.c2sc Agrave.c2sc Amacron.c2sc Aring.c2sc Atilde.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50];
+@Y = [Y Ycircumflex Ydieresis uni1E8E];
+@Y.sc = [Yacute.c2sc Ycircumflex.c2sc Ydieresis.c2sc];
+@Y.sc2 = [Yacute.c2sc Ycircumflex.c2sc Ydieresis.c2sc];
+@Z.sc = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
+@Z.sc2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
 #/< kernclasses
 #< classes
 
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc Ccaron.c2sc G.c2sc O.c2sc Oacute.c2sc Obreve.c2sc Ocircumflex.c2sc Odieresis.c2sc Ograve.c2sc Omacron.c2sc Otilde.c2sc Q.c2sc uniF7E7];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
-
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
-
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [T.c2sc Tcaron.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [C.c2sc G.c2sc O.c2sc Q.c2sc Ccaron.c2sc Obreve.c2sc Omacron.c2sc uniF7E7 Ograve.c2sc Oacute.c2sc Ocircumflex.c2sc Otilde.c2sc Odieresis.c2sc];
-@uniE066_2 = [T.c2sc Tcaron.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
+#
+# Languagesystem definitions
+#
 
 languagesystem DFLT dflt;
 languagesystem latn  CRT;
 languagesystem latn  EWE;
 languagesystem latn  TRK;
 languagesystem latn  VIT;
-languagesystem latn AZE ;
-languagesystem latn NLD ;
+languagesystem latn  AZE;
+languagesystem latn  NLD;
 languagesystem cyrl dflt;
 languagesystem cyrl  BGR;
 languagesystem cyrl  SRB;
@@ -613,84 +58,44 @@ languagesystem cyrl  MKD;
 languagesystem grek dflt;
 languagesystem hebr dflt;
 
-#/> classes
-#/> otclasses
-@locl = [uni040D uni0414 uni0416 uni0418 uni0419 uni041A uni041B uni0424 uni0432 uni0433 uni0434 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043D uni043F uni0442 uni0444 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044E uni045D];
-@locl2 = [uni040D.loclBGR uni0414.loclBGR uni0416.loclBGR uni0418.loclBGR uni0419.loclBGR uni041A.loclBGR uni041B.loclBGR uni0424.loclBGR uni0432.loclBGR uni0433.loclBGR uni0434.loclBGR uni0436.loclBGR uni0437.loclBGR uni0438.loclBGR uni0439.loclBGR uni043A.loclBGR uni043B.loclBGR uni043D.loclBGR uni043F.loclBGR uni0442.loclBGR uni0444.loclBGR uni0446.loclBGR uni0447.loclBGR uni0448.loclBGR uni0449.loclBGR uni044A.loclBGR uni044B.loclBGR uni044C.loclBGR uni044E.loclBGR uni045D.loclBGR];
-#/< otclasses
+#
+# Lookup definitions
+#
 
-#/> kernclasses
-@uniE004 = [Abreve.c2sc Amacron.c2sc];
-@D = [D Dcaron Dcroat Eth];
-@uniE018 = [Ebreve.c2sc Ecaron.c2sc Emacron.c2sc];
-@I = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Itilde uni01CF];
-@uniE030 = [Ibreve.c2sc Imacron.c2sc Itilde.c2sc];
-@J = [J Jcircumflex];
-@uniE039 = [Jcircumflex.c2sc];
-@uniE03E = [Lacute.c2sc Lcaron.c2sc];
-@N = [N Nacute Ncaron Ncommaaccent Ntilde];
-@uniE045 = [Nacute.c2sc Ncaron.c2sc];
-@O = [O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni022E];
-@uniE04D = [Obreve.c2sc Omacron.c2sc];
-@uniE059 = [Racute.c2sc Rcaron.c2sc];
-@uniE05E = [Sacute.c2sc Scaron.c2sc Scircumflex.c2sc];
-@T = [T Tcaron uni0162 uni021A];
-@uniE066 = [Tcaron.c2sc T.c2sc];
-@U = [U Uacute Ucircumflex Udieresis Ugrave uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0];
-@uniE06B = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@W = [W Wacute Wcircumflex Wdieresis Wgrave uni1E86 uni1E88];
-@uniE076 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@Y = [Y Ycircumflex Ydieresis uni1E8E];
-@uniE07D = [Ycircumflex.c2sc];
-@uniE081 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@uniE004_2 = [Abreve.c2sc Amacron.c2sc];
-@uniF762 = [B.c2sc D.c2sc E.c2sc F.c2sc H.c2sc I.c2sc K.c2sc L.c2sc M.c2sc N.c2sc R.c2sc];
-@uniE00F = [Ccaron.c2sc Obreve.c2sc Omacron.c2sc C.c2sc G.c2sc O.c2sc Q.c2sc uniF7E7 Ograve.c2sc Oacute.c2sc Ocircumflex.c2sc Otilde.c2sc Odieresis.c2sc];
-@uniE066_2 = [Tcaron.c2sc T.c2sc];
-@uniE06B_2 = [Ubreve.c2sc Umacron.c2sc Uring.c2sc];
-@uniE076_2 = [Wacute.c2sc Wcircumflex.c2sc Wdieresis.c2sc Wgrave.c2sc];
-@uniE07D_2 = [Ycircumflex.c2sc];
-@uniE081_2 = [Zacute.c2sc Zcaron.c2sc Zdotaccent.c2sc];
-@A = [A AE AEacute Aacute Acircumflex Adieresis Agrave Aring Atilde uni01CD uni0200 uni0202 uni0226 uni1E00];
-@O2 = [O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde uni01D1 uni020C uni020E uni022E uni041E uni04E6 uni1E4C uni1E4E uni1E50 uni1E52];
-#/< kernclasses
-#/< classes
+lookup loclCYR_loclBGR {
+	sub @loclCYR by @loclBGR;
+} loclCYR_loclBGR;
+feature aalt {
+# Access All Alternates
+
+#> feature
+  feature locl;
+  feature ss02;
+  feature smcp;
+  feature c2sc;
+  feature sups;
+  feature sinf;
+  feature lnum;
+  feature onum;
+  feature tnum;
+  feature pnum;
+  feature case;
+  feature dnom;
+  feature numr;
+  feature hist;
+  feature salt;
+  feature subs;
+  feature cv01;
+  feature cv02;
+#< feature
+} aalt;
 feature locl {
 # Localized Forms
 
 #> feature
   script cyrl; # Cyrillic
   language BGR; # Bulgarian
-  sub uni040D by uni040D.loclBGR;
-  sub uni0414 by uni0414.loclBGR;
-  sub uni0416 by uni0416.loclBGR;
-  sub uni0418 by uni0418.loclBGR;
-  sub uni0419 by uni0419.loclBGR;
-  sub uni041A by uni041A.loclBGR;
-  sub uni041B by uni041B.loclBGR;
-  sub uni0424 by uni0424.loclBGR;
-  sub uni0432 by uni0432.loclBGR;
-  sub uni0433 by uni0433.loclBGR;
-  sub uni0434 by uni0434.loclBGR;
-  sub uni0436 by uni0436.loclBGR;
-  sub uni0437 by uni0437.loclBGR;
-  sub uni0438 by uni0438.loclBGR;
-  sub uni0439 by uni0439.loclBGR;
-  sub uni043A by uni043A.loclBGR;
-  sub uni043B by uni043B.loclBGR;
-  sub uni043D by uni043D.loclBGR;
-  sub uni043F by uni043F.loclBGR;
-  sub uni0442 by uni0442.loclBGR;
-  sub uni0444 by uni0444.loclBGR;
-  sub uni0446 by uni0446.loclBGR;
-  sub uni0447 by uni0447.loclBGR;
-  sub uni0448 by uni0448.loclBGR;
-  sub uni0449 by uni0449.loclBGR;
-  sub uni044A by uni044A.loclBGR;
-  sub uni044B by uni044B.loclBGR;
-  sub uni044C by uni044C.loclBGR;
-  sub uni044E by uni044E.loclBGR;
-  sub uni045D by uni045D.loclBGR;
+  lookup loclCYR_loclBGR;
 
   script latn; # Latin
   language MOL; # Moldavian
@@ -731,8 +136,23 @@ feature dlig {
   sub longs longs l by longs_longs_l.dlig;
 #< feature
 } dlig;
+feature ss01 {
+# Stylistic Set 01–20
+
+  featureNames {
+    name "Bulgarian Cyrillic";
+  };
+
+#> feature
+  lookup loclCYR_loclBGR;
+#< feature
+} ss01;
 feature ss02 {
 # Stylistic Set 01–20
+
+  featureNames {
+    name "Latin Small Letter Sharp S";
+  };
 
 #> feature
   sub germandbls by germandbls.ss02;
@@ -1437,6 +857,7 @@ feature salt {
   sub t from [t.cv01];
   sub tilde from [tilde.cv01];
   sub uni02BA from [uni02BA.cv01];
+  sub uni0430 from [uni0430.cv01];
   sub uni1E9E from [uni1E9E.ss02];
   sub zero from [zero.cv01];
 #< feature
@@ -1493,6 +914,7 @@ feature cv01 {
   sub t by t.cv01;
   sub tilde by tilde.cv01;
   sub uni02BA by uni02BA.cv01;
+  sub uni0430 by uni0430.cv01;
   sub zero by zero.cv01;
 #< feature
 } cv01;

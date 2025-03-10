@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis minimum="400" maximum="700" name="weight" tag="wght" default="400">
+  <axis default="400" name="weight" minimum="400" tag="wght" maximum="700">
    <labelname xml:lang="en">Weight</labelname>
   </axis>
  </axes>

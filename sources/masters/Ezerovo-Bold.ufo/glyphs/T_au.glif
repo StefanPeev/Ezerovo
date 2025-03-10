@@ -2,7 +2,8 @@
 <glyph name="Tau" format="2">
   <advance width="595"/>
   <unicode hex="03A4"/>
-  <anchor x="305" y="697" name="top"/>
+  <anchor x="298" y="697" name="top"/>
+  <anchor x="298" y="-40" name="bottom"/>
   <anchor x="328" y="10" name="b.cedilla"/>
   <outline>
     <component base="T"/>

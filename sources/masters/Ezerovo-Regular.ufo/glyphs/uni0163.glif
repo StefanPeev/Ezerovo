@@ -2,9 +2,9 @@
 <glyph name="uni0163" format="2">
   <advance width="323"/>
   <unicode hex="0163"/>
+  <anchor x="168" y="650" name="top"/>
   <anchor x="201" y="-40" name="bottom"/>
   <anchor x="251" y="743" name="t.r.caron"/>
-  <anchor x="168" y="650" name="top"/>
   <outline>
     <component base="t"/>
     <component base="uni0327" xOffset="319"/>

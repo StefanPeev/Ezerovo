@@ -3,13 +3,17 @@
   <advance width="383"/>
   <outline>
     <contour>
-      <point x="51" y="667" type="line"/>
+      <point x="66" y="279" type="line"/>
+      <point x="66" y="643" type="line" smooth="yes"/>
+      <point x="66" y="665"/>
+      <point x="63.1268" y="666.03"/>
+      <point x="51" y="667" type="curve" smooth="yes"/>
       <point x="26" y="669" type="line"/>
       <point x="26" y="688" type="line"/>
       <point x="130" y="703" type="line"/>
       <point x="137" y="698" type="line"/>
       <point x="137" y="531" type="line"/>
-      <point x="160" y="545"/>
+      <point x="160.175" y="554.358"/>
       <point x="192" y="567"/>
       <point x="235" y="567" type="curve" smooth="yes"/>
       <point x="348" y="567"/>
@@ -22,19 +26,11 @@
       <point x="130" y="283"/>
       <point x="110" y="293" type="curve"/>
       <point x="84" y="271" type="line"/>
-      <point x="66" y="279" type="line"/>
-      <point x="66" y="643" type="line" smooth="yes"/>
-      <point x="66" y="665"/>
-      <point x="63" y="665"/>
-      <point x="51" y="667" type="curve"/>
     </contour>
     <contour>
       <point x="137" y="374" type="line" smooth="yes"/>
-      <point x="137" y="361"/>
-      <point x="137" y="349"/>
-      <point x="141" y="339" type="curve"/>
-      <point x="151" y="311"/>
-      <point x="172" y="298"/>
+      <point x="137" y="333.749"/>
+      <point x="151.32" y="298"/>
       <point x="199" y="298" type="curve" smooth="yes"/>
       <point x="249" y="298"/>
       <point x="276" y="340"/>
@@ -42,11 +38,8 @@
       <point x="276" y="521"/>
       <point x="228" y="532"/>
       <point x="208" y="532" type="curve" smooth="yes"/>
-      <point x="179" y="532"/>
-      <point x="155" y="520"/>
-      <point x="142" y="494" type="curve"/>
-      <point x="137" y="485"/>
-      <point x="137" y="477"/>
+      <point x="163.299" y="532"/>
+      <point x="137" y="505.789"/>
       <point x="137" y="463" type="curve" smooth="yes"/>
     </contour>
   </outline>
@@ -57,7 +50,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>6a5bdb5d6eeb603e3a58eab94715040e347075b8cd96563fc240093b208f7086b64423bb4b2dde419da3967482e328a7d3f1ea0520ebdd14867dafde3075ed91</string>
+    <string>add652a79e61dbcf30dc5df61697f3bce7d9d741c6af71ea302febfce67123ec1f0c4fa7c707edc8730497fb379e4cbb968805d0fb4a7372760b1e11965acd65</string>
     <key>hintSetList</key>
     <array>
       <dict>

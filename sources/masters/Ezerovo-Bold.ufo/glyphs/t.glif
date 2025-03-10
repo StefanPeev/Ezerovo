@@ -2,10 +2,10 @@
 <glyph name="t" format="2">
   <advance width="357"/>
   <unicode hex="0074"/>
+  <anchor x="187" y="650" name="top"/>
   <anchor x="188" y="-40" name="bottom"/>
   <anchor x="235" y="10" name="b.cedilla"/>
   <anchor x="269" y="743" name="t.r.caron"/>
-  <anchor x="187" y="650" name="top"/>
   <outline>
     <contour>
       <point x="35" y="414" type="line"/>

@@ -2,23 +2,8 @@
 <glyph name="uni03060300" format="2">
   <anchor x="-188" y="534" name="_top"/>
   <outline>
-    <component base="grave" xOffset="-363" yOffset="134"/>
-    <contour>
-      <point x="-317" y="662" type="curve"/>
-      <point x="-294" y="662" type="line"/>
-      <point x="-292" y="642"/>
-      <point x="-275" y="595"/>
-      <point x="-188" y="595" type="curve" smooth="yes"/>
-      <point x="-101" y="595"/>
-      <point x="-84" y="642"/>
-      <point x="-82" y="662" type="curve"/>
-      <point x="-59" y="662" type="line"/>
-      <point x="-59" y="603"/>
-      <point x="-70" y="534"/>
-      <point x="-188" y="534" type="curve" smooth="yes"/>
-      <point x="-306" y="534"/>
-      <point x="-317" y="603"/>
-    </contour>
+    <component base="uni0306" xOffset="-5.68434e-14"/>
+    <component base="gravecomb" xOffset="13" yOffset="134"/>
   </outline>
   <lib>
   <dict>
@@ -27,7 +12,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>ff8a2008e31b1708e3422d51c1392e56eca98daca354214395de3724f91012149f84042953902300d4e7008834ca2dac4dda7367056e738cfbe51c7a7419421e</string>
+    <string>w0</string>
     <key>hintSetList</key>
     <array>
       <dict>
