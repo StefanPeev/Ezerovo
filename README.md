@@ -33,7 +33,7 @@ SIL Open Font License [OFL](documentation/OFL.md)
 Examples
 --------
 
-See [images](/images/) and [Gallery](/images/Gallery.md).
+See [images](/images/), [Gallery](/images/Gallery.md).
 
 Projects using Ezerovo
 ----------------------
